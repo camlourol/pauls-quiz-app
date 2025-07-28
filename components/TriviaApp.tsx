@@ -438,7 +438,7 @@ export default function TriviaApp(props: any) {
   };
 
 const renderMenuScreen = () => (
-  <div className="min-h-screen bg-gradient-primary flex items-center justify-center p-4">
+  <div className="h-screen overflow-hidden bg-gradient-primary flex items-center justify-center p-4">
     <Card className="w-full max-w-md bg-gradient-card shadow-card border-border/50 p-4 sm:p-6 text-center">
       <div className="mb-4">
         <img src="/PaulsQuizLogo.png" alt="Quiz Logo" className="w-[7.25rem] h-[7.25rem] mx-auto mb-2" />
@@ -491,21 +491,25 @@ const renderMenuScreen = () => (
         </div>
       </div>
 
-      <div className="flex justify-center">
-        <button
-          onClick={startGame}
-          className="py-2 px-6 rounded bg-[#41A300] hover:bg-[#2F7500] text-white text-lg font-arimo inline-flex items-center gap-2"
-        >
-          <Play className="w-5 h-5" />
-          Begin!
-        </button>
+        <div className="flex justify-center">
+          <button
+            onClick={startGame}
+            className="py-2 px-6 rounded bg-[#41A300] hover:bg-[#2F7500] text-white text-lg font-arimo inline-flex items-center gap-2"
+          >
+            <Play className="w-5 h-5" />
+            Begin!
+          </button>
+        </div>
+      </Card>
+      {/* Copyright Footer */}
+      <div className="absolute bottom-2 left-0 right-0 text-center">
+        <p className="font-arimo text-white text-xs">All trivia content: © paulsquiz.com</p>
       </div>
-    </Card>
-  </div>
-);
+    </div>
+  );
 
   const renderModeSelectScreen = () => (
-    <div className="min-h-screen bg-gradient-primary flex items-center justify-center p-4 relative">
+    <div className="h-screen overflow-hidden bg-gradient-primary flex items-center justify-center p-4 pb-16 relative">
       {/* Home Button */}
       <div className="absolute top-4 left-4 z-20">
         <Button
@@ -561,7 +565,6 @@ const renderMenuScreen = () => (
             size="xl" 
             onClick={() => handleModeSelection('multiple-choice')}
             className="w-full font-arimo"
-
           >
             Multiple Choice
           </Button>
@@ -571,12 +574,15 @@ const renderMenuScreen = () => (
             size="xl" 
             onClick={() => handleModeSelection('flip-answer')}
             className="w-full font-arimo"
-
           >
             Flip-for-Answer
           </Button>
         </div>
       </Card>
+      {/* Copyright Footer */}
+      <div className="absolute bottom-2 left-0 right-0 text-center">
+        <p className="font-arimo text-white text-xs">All trivia content: © paulsquiz.com</p>
+      </div>
     </div>
   );
 
@@ -588,7 +594,7 @@ const renderMenuScreen = () => (
       const question = questions[currentQuestion];
       const progress = ((currentQuestion + 1) / questions.length) * 100;
       return (
-        <div className="min-h-screen bg-gradient-primary p-4 relative">
+        <div className="h-screen overflow-hidden bg-gradient-primary p-4 relative">
           {/* Navigation Buttons */}
           <div className="absolute top-2 left-4 z-20">
             <Button
@@ -804,6 +810,10 @@ const renderMenuScreen = () => (
               End Game & View Scores
             </Button>
           </div>
+          {/* Copyright Footer */}
+          <div className="absolute bottom-2 left-0 right-0 text-center">
+            <p className="font-arimo text-white text-xs">All trivia content: © paulsquiz.com</p>
+          </div>
         </div>
       );
     } else {
@@ -822,7 +832,7 @@ const renderMenuScreen = () => (
         return 'text-base';
       };
       return (
-        <div className="min-h-screen bg-gradient-primary p-4 relative">
+        <div className="h-screen overflow-hidden bg-gradient-primary p-4 relative">
           {/* Home Button */}
           <div className="absolute top-2 left-4 z-20">
             <Button
@@ -840,7 +850,7 @@ const renderMenuScreen = () => (
           </div>
           {/* Divider Line */}
           <div className="absolute top-[50px] left-4 right-4 z-10">
-            <div className="h-0.5 bg-gradient-to-r from-[#a97fff] to-[#19b6ea]"></div>
+            <div className="h-0.5 bg-gradient-to-r from-[#a97fff] to-[#2695e0]"></div>
           </div>
           {/* Exit Prompt Modal */}
           {showExitPrompt && (
@@ -904,10 +914,14 @@ const renderMenuScreen = () => (
             <div className="space-y-3">
               {question.options.map((option, index) => (
                 <Button
-                  key={`${currentQuestion}-${index}`}  // Add this line
+                  key={`${currentQuestion}-${index}`}
                   variant={getButtonVariant(index)}
                   size={option.length > 60 ? "default" : "choice"}
-                  onClick={() => selectAnswer(index)}
+                  onClick={(e) => {
+                    selectAnswer(index);
+                    // blur the button so it doesn’t stay highlighted when the next question loads
+                    (e.currentTarget as HTMLElement).blur();
+                  }}
                   disabled={showAnswer}
                   className={`w-full text-left justify-start ${getOptionTextSize(option)}`}
                 >
@@ -927,6 +941,10 @@ const renderMenuScreen = () => (
               </Button>
             </div>
           </div>
+          {/* Copyright Footer */}
+          <div className="absolute bottom-2 left-0 right-0 text-center">
+            <p className="font-arimo text-white text-xs">All trivia content: © paulsquiz.com</p>
+          </div>
         </div>
       );
     }
@@ -935,7 +953,7 @@ const renderMenuScreen = () => (
   const renderResultsScreen = () => {
     const percentage = Math.round((gameStats.totalQuestions > 0 ? (gameStats.correctAnswers / gameStats.totalQuestions) : 0) * 100);
     return (
-      <div className="min-h-screen bg-gradient-primary flex items-center justify-center p-4 relative">
+      <div className="h-screen overflow-hidden bg-gradient-primary flex items-center justify-center p-4 pb-16 relative">
         {/* Home Button */}
         <div className="absolute top-4 left-4 z-20">
           <Button
@@ -1060,13 +1078,17 @@ const renderMenuScreen = () => (
             </Button>
           </div>
         </Card>
+        {/* Copyright Footer */}
+        <div className="absolute bottom-2 left-0 right-0 text-center">
+          <p className="font-arimo text-white text-xs">All trivia content: © paulsquiz.com</p>
+        </div>
       </div>
     );
   };
 
   // --- Render block for new game phases ---
   return (
-    <div className="font-arimo">
+    <div className="font-arimo h-screen overflow-hidden">
       {/* Confirmation Modal for Team Setup "Ready" */}
       {showConfirmModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -1162,7 +1184,7 @@ const renderMenuScreen = () => (
         : gamePhase === 'select-mode'
         ? (
           <div className="mode-selection">
-            <div className="min-h-screen bg-gradient-primary flex items-center justify-center p-4 relative">
+            <div className="h-screen overflow-hidden bg-gradient-primary flex items-center justify-center p-4 relative">
               {/* Home Button */}
               <div className="absolute top-4 left-4 z-20">
                 <Button
@@ -1241,7 +1263,7 @@ const renderMenuScreen = () => (
         ? renderResultsScreen()
         : gamePhase === 'end'
         ? (
-          <div className="min-h-screen bg-gradient-primary flex items-center justify-center p-4 relative z-10">
+          <div className="h-screen overflow-hidden bg-gradient-primary flex items-center justify-center p-4 relative z-10">
             <Card className="w-full max-w-md bg-gradient-card shadow-card border-border/50 p-8 text-center relative z-20">
               <p className="text-muted-foreground text-sm mb-2">Game Over! Here are your scores:</p>
               <Trophy className="w-16 h-16 text-accent mx-auto mb-4" />
