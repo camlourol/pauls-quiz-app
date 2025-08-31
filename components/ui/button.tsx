@@ -5,23 +5,24 @@ import * as React from "react"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-arimo ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-work-sans ring-offset-background transition-colors focus-visible:outline-none focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        default: "bg-[#353536] text-[#E7E6E0] hover:bg-[#333d5b]",
         destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+          "bg-[#e86161] text-[#E7E6E0] hover:bg-[#d54545]",
         outline:
-          "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
+          "bg-[#0C0C0C] hover:bg-[#242424] text-[#E7E6E0]",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
-        quiz: "bg-gradient-button text-primary-foreground shadow-button hover:shadow-lg hover:scale-105 transition-all duration-300 border border-primary/20",
-        choice: "bg-card text-card-foreground border border-border hover:border-primary hover:border-2 hover:bg-primary/10 transition-all duration-200",
-        correct: "bg-success text-success-foreground shadow-button",
-        incorrect: "bg-destructive text-destructive-foreground shadow-button",
+          "bg-[#0C0C0C] text-[#E7E6E0] hover:bg-[#333d5b]",
+        ghost: "hover:bg-[#0C0C0C] hover:text-[#E7E6E0]",
+        link: "text-[#E7E6E0] underline-offset-4 hover:underline",
+        quiz: "bg-[#353536] text-[#E7E6E0] hover:bg-[#5da8c6] transition-colors duration-300",
+        choice: "bg-[#353536] text-[#E7E6E0] hover:bg-[#0C0C0C] transition-colors duration-200",
+        correct: "bg-[#c0e547] text-[#0C0C0C]",
+        "correct-unselected": "bg-[#c0e547]/50 text-[#E7E6E0]",
+        incorrect: "bg-[#e86161] text-[#E7E6E0]",
       },
       size: {
         default: "h-10 px-4 py-2",

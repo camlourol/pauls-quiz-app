@@ -1,8 +1,8 @@
-/* Load Arimo from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+/* Load Work Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Load Barriecito from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Barriecito:wght@400;700&display=swap');
+/* Load Libertinus Serif from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -15,107 +15,96 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Trivia App Color Palette */
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 5%;              /* #0C0C0C */
+    --foreground: 48 8% 90%;            /* #E7E6E0 */
 
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
+    --primary: 0 0% 21%;                /* #353536 */
+    --primary-foreground: 48 8% 90%;    /* #E7E6E0 */
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --secondary: 30 21% 41%;            /* #333d5b */
+    --secondary-foreground: 48 8% 90%;  /* #E7E6E0 */
 
-    --primary: 263 70% 50%;
-    --primary-foreground: 0 0% 98%;
+    --card: 0 0% 14%;                   /* #242424 */
+    --card-foreground: 48 8% 90%;       /* #E7E6E0 */
 
-    --secondary: 240 4.8% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+    --popover: 0 0% 10%;                /* #1A1A1A */
+    --popover-foreground: 48 8% 90%;    /* #E7E6E0 */
 
-    --muted: 240 4.8% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 48 8% 50%;
 
-    --accent: 200 100% 50%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 0 0% 21%;
+    --accent-foreground: 48 8% 90%;
 
-    --success: 142 76% 36%;
-    --success-foreground: 0 0% 98%;
-
-    --warning: 45 93% 47%;
-    --warning-foreground: 0 0% 98%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 263 70% 50%;
+    --ring: 74 33% 47%;
+    --input: 0 0% 10%;
+    --border: 0 0% 20%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(263 70% 50%), hsl(200 100% 50%));
-    --gradient-card: linear-gradient(145deg, hsl(240 5% 7%), hsl(240 5% 12%));
-    --gradient-button: linear-gradient(145deg, hsl(263 70% 50%), hsl(263 70% 45%));
+    --gradient-primary: linear-gradient(135deg, hsl(74 33% 47%), hsl(30 21% 41%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 8%), hsl(0 0% 12%));
+    --gradient-button: linear-gradient(145deg, hsl(0 0% 15%), hsl(0 0% 10%));
 
     /* Shadows */
-    --shadow-card: 0 10px 30px -5px hsl(240 10% 3.9% / 0.3);
-    --shadow-button: 0 4px 15px hsl(263 70% 50% / 0.4);
+    --shadow-card: none;
+    --shadow-button: none;
 
     /* Animations */
     --transition-all: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
+    --sidebar-background: 48 8% 90%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-foreground: 0 0% 10%;
 
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary: 30 21% 41%;
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-primary-foreground: 48 8% 90%;
 
-    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent: 0 0% 10%;
 
-    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-accent-foreground: 30 21% 41%;
 
-    --sidebar-border: 220 13% 91%;
+    --sidebar-border: 0 0% 10%;
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 74 33% 47%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 5%;              /* #0C0C0C */
+    --foreground: 48 8% 90%;            /* #E7E6E0 */
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --primary: 0 0% 21%;                /* #353536 */
+    --primary-foreground: 48 8% 90%;    /* #E7E6E0 */
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --secondary: 30 21% 41%;            /* #333d5b */
+    --secondary-foreground: 48 8% 90%;  /* #E7E6E0 */
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --card: 0 0% 14%;                   /* #242424 */
+    --card-foreground: 48 8% 90%;       /* #E7E6E0 */
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --popover: 0 0% 10%;                /* #1A1A1A */
+    --popover-foreground: 48 8% 90%;    /* #E7E6E0 */
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 48 8% 50%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 0 0% 21%;
+    --accent-foreground: 48 8% 90%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --ring: 74 33% 47%;
+    --input: 0 0% 10%;
+    --border: 0 0% 20%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 30 21% 41%;
+    --sidebar-foreground: 0 0% 10%;
+    --sidebar-primary: 74 33% 47%;
+    --sidebar-primary-foreground: 48 8% 90%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 30 21% 41%;
+    --sidebar-border: 0 0% 10%;
+    --sidebar-ring: 74 33% 47%;
   }
 }
 
@@ -127,4 +116,11 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.font-libertinus {
+  font-family: 'Libertinus Serif', serif;
+}
+.font-work-sans {
+  font-family: 'Work Sans', sans-serif;
 }

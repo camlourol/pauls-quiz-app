@@ -329,7 +329,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 39,
-    question: "Which one of the following is the world's largest honey bee?",
+    question: "What is the world's largest honey bee?",
     options: [
       "Himalayan giant honey bee",
       "Rocky Mt giant honey bee",
@@ -363,15 +363,15 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 42,
-    question: "In which film does Laurence Olivier play a hunted Nazi?",
+    question: "O'Shea Jackson Sr. is better known as what?",
     options: [
-      "The Boys From Brazil",
-      "Marathon Man",
-      "Valkyrie",
-      "The Pianist"
+      "50 Cent",
+      "Ice Cube",
+      "Dr. Dre",
+      "Nas"
     ],
     correctAnswer: 1,
-    category: "TV & Cinema",
+    category: "Art & Culture",
     difficulty: "medium"
   },
   {
@@ -536,7 +536,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 63,
-    question: "A Native American people, a helicopter and a wind. One word.",
+    question: "What is a word denoting a Native American people, a helicopter and a wind?",
     options: ["Apache", "Cherokee", "Chinook", "Comanche"],
     correctAnswer: 2,
     category: "Geography & Nature",
@@ -592,10 +592,10 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 70,
-    question: "Which game translated means 'yes yes'?",
-    options: ["Scrabble", "Ouija", "Monopoly", "Pictionary"],
+    question: "The following epitaph belongs to which legendary leader? 'A tomb now suffices him for whom the whole world was not sufficient'",
+    options: ["Julius Caesar", "Alexander the Great", "Winston Churchill", "F. D. Roosevelt"],
     correctAnswer: 1,
-    category: "Language",
+    category: "History & Politics",
     difficulty: "medium"
   },
   {
@@ -700,7 +700,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Paraná", "Amazon", "Orinoco", "São Francisco"],
     correctAnswer: 1,
     category: "Geography & Nature",
-    difficulty: "medium"
+    difficulty: "easy"
   },
   {
     id: 84,
@@ -720,11 +720,11 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 86,
-    question: "What is the main ingredient in traditional Japanese miso soup?",
-    options: ["Seaweed", "Soybean paste", "Rice", "Fish"],
+    question: "What is miso?",
+    options: ["Seaweed paste", "Soybean paste", "Sesame paste", "Fish paste"],
     correctAnswer: 1,
     category: "Art & Culture",
-    difficulty: "medium"
+    difficulty: "easy"
   },
   {
     id: 87,
@@ -785,7 +785,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Scarface", "The Godfather", "Goodfellas", "Carlito's Way"],
     correctAnswer: 0,
     category: "TV & Cinema",
-    difficulty: "medium"
+    difficulty: "easy"
   },
   {
     id: 94,
@@ -1434,7 +1434,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 174,
-    question: "Which one of the following is a collective noun for zebras?",
+    question: "What is the collective noun for zebras?",
     options: ["fright", "startle", "dazzle", "blur"],
     correctAnswer: 2,
     category: "Language",
@@ -1802,7 +1802,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 220,
-    question: "The Old French name given to the leader of a troop of demons on horseback and a kind of jester or clown. One word.",
+    question: "What is a word denoting the Old French name given to the leader of a troop of demons on horseback and a kind of jester or clown?",
     options: ["Harlequin", "Buffoon", "Jester", "Rogue"],
     correctAnswer: 0,
     category: "Art & Culture",
@@ -1954,11 +1954,11 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 239,
-    question: "The human pancreas looks like which one of the following fruits?",
-    options: ["Banana", "Avocado", "Strawberry", "Mandarin"],
+    question: "In which year was the French kind Louis XVI beheaded?",
+    options: ["1792", "1789", "1794", "1776"],
     correctAnswer: 0,
-    category: "Science & Technology",
-    difficulty: "easy"
+    category: "History & Politics",
+    difficulty: "medium"
   },
   {
     id: 240,
@@ -2014,7 +2014,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["E.T.", "Firework", "Dark Horse", "Roar"],
     correctAnswer: 0,
     category: "Music",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     id: 247,
@@ -2030,7 +2030,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Emerson", "Elbridge", "Eugene", "Everett"],
     correctAnswer: 0,
     category: "TV & Cinema",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     id: 249,
@@ -2038,7 +2038,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Nachos", "Tacos", "Burritos", "Fajitas"],
     correctAnswer: 3,
     category: "Art & Culture",
-    difficulty: "medium"
+    difficulty: "easy"
   },
   {
     id: 250,
@@ -2054,7 +2054,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Stockholm Syndrome", "Munchausen Syndrome", "Tourette's Syndrome", "Down Syndrome"],
     correctAnswer: 0,
     category: "History & Politics",
-    difficulty: "medium"
+    difficulty: "easy"
   },
   {
     id: 252,
@@ -2070,7 +2070,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Reykjavik", "Oslo", "Helsinki", "Stockholm"],
     correctAnswer: 0,
     category: "Geography & Nature",
-    difficulty: "medium"
+    difficulty: "easy"
   },
   {
     id: 254,
@@ -2118,7 +2118,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Mills", "Spinners", "Wheels", "Champagne bottles"],
     correctAnswer: 3,
     category: "Art & Culture",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     id: 260,
@@ -2146,7 +2146,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 263,
-    question: "After her death in 1975, many obituaries claimed this performer was once the richest black woman who ever lived. Name her.",
+    question: "After her death in 1975, which performer did many obituaries claim was once the richest black woman who ever lived?",
     options: ["Josephine Baker", "Diana Ross", "Ella Fitzgerald", "Aretha Franklin"],
     correctAnswer: 0,
     category: "Art & Culture",
@@ -2162,7 +2162,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 265,
-    question: "Which Asian curry dish translated means \"double onions\" or \"two onions\"?",
+    question: "Which South Asian curry dish translated means \"double onions\" or \"two onions\"?",
     options: ["Bhuna", "Madras", "Dopiaza", "Vindaloo"],
     correctAnswer: 2,
     category: "Art & Culture",
@@ -2824,7 +2824,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 344,
-    question: "The title of a song from a popular musical and a national symbol which translated means \"noble white\". One word.",
+    question: "What is a word denoting the title of a song from a popular musical and a national symbol which translated means \"noble white\"?",
     options: ["Alpenliebe", "Edelweiss", "Brightstar", "Weissgold"],
     correctAnswer: 1,
     category: "Music",
@@ -2960,11 +2960,11 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 361,
-    question: "An old man and a six litre bottle of wine. One word.",
+    question: "What is a word denoting an old man and a six litre bottle of wine?",
     options: ["Jeroboam", "Salmanazar", "Methuselah", "Nebuchadnezzar"],
     correctAnswer: 2,
     category: "Art & Culture",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     id: 362,
@@ -3032,7 +3032,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 370,
-    question: "Which Jane Austen novel is a satire of the gothic novel genre",
+    question: "Which Jane Austen novel is a satire of the gothic novel genre?",
     options: ["Manchester Park", "Northanger Abbey", "Persuasion", "Sense and Sensibility"],
     correctAnswer: 1,
     category: "Literature",
@@ -3645,7 +3645,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 446,
-    question: "When 7 UP was first introduced in 1929 it was marketed as an antidepressant. Which one of the following additives did it contain?",
+    question: "When 7 UP was first introduced in 1929 it was marketed as an antidepressant, which additive did it contain?",
     options: ["morphine", "cocaine", "opium", "lithium"],
     correctAnswer: 3,
     category: "Science & Technology",
@@ -3850,7 +3850,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 471,
-    question: "An exhausting event and the Ancient Greek name for fennel. One word.",
+    question: "What is a word denoting an exhausting event and the Ancient Greek name for fennel?",
     options: ["Decathlon", "Pentathlon", "Marathon", "Triathlon"],
     correctAnswer: 2,
     category: "Sports",
