@@ -29,7 +29,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Who painted the The Annunciation (1472–1476)?",
     options: ["Domenico Ghirlandaio", "Sandro Botticelli", "Leonardo da Vinci", "Pietro Perugino"],
     correctAnswer: 2,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -37,7 +37,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which man with the initials F. L. W. has been described as 'the greatest American architect of all time'?",
     options: ["Francis Len Walker", "Frank Lloyd Wright", "Ford Lee Wrought", "Frank Leonard Witte"],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -61,7 +61,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "'The Factory' was the name given to which celebrity's New York studio?",
     options: ["Jean-Michel Basquiat", "Mary Abbott", "Elaine de Kooning", "Andy Warhol"],
     correctAnswer: 3,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -122,7 +122,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which European country has a dark blue triangle on the left hand side of its national flag?",
     options: ["Czech Republic", "Slovakia", "Ukraine", "Estonia"],
     correctAnswer: 0,
-    category: "Geography",
+    category: "Geography & Nature",
     difficulty: "medium"
   },
   {
@@ -371,7 +371,7 @@ export const triviaQuestions: TriviaQuestion[] = [
       "Nas"
     ],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -496,10 +496,10 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 58,
-    question: "The name of which tragic King translated means \"son of life\"?",
-    options: ["Lear", "Richard", "Edgar", "Macbeth"],
+    question: "Where might one find a \"flying buttress\"?",
+    options: ["On a ship", "On a mountain", "In a zoo", "On a building"],
     correctAnswer: 3,
-    category: "Literature",
+    category: "Arts & Culture",
     difficulty: "hard"
   },
   {
@@ -508,7 +508,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Ork", "Vulcan", "Krypton", "Gallifrey"],
     correctAnswer: 0,
     category: "TV & Cinema",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     id: 60,
@@ -667,7 +667,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which artist is famous for the mural 'Guernica'?",
     options: ["Salvador Dalí", "Pablo Picasso", "Diego Rivera", "Henri Matisse"],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -723,7 +723,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "What is miso?",
     options: ["Seaweed paste", "Soybean paste", "Sesame paste", "Fish paste"],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -856,7 +856,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "What would a 'Maria Gravida' painting in the Catholic church depict?",
     options: ["A pregnant Virgin Mary", "The Annunciation", "The Coronation of Mary", "The Assumption"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1032,7 +1032,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "The world famous House of Fabergé was founded in which city?",
     options: ["Paris", "St Petersburg", "London", "Vienna"],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1048,7 +1048,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which \"Boy\" does one associate with Thomas Gainsborough?",
     options: ["Blue Boy", "Red Boy", "Gold Boy", "Green Boy"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1120,7 +1120,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which intoxicating spirit does one mix with Champagne in order to make the Death in the Afternoon cocktail?",
     options: ["Absinthe", "Gin", "Vodka", "Tequila"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1136,7 +1136,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Who wields Mjölnir (me ol near)?",
     options: ["Zeus", "Thor", "Odin", "Loki"],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -1357,7 +1357,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "The Empire State Building and the Chrysler Building in New York City are both examples of which architectural style?",
     options: ["Art Nouveau", "Neoclassical", "Art Deco", "Modernist"],
     correctAnswer: 2,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -1402,10 +1402,10 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 170,
-    question: "Measured from north to south what is the longest country in the world?",
-    options: ["Chile", "China", "Russia", "Brazil"],
+    question: "In what city is James Joyce buried?",
+    options: ["Dublin", "Paris", "New York City", "Zurich"],
     correctAnswer: 3,
-    category: "Geography & Nature",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1461,7 +1461,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "‘Green Car Crash’ is one of the most expensive paintings ever sold. Who painted it?",
     options: ["Jackson Pollock", "Francis Bacon", "Andy Warhol", "Willem de Kooning"],
     correctAnswer: 2,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1477,7 +1477,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Basel Dove, Inverted Jenny, Hawaiian Missionaries and Treskilling Yellow are all rare and valuable examples of what?",
     options: ["Coins", "Baseball cards", "Postage stamps", "Manuscripts"],
     correctAnswer: 2,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "hard"
   },
   {
@@ -1509,7 +1509,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which popular hat style is named after an 1882 French play?",
     options: ["Fedora", "Trilby", "Bowler", "Cloche"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1614,7 +1614,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Alfred Hitchcock", "Steven Spielberg", "George Lucas", "Stanley Kubrick"],
     correctAnswer: 3,
     category: "TV & Cinema",
-    difficulty: "hard"
+    difficulty: "easy"
   },
   {
     id: 197,
@@ -1677,7 +1677,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "The 1934 biographical novel Lust for Life; later made into a movie, was about which troubled man?",
     options: ["Pablo Picasso", "Salvador Dalí", "Claude Monet", "Vincent van Gogh"],
     correctAnswer: 3,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1717,7 +1717,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Tisane is another word for which popular kind of beverage?",
     options: ["Fruit punch", "Herbal tea", "Iced tea", "Green tea"],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -1773,7 +1773,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which 19th century painting technique used countless tiny distinct dots of pure colour?",
     options: ["Cubism", "Impressionism", "Fauvism", "Pointillism"],
     correctAnswer: 3,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1805,7 +1805,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "What is a word denoting the Old French name given to the leader of a troop of demons on horseback and a kind of jester or clown?",
     options: ["Harlequin", "Buffoon", "Jester", "Rogue"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1813,7 +1813,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "What is the name of the green tea used in a Japanese tea ceremony?",
     options: ["Bancha", "Matcha", "Gyokuro", "Sencha"],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -1997,7 +1997,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "The name of which soup translated means \"to boil\" and \"to simmer\"?",
     options: ["Bouillabaisse", "Minestrone", "Gazpacho", "Borscht"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -2037,7 +2037,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "The Tex Mex name for which meat dish means \"little strips\" or \"little belts\" of meat?",
     options: ["Nachos", "Tacos", "Burritos", "Fajitas"],
     correctAnswer: 3,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -2109,7 +2109,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Located in Germany, what was the tallest building in the world between the years 1880-1884?",
     options: ["Cologne Cathedral", "Ulm Minster", "St Peter's Cathedral", "Notre Dame"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -2117,7 +2117,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "What does a riddler (or a remueur) turn for a living?",
     options: ["Mills", "Spinners", "Wheels", "Champagne bottles"],
     correctAnswer: 3,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "hard"
   },
   {
@@ -2141,7 +2141,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Named after a German town, what kind of hat does one associate with Winston Churchill?",
     options: ["Bowler", "Fedora", "Trilby", "Homburg"],
     correctAnswer: 3,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -2149,7 +2149,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "After her death in 1975, which performer did many obituaries claim was once the richest black woman who ever lived?",
     options: ["Josephine Baker", "Diana Ross", "Ella Fitzgerald", "Aretha Franklin"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -2165,7 +2165,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which South Asian curry dish translated means \"double onions\" or \"two onions\"?",
     options: ["Bhuna", "Madras", "Dopiaza", "Vindaloo"],
     correctAnswer: 2,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -2213,7 +2213,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Meaning \"heap\" in Sanskrit, which mound-like structure houses the remains of Buddhist monks?",
     options: ["Mandapa", "Stupa", "Chaitya", "Pagoda"],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "hard"
   },
   {
@@ -2293,7 +2293,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "The name for which Indian curry translated means \"bucket\"?",
     options: ["Bhuna", "Balti", "Korma", "Jalfrezi"],
     correctAnswer: 1,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -2407,7 +2407,7 @@ export const triviaQuestions: TriviaQuestion[] = [
       "Mahatma Gandhi"
     ],
     correctAnswer: 2,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "hard"
   },
   {
@@ -2431,7 +2431,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "What is a straw covered Chianti wine flask called?",
     options: ["Fiasco", "Carafe", "Decanter", "Flagon"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -2487,7 +2487,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "The name for which Indian curry dish translated means \"hot fry\"?",
     options: ["Jalfrezi", "Vindaloo", "Tikka Masala", "Madras"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -2527,7 +2527,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which chocolate bar was named after Ethel Mars' favourite race horse?",
     options: ["Bounty", "Aero", "Kit Kat", "Snickers"],
     correctAnswer: 3,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -2567,7 +2567,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Nicknamed the \"Black Pearl\", which American dancer helped the French Resistance during WWII?",
     options: ["Billie Holiday", "Ella Fitzgerald", "Dinah Washington", "Josephine Baker"],
     correctAnswer: 3,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "hard"
   },
   {
@@ -2703,7 +2703,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   {
     id: 330,
     question: "What is the Hebrew translation for 'to the skies' or 'skywards'?",
-    options: ["El AL", "Baruch", "Shalom", "L'Ma'an"],
+    options: ["El Al", "Baruch", "Shalom", "L'Ma'an"],
     correctAnswer: 0,
     category: "Language",
     difficulty: "medium"
@@ -2721,7 +2721,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Art scholars claimed that the 12th century Italian painter and architect Giotto could do what perfectly?",
     options: ["Paint frescoes", "Draw a straight line", "Carve marble", "Draw a circle"],
     correctAnswer: 3,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -2963,7 +2963,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "What is a word denoting an old man and a six litre bottle of wine?",
     options: ["Jeroboam", "Salmanazar", "Methuselah", "Nebuchadnezzar"],
     correctAnswer: 2,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "hard"
   },
   {
@@ -3009,8 +3009,8 @@ export const triviaQuestions: TriviaQuestion[] = [
   {
     id: 367,
     question: "What is the land speed record for a saltwater crocodile?",
-    options: ["7 km/hr", "17 km/hr", "27 km/hr", "37 km/hr"],
-    correctAnswer: 1,
+    options: ["17 km/hr", "20 km/hr", "27 km/hr", "35 km/hr"],
+    correctAnswer: 0,
     category: "Geography & Nature",
     difficulty: "hard"
   },
@@ -3027,7 +3027,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which Russian artist is widely credited with creating the world's first truly abstract paintings?",
     options: ["Kandinsky", "Chagall", "Malevich", "Tatlin"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -3131,7 +3131,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "The name of which world famous landmark stems from the Persian for \"Crown of the Palace\"?",
     options: ["Red Fort", "Buckingham Palace", "Taj Mahal", "White House"],
     correctAnswer: 2,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -3163,7 +3163,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "What is the official drink of the Kentucky Derby?",
     options: ["Mint julep", "Old Fashioned", "Manhattan", "Mojito"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "medium"
   },
   {
@@ -3409,7 +3409,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["Serum", "Antibiotic", "Vaccine", "Tonic"],
     correctAnswer: 2,
     category: "Science & Technology",
-    difficulty: "medium"
+    difficulty: "easy"
   },
   {
     id: 417,
@@ -3552,7 +3552,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     question: "Which wine term, derived from the French word for \"tank\" or \"vat\", is often found on the labels of French wine and champagne bottles?",
     options: ["Cuvee", "Reserve", "Grand Cru", "Sec"],
     correctAnswer: 0,
-    category: "Art & Culture",
+    category: "Arts & Culture",
     difficulty: "easy"
   },
   {
@@ -3669,10 +3669,10 @@ export const triviaQuestions: TriviaQuestion[] = [
   },
   {
     id: 449,
-    question: "The profanity or expression of surprise 'Shazbot' stems from which planet?",
-    options: ["Zebes", "Krypton", "Ork", "Vulcan"],
+    question: "In which country was \"homo floresiensis\" found?",
+    options: ["Italy", "Ethiopia", "Indonesia", "China"],
     correctAnswer: 2,
-    category: "TV & Cinema",
+    category: "Geography & Nature",
     difficulty: "hard"
   },
   {
@@ -3944,10 +3944,4226 @@ export const triviaQuestions: TriviaQuestion[] = [
     category: "Language",
     difficulty: "medium"
   },
+    {
+    id: 483,
+    question: "Which kind of juice does one mix with vodka, triple sec and lime to make the cocktail Cosmopolitan?",
+    options: ["Cranberry", "Orange", "Pineapple", "Pomegranate"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "easy"
+  },
+  {
+    id: 484,
+    question: "Who is Sweden's 2nd biggest selling music artist after ABBA?",
+    options: ["Ace of Base", "Robyn", "Roxette", "Avicii"],
+    correctAnswer: 2,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 485,
+    question: "What are the two largest beer companies in the world today?",
+    options: ["Anheuser Busch and Heineken", "Molson Coors and Carlsberg", "Asahi and Tsingtao", "Guinness and SABMiller"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 486,
+    question: "Before Adi Dassler broke away to form Adidas, Adi and his brother Rudolf were the owners of which shoe and sportswear company?",
+    options: ["Puma", "Reebok", "New Balance", "Fila"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 487,
+    question: "Which US city was once almost completely destroyed in an act of war and therefore uses the phoenix as its symbol?",
+    options: ["Philadelphia", "New Orleans", "Atlanta", "Richmond"],
+    correctAnswer: 2,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 488,
+    question: "Thule is the United States of America's most remote military outpost. Where is it located?",
+    options: ["Greenland", "Alaska", "Iceland", "Hawaii"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "hard"
+  },
+  {
+     id: 489,
+    question: "Established in 1642, the oldest figure skating club in the world is found in which capital city?",
+    options: ["Stockholm", "Edinburgh", "Vienna", "Copenhagen"],
+    correctAnswer: 1,
+    category: "Sports",
+    difficulty: "hard"
+  },
+  {
+    id: 490,
+    question: "What is the only song on the Beatles album Rubber Soul with an animal in the song title?",
+    options: ["Drive My Car", "Norwegian Wood (This Bird Has Flown)", "Girl", "In My Life"],
+    correctAnswer: 1,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 491,
+    question: "Who was the first tennis player to earn 1 million dollars?",
+    options: ["Rod Laver", "John McEnroe", "Jimmy Connors", "Björn Borg"],
+    correctAnswer: 0,
+    category: "Sports",
+    difficulty: "medium"
+  },
+  {
+    id: 492,
+    question: "Which automobile is nicknamed 'The Beast'?",
+    options: ["Hummer H1", "Bugatti Chiron", "US presidential state car", "Rolls-Royce Phantom"],
+    correctAnswer: 2,
+    category: "History & Politics",
+    difficulty: "easy"
+  },
+  {
+    id: 493,
+    question: "Which popular cocktail is named after an Italian Renaissance painter?",
+    options: ["Negroni", "Rossini", "Americano", "Bellini"],
+    correctAnswer: 3,
+    category: "Arts & Culture",
+    difficulty: "easy"
+  },
+  {
+    id: 494,
+    question: "Barajas International Airport serves which capital city?",
+    options: ["Lisbon", "Rome", "Buenos Aires", "Madrid"],
+    correctAnswer: 3,
+    category: "Geography & Nature",
+    difficulty: "easy"
+  },
+  {
+    id: 495,
+    question: "Which common everyday article of clothing was not worn in the Russian military until 2007?",
+    options: ["Undershirts", "Belts", "Socks", "Boxer shorts"],
+    correctAnswer: 2,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 496,
+    question: "The first war fought by the United States of America was against which Mediterranean city?",
+    options: ["Tunis", "Alexandria", "Algiers", "Tripoli"],
+    correctAnswer: 3,
+    category: "History & Politics",
+    difficulty: "hard"
+  },
+  {
+    id: 497,
+    question: "Which famous beer is named after the river that flows through the capital city in which it was originally brewed?",
+    options: ["Amstel", "Elbe", "Tiber", "Seine"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 498,
+    question: "Gustav Graves, Kamal Khan and Renard all met their demise at the hands of which man?",
+    options: ["Jason Bourne", "Jack Reacher", "Ethan Hunt", "James Bond"],
+    correctAnswer: 3,
+    category: "TV & Cinema",
+    difficulty: "easy"
+  },
+  {
+    id: 499,
+    question: "The worst disaster in association football history is known as the Estadio Nacional disaster. In which country did this tragedy take place?",
+    options: ["Peru", "Colombia", "Chile", "Brazil"],
+    correctAnswer: 0,
+    category: "Sports",
+    difficulty: "hard"
+  },
+  {
+    id: 500,
+    question: "Saaz, Hallertau, Spalt and Tettnanger are known as the four 'Noble' what?",
+    options: ["Hops", "Barleys", "Cheeses", "Grapes"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "hard"
+  },
+  {
+    id: 501,
+    question: "Donald Sutherland, Sissy Spacek, Walter Matthau and others had minor roles in which famous Oscar-nominated film?",
+    options: ["All the President's Men", "JFK", "The Godfather Part II", "Platoon"],
+    correctAnswer: 1,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 502,
+    question: "Which mega city was once the capital of Portugal between 1808 and 1815?",
+    options: ["Luanda", "Macau", "São Paulo", "Rio de Janeiro"],
+    correctAnswer: 3,
+    category: "History & Politics",
+    difficulty: "hard"
+  },
+  {
+    id: 503,
+    question: "Leda, a Spartan Queen in Greek mythology, is often depicted with which kind of bird in Renaissance paintings?",
+    options: ["Peacock", "Swan", "Eagle", "Dove"],
+    correctAnswer: 1,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 504,
+    question: "Which iconic landmark was the longest suspension bridge in the world from 1883 until 1903?",
+    options: ["Tower Bridge", "Brooklyn Bridge", "Golden Gate Bridge", "London Bridge"],
+    correctAnswer: 1,
+    category: "Geography & Nature",
+    difficulty: "medium"
+  },
+  {
+    id: 505,
+    question: "\"On every street in every city there's a nobody who dreams of being a somebody\" was a movie poster tag line for which disturbing 1976 film set in New York City?",
+    options: ["Taxi Driver", "Dog Day Afternoon", "Midnight Cowboy", "Raging Bull"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 506,
+    question: "The 75 stone steps at the end of M Street, Georgetown play a deadly role in which film?",
+    options: ["The Exorcist", "The Omen", "The Shining", "The Silence of the Lambs"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 507,
+    question: "Cryobiology is the study of life under what kind of conditions?",
+    options: ["High pressure", "Low temperatures", "High radiation", "Low oxygen"],
+    correctAnswer: 1,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+  {
+    id: 508,
+    question: "What was the first animated series to have a prime time slot on US television?",
+    options: ["The Jetsons", "The Flintstones", "Looney Tunes", "Scooby-Doo"],
+    correctAnswer: 1,
+    category: "TV & Cinema",
+    difficulty: "easy"
+  },
+  {
+    id: 509,
+    question: "Aldebaran, Rigel, Altair and Antares draw which film hero to victory?",
+    options: ["Ben Hur", "Alexander", "Spartacus", "Hercules"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "hard"
+  },
+  {
+    id: 510,
+    question: "What kind of celestial body was a chart topping album for Deep Purple?",
+    options: ["Fireball", "Supernova", "Black Hole", "Meteorite"],
+    correctAnswer: 0,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 511,
+    question: "Which carbonated beverage takes its name from the medical word for indigestion?",
+    options: ["Pepsi", "Sprite", "Dr Pepper", "7 Up"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "easy"
+  },
+  {
+    id: 512,
+    question: "In which controversial film is the aversion therapy known as the Ludovico technique used on the central character?",
+    options: ["A Clockwork Orange", "Brazil", "Requiem for a Dream", "Trainspotting"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 513,
+    question: "Which man, the only winner of both an Academy Award and a Nobel Prize for Literature, once said of Shakespeare: \"it would be a relief to dig him up and throw stones at him\"?",
+    options: ["George Bernard Shaw", "Bob Dylan", "Harold Pinter", "Winston Churchill"],
+    correctAnswer: 0,
+    category: "Literature",
+    difficulty: "hard"
+  },
+  {
+    id: 514,
+    question: "Which popular 'ball' game was banned in New York City from 1942 until 1976?",
+    options: ["Pinball", "Handball", "Paintball", "Kickball"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 515,
+    question: "Which T.P. was 20th Century Fox's biggest movie star in the late 1930s?",
+    options: ["Tyrone Power", "Tony Perkins", "Trevor Paglen", "Timothy Price"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "hard"
+  },
+  {
+    id: 516,
+    question: "Which tint of blue is named after a famous beach and tourist attraction in the southern hemisphere?",
+    options: ["Bondi Blue", "Byron Blue", "Copacabana Blue", "Surfers Blue"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 517,
+    question: "Which southpaw was nicknamed 'the Rockhampton Rocket'?",
+    options: ["Rod Laver", "Ken Rosewall", "Rafael Nadal", "John Newcombe"],
+    correctAnswer: 0,
+    category: "Sports",
+    difficulty: "medium"
+  },
+  {
+    id: 518,
+    question: "Mount Olympus is the highest point in which two EU countries?",
+    options: ["Greece and Cyprus", "Greece and Bulgaria", "Cyprus and Malta", "Greece and Romania"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "hard"
+  },
+  {
+    id: 519,
+    question: "Who painted the Virgin of the Rocks, also known as Madonna of the Rocks?",
+    options: ["Leonardo da Vinci", "Caravaggio", "Botticelli", "Raphael"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+    {
+    id: 520,
+    question: "TOR is a software that enables anonymous communication. What does the acronym T O R stand for?",
+    options: ["Trusted Online Relay", "The Onion Router", "Tactical Obfuscation Router", "Transfer Over Relay"],
+    correctAnswer: 1,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+  {
+    id: 521,
+    question: "Marcelo Rios was the only tennis player from which country to reach number one in the ATP rankings?",
+    options: ["Argentina", "Colombia", "Chile", "Uruguay"],
+    correctAnswer: 2,
+    category: "Sports",
+    difficulty: "medium"
+  },
+  {
+    id: 522,
+    question: "\"With Wings on their heels and Hope in their hearts\" was a movie poster tag line for which critically acclaimed film?",
+    options: ["Chariots of Fire", "The English Patient", "The Remains of the Day", "Gandhi"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 523,
+    question: "Which haunting instrumental was played by the Apollo 10 astronauts as they circled the moon in 1969 and was the first single by a British musician to reach number one in the US?",
+    options: ["Stranger On The Shore", "Albatross", "Apache", "Telstar"],
+    correctAnswer: 0,
+    category: "Music",
+    difficulty: "hard"
+  },
+  {
+    id: 524,
+    question: "Which writer, with a maritime expression for a pen name, once said: \"There is no distinctly American criminal class except Congress\"?",
+    options: ["Mark Twain", "Nathaniel Hawthorne", "O. Henry", "Ambrose Bierce"],
+    correctAnswer: 0,
+    category: "Literature",
+    difficulty: "medium"
+  },
+  {
+    id: 525,
+    question: "Which American soul singer and former girlfriend of Marc Bolan had a hit with the song Tainted Love in 1964?",
+    options: ["Etta James", "Gloria Jones", "Aretha Franklin", "Martha Reeves"],
+    correctAnswer: 1,
+    category: "Music",
+    difficulty: "hard"
+  },
+  {
+    id: 526,
+    question: "Canadian Dr James Naismith is credited with the creation of which popular sport?",
+    options: ["Basketball", "Lacrosse", "Ice Hockey", "Baseball"],
+    correctAnswer: 0,
+    category: "Sports",
+    difficulty: "easy"
+  },
+  {
+    id: 527,
+    question: "The name of which famous diamond translated means 'mountain of light'?",
+    options: ["Koh-I-Nor", "Hope Diamond", "Cullinan", "Orlov"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 528,
+    question: "Which film character has been portrayed by both Keanu Reeves and Michael Rennie?",
+    options: ["Klaatu", "Neo", "John Constantine", "Julian"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 529,
+    question: "Which evil character was born near the Caspian Sea in 1005 BC and died in New York City in 1985 AD?",
+    options: ["Kurgan", "Ra's al Ghul", "Sauron", "Dracula"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "hard"
+  },
+  {
+    id: 530,
+    question: "Which 1982 John Carpenter film has an all male cast?",
+    options: ["The Thing", "Escape from New York", "They Live", "Prince of Darkness"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 531,
+    question: "What was the Hoover Dam called from 1933 until April 30, 1947?",
+    options: ["Roosevelt Dam", "Boulder Dam", "Colorado Dam", "Nevada Dam"],
+    correctAnswer: 1,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 532,
+    question: "Irenology takes its name from the Greek goddess Eirene. What is irenology the study of?",
+    options: ["Peace", "Justice", "War", "Compassion"],
+    correctAnswer: 0,
+    category: "Language",
+    difficulty: "hard"
+  },
+  {
+    id: 533,
+    question: "Which European capital was bombed by the Luftwaffe in April 1941, the RAF and USAF in April 1944, and NATO in May 1999?",
+    options: ["Belgrade", "Sarajevo", "Berlin", "Skopje"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "hard"
+  },
+  {
+    id: 534,
+    question: "The term Grand Poohbah stems from which 1885 comic opera?",
+    options: ["The Mikado", "H.M.S. Pinafore", "The Pirates of Penzance", "Iolanthe"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 535,
+    question: "Soju is the most popular alcoholic beverage in which country?",
+    options: ["South Korea", "Japan", "China", "Vietnam"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "easy"
+  },
+  {
+    id: 536,
+    question: "With eight words, what is the longest James Bond theme song title?",
+    options: ["We Have All The Time In The World", "Tomorrow Never Dies", "The World Is Not Enough", "You Know My Name"],
+    correctAnswer: 0,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 537,
+    question: "The Millennium Prize, worth one million US dollars, is awarded to anyone who can solve specific problems in which field?",
+    options: ["Mathematics", "Economics", "Astronomy", "Engineering"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "easy"
+  },
+  {
+    id: 538,
+    question: "Queen Scheherazade is the story teller and narrator of what?",
+    options: ["One Thousand And One Nights", "The Arabian Nights", "The Epic of Gilgamesh", "The Book of Kings"],
+    correctAnswer: 0,
+    category: "Literature",
+    difficulty: "medium"
+  },
+   {
+    id: 539,
+    question: "What is the largest species of dolphin?",
+    options: ["Orca Whale", "Bottlenose Dolphin", "Risso's Dolphin", "Spinner Dolphin"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "easy"
+  },
+  {
+    id: 540,
+    question: "The capital of a British Dominion until 1949, which city is considered by many to be the oldest English-founded city in North America?",
+    options: ["St John's", "Halifax", "Charlottetown", "Boston"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 541,
+    question: "What kind of 'drive' does one associate with Zefram Cochrane?",
+    options: ["Impulse Drive", "Hyperdrive", "Warp Drive", "Quantum Slipstream"],
+    correctAnswer: 2,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 542,
+    question: "Which British musician had a guest role playing a deranged FBI agent in Twin Peaks?",
+    options: ["David Bowie", "Mick Jagger", "Peter Gabriel", "Elton John"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 543,
+    question: "American pathologist Thomas Harvey stole which man's brain on April 18, 1955?",
+    options: ["Albert Einstein", "Nikola Tesla", "Sigmund Freud", "Thomas Edison"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 544,
+    question: "The movie poster tag line for which controversial 1979 film was 'So funny it was banned in Norway'?",
+    options: ["Monty Python's Life Of Brian", "A Clockwork Orange", "Caligula", "The Last Temptation of Christ"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "easy"
+  },
+  {
+    id: 545,
+    question: "Which very fragrant and colourful spring flower is named after a beautiful young man in Greek mythology who was murdered by the jealous west wind god Zephyrus?",
+    options: ["Hyacinth", "Narcissus", "Crocus", "Anemone"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 546,
+    question: "Which two capital cities are found either side of the River Plate (Rio de la Plata)?",
+    options: ["Buenos Aires and Montevideo", "Asunción and Brasília", "Santiago and Montevideo", "Buenos Aires and Lima"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "medium"
+  },
+  {
+    id: 547,
+    question: "Which year was a hit song for Paul McCartney and Wings in 1974?",
+    options: ["Nineteen Hundred and Eighty Five", "Nineteen Hundred and Eighty Four", "Nineteen Seventy Five", "Nineteen Hundred and Eighty"],
+    correctAnswer: 0,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 548,
+    question: "The name of which national airline is derived from the Arabic word for 'union'?",
+    options: ["Etihad", "Qatar Airways", "Emirates", "Saudia"],
+    correctAnswer: 0,
+    category: "Language",
+    difficulty: "medium"
+  },
+  {
+    id: 549,
+    question: "Plus or minus 25, how many Popes have there been?",
+    options: ["266", "198", "301", "325"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 550,
+    question: "Which book and film ends with the words 'The old man was dreaming about the lions.'?",
+    options: ["The Old Man And The Sea", "The Road", "The Great Gatsby", "Of Mice and Men"],
+    correctAnswer: 0,
+    category: "Literature",
+    difficulty: "medium"
+  },
+  {
+    id: 551,
+    question: "Which world record did Bob Beamon break at the 1968 Summer Olympic Games and continue to hold for the next 23 years?",
+    options: ["Long jump", "High jump", "Triple jump", "Pole vault"],
+    correctAnswer: 0,
+    category: "Sports",
+    difficulty: "medium"
+  },
+  {
+    id: 552,
+    question: "In which city was Mahatma Gandhi murdered?",
+    options: ["New Delhi", "Mumbai", "Amritsar", "Ahmedabad"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "easy"
+  },
+  {
+    id: 553,
+    question: "In which city was Martin Luther King murdered?",
+    options: ["Memphis", "Atlanta", "Washington D.C.", "Birmingham"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "easy"
+  },
+  {
+    id: 554,
+    question: "In which city was Leon Trotsky murdered?",
+    options: ["Mexico City", "St. Petersburg", "Paris", "Havana"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 555,
+    question: "In which city was Archduke Franz Ferdinand murdered?",
+    options: ["Sarajevo", "Vienna", "Berlin", "Prague"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "easy"
+  },
+   {
+    id: 556,
+    question: "Who was the first female American astronaut?",
+    options: ["Mae Jemison", "Sally Ride", "Valentina Tereshkova", "Judith Resnik"],
+    correctAnswer: 1,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+  {
+    id: 557,
+    question: "Which shipwreck did Robert Ballard find in 1989, four years after discovering the Titanic?",
+    options: ["Bismarck", "Andrea Doria", "Lusitania", "Britannic"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 558,
+    question: "The 'Wiki' in Wikipedia stems from the Hawaiian 'wikiwiki'. What does it mean?",
+    options: ["Fast", "Free", "Together", "Knowledge"],
+    correctAnswer: 0,
+    category: "Language",
+    difficulty: "easy"
+  },
+  {
+    id: 559,
+    question: "Which large intimidating man was a number 1 hit song in the US (number 2 in the UK) for Jimmy Dean?",
+    options: ["Big Bad John", "Johnny B. Goode", "Bad Leroy Brown", "The Gambler"],
+    correctAnswer: 0,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 560,
+    question: "Which hit song by The Searchers begins with the words 'I took my troubles down to Madame Rue'?",
+    options: ["Needles and Pins", "Love Potion Number 9", "When You Walk in the Room", "Don't Throw Your Love Away"],
+    correctAnswer: 1,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 561,
+    question: "In which controversial film does the narrator speak in a slang called Nadsat?",
+    options: ["A Clockwork Orange", "Trainspotting", "Requiem for a Dream", "Fight Club"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 562,
+    question: "In which film does Acheron surprise Surprise?",
+    options: ["Master and Commander", "Pirates of the Caribbean", "Das Boot", "The Hunt for Red October"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "hard"
+  },
+  {
+    id: 563,
+    question: "What is the name of the Kingston ghetto in which Bob Marley was raised?",
+    options: ["Trenchtown", "Riverton", "Jungle", "Tivoli"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "easy"
+  },
+  {
+    id: 564,
+    question: "Which English band, sometimes referred to as the 'godfathers of goth rock', shares its name with a 20th century architectural style?",
+    options: ["Brutalist", "Art Deco", "Bauhaus", "Gothic"],
+    correctAnswer: 2,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 565,
+    question: "The Drake Passage is a body of water between which two continents?",
+    options: ["South America and Antarctica", "Africa and South America", "Australia and Asia", "North America and Europe"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "easy"
+  },
+   {
+    id: 566,
+    question: "Which spice is needed to create a Risotto alla Milanese?",
+    options: ["Saffron", "Cinnamon", "Paprika", "Nutmeg"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 567,
+    question: "What are Trent 900's?",
+    options: ["Turbofan aircraft engines", "Naval sonar systems", "Bullet train models", "Automobile tyres"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "hard"
+  },
+  {
+    id: 568,
+    question: "What is Abyssinia called today?",
+    options: ["Ethiopia", "Somalia", "Libya", "Eritrea"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "easy"
+  },
+  {
+    id: 569,
+    question: "Charles Conrad Jr. was the third to do what?",
+    options: ["Walk on the moon", "Summit Mount Everest", "Win a Nobel Prize in Physics", "Orbit Earth solo"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+  {
+    id: 570,
+    question: "The name of which prized flower stems from the Greek word for 'testicle'?",
+    options: ["Orchid", "Lily", "Rose", "Tulip"],
+    correctAnswer: 0,
+    category: "Language",
+    difficulty: "medium"
+  },
+  {
+    id: 571,
+    question: "Which 2010 film ends with the words 'You're not an asshole Mark. You're just trying so hard to be.'?",
+    options: ["The Social Network", "The Big Short", "Moneyball", "Steve Jobs"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 572,
+    question: "The three-letter name for which music genre invokes the sound made by the guitar?",
+    options: ["Ska", "Rap", "Emo", "Pop"],
+    correctAnswer: 0,
+    category: "Music",
+    difficulty: "easy"
+  },
+  {
+    id: 573,
+    question: "Which two ingredients are used to make the tasty rich mixture known as 'Ganache'?",
+    options: ["Cream and chocolate", "Eggs and butter", "Milk and sugar", "Flour and cocoa"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "easy"
+  },
+  {
+    id: 574,
+    question: "Plus or minus 1.77 billion years, how old is the universe?",
+    options: ["13.77 billion years", "9.77 billion years", "15.77 billion years", "11.77 billion years"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "hard"
+  },
+  {
+    id: 575,
+    question: "Which 1980 black and white film was nominated for eight Academy Awards?",
+    options: ["Raging Bull", "The Elephant Man", "Manhattan", "Paper Moon"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 576,
+    question: "The singing group I Three (or I Threes) were backing vocalists for which band?",
+    options: ["Bob Marley and The Wailers", "Toots and the Maytals", "The Specials", "Steel Pulse"],
+    correctAnswer: 0,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 577,
+    question: "In which country is the 3,000 km long Kunlun mountain chain?",
+    options: ["China", "India", "Pakistan", "Nepal"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "medium"
+  },
+  {
+    id: 578,
+    question: "Measured in total length, which country has the longest system of canals?",
+    options: ["China", "Netherlands", "India", "USA"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "medium"
+  },
+  {
+    id: 579,
+    question: "The flag of Monaco is identical to the flag of which large Asian country?",
+    options: ["Indonesia", "Malaysia", "Vietnam", "Thailand"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "medium"
+  },
+  {
+    id: 580,
+    question: "Gherman S Titov was the second person to do what?",
+    options: ["Orbit the Earth", "Walk in space", "Land on the moon", "Travel beyond Earth's orbit"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+  {
+    id: 581,
+    question: "Which music icon played the alien in the 1976 film 'The Man Who Fell To Earth'?",
+    options: ["David Bowie", "Iggy Pop", "Lou Reed", "Mick Jagger"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "easy"
+  },
+  {
+    id: 582,
+    question: "Capt. John Yossarian is the protagonist in which cult novel?",
+    options: ["Catch-22", "Slaughterhouse-Five", "Infinite Jest", "The Naked and the Dead"],
+    correctAnswer: 0,
+    category: "Literature",
+    difficulty: "medium"
+  },
+  {
+    id: 583,
+    question: "The name of which art movement stems from a French word that evokes the ornamental use of rock and shell?",
+    options: ["Rococo", "Baroque", "Impressionism", "Art Nouveau"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 584,
+    question: "The name for which particle stems from a Greek word meaning 'indivisible'?",
+    options: ["Atom", "Proton", "Electron", "Quark"],
+    correctAnswer: 0,
+    category: "Language",
+    difficulty: "easy"
+  },
+  {
+    id: 585,
+    question: "Which capital is the most densely populated city in all of the Americas?",
+    options: ["Port au Prince", "Mexico City", "São Paulo", "Lima"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "hard"
+  },
+  {
+    id: 586,
+    question: "Which country hosted the first official FIFA Women's World Cup in 1991?",
+    options: ["China", "USA", "Germany", "Sweden"],
+    correctAnswer: 0,
+    category: "Sports",
+    difficulty: "medium"
+  },
+  {
+    id: 587,
+    question: "The villain Max Eisenhardt is better known as what?",
+    options: ["Magneto", "Doctor Doom", "Red Skull", "Professor X"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "easy"
+  },
+  {
+    id: 588,
+    question: "Which female tennis icon won a record seven French Open singles titles?",
+    options: ["Chris Evert", "Martina Navratilova", "Steffi Graf", "Serena Williams"],
+    correctAnswer: 0,
+    category: "Sports",
+    difficulty: "medium"
+  },
+  {
+    id: 589,
+    question: "Clare Quilty is an unsavoury character in which controversial novel and film?",
+    options: ["Lolita", "American Psycho", "A Clockwork Orange", "The Reader"],
+    correctAnswer: 0,
+    category: "Literature",
+    difficulty: "medium"
+  },
+  {
+    id: 590,
+    question: "The gigantic tentacular cosmic entity known as Cthulhu is a product of which horror fiction writer's imagination?",
+    options: ["H.P. Lovecraft", "Stephen King", "Edgar Allan Poe", "Clive Barker"],
+    correctAnswer: 0,
+    category: "Literature",
+    difficulty: "medium"
+  },
+  {
+    id: 591,
+    question: "The Falabella is one of the smallest examples of what in the world?",
+    options: ["Breed of horse", "Type of cat", "Species of deer", "Dog breed"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "medium"
+  },
+  {
+    id: 592,
+    question: "What are lighting technicians called in the movie industry?",
+    options: ["Gaffers", "Best boys", "Grips", "Sparks"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "easy"
+  },
+  {
+    id: 593,
+    question: "Which World Champion was teenage supermodel Naomi Campbell dating in 1987?",
+    options: ["Mike Tyson", "Evander Holyfield", "Sugar Ray Leonard", "Lennox Lewis"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 594,
+    question: "Meaning 'Old Peak' when translated, what is the name of the 'lost city of the Inca's' discovered by Hiram Bingham in 1911?",
+    options: ["Machu Picchu", "Cusco", "Choquequirao", "Sacsayhuamán"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "medium"
+  },
+  {
+    id: 595,
+    question: "Which European country had a peaceful end to their dictatorship in 1974 with the 'Carnation Revolution'?",
+    options: ["Portugal", "Spain", "Greece", "Hungary"],
+    correctAnswer: 0,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 596,
+    question: "Which 1993 film, nominated for eight Academy Awards, begins with the words: 'The voice you hear is not my speaking voice, but my mind's voice. I have not spoken since I was six years old.'?",
+    options: ["The Piano", "The Remains of the Day", "Philadelphia", "The Age of Innocence"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 597,
+    question: "Which rare sperm whale byproduct is prized by perfume makers and is sometimes called 'floating gold'?",
+    options: ["Ambergris", "Copal", "Musk", "Civet"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+  {
+    id: 598,
+    question: "The name of which sensual Brazilian dance style probably stems from the Portuguese word for 'a beating' or 'a lashing'?",
+    options: ["Lambada", "Samba", "Forró", "Bossa Nova"],
+    correctAnswer: 0,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+  id: 599,
+  question: "Who is the owner of a pet cat by the name of Crookshanks?",
+  options: ["Luna Lovegood", "Minerva McGonagall", "Ginny Weasley", "Hermione Granger"],
+  correctAnswer: 3,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 600,
+  question: "Who is the owner of a pet cat by the name of Mr Bigglesworth?",
+  options: ["Austin Powers", "Gru", "Dr. Evil", "Lex Luthor"],
+  correctAnswer: 2,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 601,
+  question: "Which 1975 film was the first to earn 100 million at the box office?",
+  options: ["The Godfather", "Star Wars", "Rocky", "Jaws"],
+  correctAnswer: 3,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 602,
+  question: "Which actor did Melanie Griffith marry two times?",
+  options: ["Antonio Banderas", "Don Johnson", "Alec Baldwin", "Kurt Russell"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 603,
+  question: "The original Wailers were a trio consisting of Bob Marley, Bunny Livingstone and which man?",
+  options: ["Peter Tosh", "Toots Hibbert", "Lee Perry", "Jimmy Cliff"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 604,
+  question: "Laurent Blanc made history on 28 June 1998 when he became the first ever player to do what during a FIFA World Cup match?",
+  options: ["Score an own goal", "Miss a penalty", "Score a 'Golden Goal'", "Receive a red card"],
+  correctAnswer: 2,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 605,
+  question: "Buddha's footprint is said to be found near the summit of Adam's Peak. In which country is this mountain located?",
+  options: ["Thailand", "Sri Lanka", "India", "Nepal"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 606,
+  question: "In terms of consumption, what is the name of the most popular banana variety in the world?",
+  options: ["Red banana", "Cavendish", "Lady Finger", "Plantain"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 607,
+  question: "A novel from Joseph Conrad and the name of the doomed spaceship in the 1979 film Alien. One word.",
+  options: ["Aurora", "Sulaco", "Prometheus", "Nostromo"],
+  correctAnswer: 3,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 608,
+  question: "Which government agency is the largest electricity consumer in the US state of Maryland?",
+  options: ["Department of Defense", "CIA", "National Security Agency (NSA)", "NASA"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 609,
+  question: "Although it has been mistaken for 'I bury Paul', at the end of which Beatles song does John say 'cranberry sauce'?",
+  options: ["Glass Onion", "Tomorrow Never Knows", "Strawberry Fields Forever", "I Am the Walrus"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 610,
+  question: "What is the subtitle to JRR Tolkien's novel 'The Hobbit'?",
+  options: ["There and Back Again", "The Battle of Five Armies", "Into the Wild", "A Journey Begins"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 611,
+  question: "What are the three largest islands in the world with names beginning with the letter 'N'?",
+  options: ["New Guinea, North Island, Newfoundland", "Newfoundland, New Britain, New Ireland", "New Guinea, New Zealand, New Caledonia", "North Island, New Caledonia, New Britain"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 612,
+  question: "Victor Emmanuel III was the king of which country between 1900–1946?",
+  options: ["Austria", "Greece", "Italy", "Spain"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 613,
+  question: "Until September 11, 2001, the largest single loss of American civilian life in a deliberate act occurred on November 18th, 1978. In which country did this tragedy take place and what was the name of the settlement?",
+  options: ["Guyana, Jonestown", "Panama, Noriega", "Honduras, Colon", "Venezuela, Ciudad Bolivar"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 614,
+  question: "What was the name of the controversial artist responsible for 'The Wrapped Reichstag', 'The Gates' and 'The Pont Neuf Wrapped'?",
+  options: ["Christo", "Ai Weiwei", "Banksy", "Damien Hirst"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 615,
+  question: "Which two men with the initials S. P. have won the Academy Award for Best Actor?",
+  options: ["Sean Penn and Sidney Poitier", "Simon Pegg and Sean Penn", "Sean Parker and Sidney Poitier", "Spencer Pratt and Sean Penn"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 616,
+  question: "Which South American country is home to the largest Japanese population outside of Japan?",
+  options: ["Brazil", "Peru", "Chile", "Argentina"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 617,
+  question: "Which 1965 film comedy is dedicated to Elias Howe, the inventor of the sewing machine?",
+  options: ["Help!", "Dr. Strangelove", "The Knack", "A Hard Day's Night"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 618,
+  question: "The final scene in the film 2010: The Year We Make Contact depicts a single Monolith standing on which Jupiter moon?",
+  options: ["Callisto", "Europa", "Ganymede", "Io"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 619,
+  question: "At which FIFA World Cup was a match decided with a penalty shootout for the first time?",
+  options: ["Germany 1974", "France 1998", "Spain 1982", "Mexico 1986"],
+  correctAnswer: 2,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 620,
+  question: "The name of which popular cocktail with plenty of ice translated means 'little country girl'?",
+  options: ["Mojito", "Paloma", "Margarita", "Caipirinha"],
+  correctAnswer: 3,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 621,
+  question: "What are the oldest texts in Sanskrit literature called?",
+  options: ["Vedas", "Bhagavad Gita", "Upanishads", "Puranas"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 622,
+  question: "Who was the only person or band to have held the top five positions in the US Billboard Hot 100 singles charts?",
+  options: ["The Beatles", "Michael Jackson", "Taylor Swift", "Elvis Presley"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 623,
+  question: "The following is the movie poster tag line for which film? 'Her life was in their hands. Now her toe is in the mail.'",
+  options: ["The Big Lebowski", "Burn After Reading", "The Nice Guys", "Fargo"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 624,
+  question: "The following is the last line to which novel? 'He drew a deep breath. \"Well, I'm back,\" he said.'",
+  options: ["The Lord of the Rings", "The Silmarillion", "Harry Potter and the Deathly Hallows", "The Hobbit"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 625,
+  question: "Carfax Abbey was which fictional character's home away from home?",
+  options: ["Frankenstein", "Dorian Gray", "Van Helsing", "Dracula"],
+  correctAnswer: 3,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 626,
+  question: "Which band leader was the first German to top the US music charts?",
+  options: ["Klaus Meine", "Bert Kaempfert", "Hans Zimmer", "Herbert Grönemeyer"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "hard"
+},
+{
+  id: 627,
+  question: "The name of which famous champion thoroughbred racehorse in the late 1920s and early 1930s stems from the Thai word for 'lightning'?",
+  options: ["Secretariat", "Seabiscuit", "Man o' War", "Phar Lap"],
+  correctAnswer: 3,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 628,
+  question: "Which highly toxic chemical compound is sometimes described as smelling like bitter almond?",
+  options: ["Cyanide", "Mercury", "Ammonia", "Arsenic"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 629,
+  question: "'The mission is a man.' was the movie poster tag line to which epic war film?",
+  options: ["Saving Private Ryan", "1917", "Platoon", "Black Hawk Down"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 630,
+  question: "What is the name of the largest and longest nerve in the human body?",
+  options: ["Sciatic", "Vagus", "Femoral", "Optic"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 631,
+  question: "Which comic book superhero who resides in Malibu is ranked number 5 on Forbes list of the richest 15 fictional characters?",
+  options: ["Doctor Strange", "Mr. Fantastic", "Batman", "Iron Man (Tony Stark)"],
+  correctAnswer: 3,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 632,
+  question: "The popular name given to which very well known 1877 piece of music is also something to eat with?",
+  options: ["Chopsticks", "Spoonful", "Baguette", "Cupcake"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+ {
+    id: 633,
+    question: "The name 'Nike', of shoe company and Greek god fame, means what?",
+    options: ["Glory", "Speed", "Victory", "Power"],
+    correctAnswer: 2,
+    category: "Language",
+    difficulty: "easy"
+  },
+  {
+    id: 634,
+    question: "Built between 4,100 and 2,500 BC; quite possibly the oldest free standing structures in the world are found in which European country?",
+    options: ["Italy", "Cyprus", "Greece", "Malta"],
+    correctAnswer: 3,
+    category: "Geography & Nature",
+    difficulty: "hard"
+  },
+  {
+    id: 635,
+    question: "In a famous match race, who did War Admiral lose to on November 1, 1938?",
+    options: ["Man o' War", "Seabiscuit", "Secretariat", "Phar Lap"],
+    correctAnswer: 1,
+    category: "Sports",
+    difficulty: "medium"
+  },
+  {
+    id: 636,
+    question: "Rob Pilatus and Fab Morvan were better known as what?",
+    options: ["Snap!", "Ace of Base", "Wham!", "Milli Vanilli"],
+    correctAnswer: 3,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 637,
+    question: "In and around which river delta did up to 500,000 people lose their lives due to a storm surge in November 1970?",
+    options: ["Ganges", "Yangtze", "Amazon", "Mississippi"],
+    correctAnswer: 0,
+    category: "Geography & Nature",
+    difficulty: "hard"
+  },
+  {
+    id: 638,
+    question: "Built in 1897, Nelson Rd. Stadium is home to which fictional London football club?",
+    options: ["Crystal Palace", "West Ham United", "AFC Richmond", "Chelsea FC"],
+    correctAnswer: 2,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 639,
+    question: "Who had a cameo appearance as the Corsair pirate captain in 'The Return of the King'?",
+    options: ["Andy Serkis", "Elijah Wood", "Director Peter Jackson", "Ian McKellen"],
+    correctAnswer: 2,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 640,
+    question: "Which group of islands were known as the Danish West Indies until they were sold in 1916?",
+    options: ["Guam", "US Virgin Islands", "Bahamas", "Puerto Rico"],
+    correctAnswer: 1,
+    category: "Geography & Nature",
+    difficulty: "medium"
+  },
+  {
+    id: 641,
+    question: "All Boys, Racing Club, Arsenal and Newell's Old Boys are all top flight football (soccer) clubs in which country?",
+    options: ["Spain", "Mexico", "Brazil", "Argentina"],
+    correctAnswer: 3,
+    category: "Sports",
+    difficulty: "medium"
+  },
+  {
+    id: 642,
+    question: "The original album cover art work from which David Bowie album was taken off the market because it depicted genitalia?",
+    options: ["Heroes", "Ziggy Stardust", "Diamond Dogs", "Scary Monsters"],
+    correctAnswer: 2,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 643,
+    question: "What was the name of the chess playing computer that defeated reigning world champion Garry Kasparov in 1997?",
+    options: ["Deep Blue", "Watson", "AlphaZero", "HAL 9000"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+  {
+    id: 644,
+    question: "Which 1985 Hollywood blockbuster and winner of seven Academy Awards was loosely based on the female central character's 1937 autobiography? 3 words",
+    options: ["The African Queen", "Memoirs of a Geisha", "Out of Africa", "Born Free"],
+    correctAnswer: 2,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 645,
+    question: "Which famous historical leader met his end in the Largo Argentina square?",
+    options: ["Brutus", "Augustus", "Julius Caesar", "Nero"],
+    correctAnswer: 2,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 646,
+    question: "Apollo 11 astronaut Neil Armstrong took two small pieces of which 1903 invention with him to the moon?",
+    options: ["Enola Gay", "Spirit of St. Louis", "Apollo Lander", "The Wright Flyer"],
+    correctAnswer: 3,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+    {
+    id: 647,
+    question: "A European capital and Wellington's horse at Waterloo.",
+    options: ["Oslo", "Vienna", "Brussels", "Copenhagen"],
+    correctAnswer: 3,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 648,
+    question: "The sequence of events in which famous 1952 Hollywood western take place in so called 'real time'?",
+    options: ["Stagecoach", "Shane", "High Noon", "The Searchers"],
+    correctAnswer: 2,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 649,
+    question: "The Common chimpanzee is the name given to one of the two species of chimps. What is the other species of chimpanzee called?",
+    options: ["Bonobo", "Orangutan", "Mandrill", "Gorilla"],
+    correctAnswer: 0,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+  {
+    id: 650,
+    question: "Lambic beer is a traditional brew from which country?",
+    options: ["France", "Germany", "Netherlands", "Belgium"],
+    correctAnswer: 3,
+    category: "Geography & Nature",
+    difficulty: "easy"
+  },
+  {
+    id: 651,
+    question: "Who was the lead guitarist for The Spiders From Mars?",
+    options: ["Brian May", "Mick Ronson", "Keith Richards", "Ronnie Wood"],
+    correctAnswer: 1,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 652,
+    question: "Which cocktail combining Scotch whisky and Amaretto is named after an Oscar winning film for Best Picture?",
+    options: ["Amadeus", "Godfather", "Titanic", "Casablanca"],
+    correctAnswer: 1,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 653,
+    question: "Which of the modern man made wonders of the world did French painter Paul Gauguin help build?",
+    options: ["Golden Gate Bridge", "Eiffel Tower", "Suez Canal", "Panama Canal"],
+    correctAnswer: 3,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 654,
+    question: "\"A lot can happen in the middle of nowhere\" was one of the movie poster tag lines to which 1996 black comedy?",
+    options: ["The Big Lebowski", "Burn After Reading", "Fargo", "No Country for Old Men"],
+    correctAnswer: 2,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 655,
+    question: "What was the name of the ferry that sank in the Baltic Sea on September 28, 1994 with the loss of 852 passengers and crew?",
+    options: ["MS Nordica", "MS Baltic Queen", "MS Estonia", "MS Vasa"],
+    correctAnswer: 2,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 656,
+    question: "Which media baron who lives in an unfinished mansion named Xanadu is found in Forbes list of the 15 richest fictional characters?",
+    options: ["Charles Foster Kane", "Scrooge McDuck", "Lex Luthor", "Bruce Wayne"],
+    correctAnswer: 0,
+    category: "TV & Cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 657,
+    question: "Which is Boeing's the best selling commercial jet airliner in the world?",
+    options: ["777", "747", "A320", "737"],
+    correctAnswer: 3,
+    category: "Science & Technology",
+    difficulty: "medium"
+  },
+  {
+  id: 658,
+  question: "The motto of which company is 'Because I'm Worth It'?",
+  options: ["L'Oreal", "Maybelline", "Nivea", "Chanel"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "easy"
+},
+{
+  id: 659,
+  question: "In which city is the Hagia Sophia located?",
+  options: ["Rome", "Istanbul", "Athens", "Cairo"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 660,
+  question: "In which city is La Sagrada Familia located?",
+  options: ["Madrid", "Valencia", "Seville", "Barcelona"],
+  correctAnswer: 3,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 661,
+  question: "In which city is the Taj Mahal located?",
+  options: ["Varanasi", "Jaipur", "Agra", "Delhi"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 662,
+  question: "In which city is the Potala Palace located?",
+  options: ["Ulaanbaatar", "Beijing", "Lhasa", "Kathmandu"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 663,
+  question: "Which fictional land is located in the Sea of One Thousand Islands?",
+  options: ["Oz", "Wonderland", "Narnia", "Never Never Land"],
+  correctAnswer: 3,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 664,
+  question: "The name of which Islamist group loosely translated means 'western education is a sin'?",
+  options: ["Taliban", "ISIS", "Al-Shabaab", "Boko Harum"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 665,
+  question: "Since 1985, Greenland has its own flag. Which two colours are found on the flag?",
+  options: ["Green and white", "Red and white", "Red and blue", "Blue and yellow"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 666,
+  question: "What do the French call a slow cooked white bean stew with meat?",
+  options: ["Coq au vin", "Bouillabaisse", "Cassoulet", "Ratatouille"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 667,
+  question: "Name the four Pevensie siblings in 'The Lion, the Witch and the Wardrobe'.",
+  options: ["Frodo, Sam, Merry and Pippin", "Lucy, Edmund, Susan and Peter", "James, Lily, Sirius and Remus", "Jane, Michael, Wendy and John"],
+  correctAnswer: 1,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 668,
+  question: "Theoretically, spaghettification takes place near a what?",
+  options: ["Neutron star", "Black hole", "Wormhole", "Supernova"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 669,
+  question: "In many Slavic languages, voda is the word for what?",
+  options: ["Water", "Earth", "Fire", "Air"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "easy"
+},
+{
+  id: 670,
+  question: "Which sporting trophy was originally called the 'Hundred Guinea Cup'?",
+  options: ["Davis Cup", "The Stanley Cup", "The Ashes", "The America's Cup"],
+  correctAnswer: 3,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 671,
+  question: "What was the first song played on MTV?",
+  options: ["Thriller", "Bohemian Rhapsody", "Video Killed The Radio Star", "Sweet Dreams"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 672,
+  question: "The name for which kind of friend stems from the Latin words for 'together' and 'bread'?",
+  options: ["Ally", "Peer", "Companion", "Comrade"],
+  correctAnswer: 2,
+  category: "Language",
+  difficulty: "medium"
+},
+{
+  id: 673,
+  question: "In which city is fashion house Prada headquartered?",
+  options: ["Rome", "Florence", "Milan", "Paris"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 674,
+  question: "In which city is fashion house Hermès headquartered?",
+  options: ["Paris", "Brussels", "Lyon", "Milan"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 675,
+  question: "Stu Unger, Johnny Chan, Phil Ivey, Doyle Brunson and Chip Reese all excel at which game?",
+  options: ["Poker", "Bridge", "Blackjack", "Craps"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 676,
+  question: "In which year were yellow tennis balls first introduced?",
+  options: ["1975", "1969", "1980", "1972"],
+  correctAnswer: 3,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 677,
+  question: "Which former world champion's autobiography is titled 'The Soul of a Butterfly'?",
+  options: ["George Foreman", "Mike Tyson", "Muhammed Ali", "Joe Frazier"],
+  correctAnswer: 2,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 678,
+  question: "Radiohead named themselves after a song from which band?",
+  options: ["Talking Heads", "The Smiths", "R.E.M.", "Pixies"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 679,
+  question: "Which Red Sea port city is also the name of something you can drink?",
+  options: ["Jaffa", "Mocha", "Suez", "Latte"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 680,
+  question: "What are the names of the two flightless birds beginning with the letter 'K' found in New Zealand?",
+  options: ["Kakapo and Kākā", "Kiwi and Kapapo", "Kea and Kiwi", "Kea and Kakapo"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 681,
+  question: "Which diminutive singer made a cameo appearance as the 'Green Fairy' in the film Moulin Rouge?",
+  options: ["Kylie Minogue", "Lady Gaga", "Cher", "Madonna"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 682,
+  question: "Covered by various artists including Jeff Buckley, Willie Nelson, Bob Dylan, Bono and John Cale; who wrote the song 'Hallelujah'?",
+  options: ["Bob Dylan", "Leonard Cohen", "Jeff Buckley", "Paul Simon"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "easy"
+},
+{
+  id: 683,
+  question: "Which London street and neighbourhood takes its name from a type of lace collar?",
+  options: ["Carnaby", "Piccadilly", "Savile Row", "Soho"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 684,
+  question: "The movie poster tag line to which 2002 film was 'The True Story Of A Real Fake'?",
+  options: ["Catch Me If You Can", "The Terminal", "The Aviator", "Ocean's Eleven"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 685,
+  question: "Which European alphabet is named after a 9th century missionary and saint?",
+  options: ["Cyrillic", "Latin", "Greek", "Runic"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "medium"
+},
+{
+  id: 686,
+  question: "Who, other than the four Beatles, is pictured on the Beatles album cover Revolver?",
+  options: ["Brian Epstein", "Eric Clapton", "George Martin", "Klaus Voormann"],
+  correctAnswer: 3,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 687,
+  question: "What was the estimated population of the world in 1900?",
+  options: ["3 billion", "1.7 billion", "2.5 billion", "1 billion"],
+  correctAnswer: 1,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 688,
+  question: "Which country has won a record 7 FIFA Beach Soccer World Cups?",
+  options: ["Brazil", "Russia", "Spain", "Portugal"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "easy"
+},
+{
+  id: 689,
+  question: "Famous for his children's books, which British novelist and World War II flying ace coined the word 'Gremlin'?",
+  options: ["Roald Dahl", "CS Lewis", "Enid Blyton", "JRR Tolkien"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 690,
+  question: "In which year was Pac-Man first released?",
+  options: ["1990", "1983", "1975", "1980"],
+  correctAnswer: 3,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 691,
+  question: "The movie poster tag line to which 2006 dystopian thriller was 'People should not be afraid of their governments. Governments should be afraid of their people'?",
+  options: ["The Hunger Games", "Equilibrium", "Children of Men", "V for Vendetta"],
+  correctAnswer: 3,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 692,
+  question: "Englishman Nigel Short excelled at which game?",
+  options: ["Chess", "Cricket", "Bridge", "Snooker"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 693,
+  question: "Eidetic imagery is better known as what?",
+  options: ["Déjà vu", "Selective memory", "Photographic memory", "Short-term memory"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 694,
+  question: "Although it caused controversy in some circles, what did the World Health Organisation remove from its list of diseases in 1990?",
+  options: ["Autism", "Left-handedness", "Bipolar disorder", "Homosexuality"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 695,
+  question: "What are the two official languages in the Philippines?",
+  options: ["Tagalog and Spanish", "Tagalog and Cebuano", "Spanish and English", "English and Tagalog"],
+  correctAnswer: 3,
+  category: "Language",
+  difficulty: "easy"
+},
+{
+  id: 696,
+  question: "In which country was the so called 'Gang of Four' trial?",
+  options: ["North Korea", "Vietnam", "China", "Cambodia"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 697,
+  question: "What is the official currency in Ecuador and East Timor ?",
+  options: ["Euro", "US Dollar", "Timorese Real", "Ecuadorian Peso"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 698,
+  question: "In 1927 the US Post Office broke with tradition for the first time and issued a stamp in honour of a living American. Who was the world famous American man?",
+  options: ["Amelia Earhart", "Thomas Edison", "Charles Lindbergh", "Henry Ford"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 699,
+  question: "Which song on the Beatles White Album is about Mia Farrow's sister?",
+  options: ["Blackbird", "Sexy Sadie", "Julia", "Dear Prudence"],
+  correctAnswer: 3,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 700,
+  question: "In which year was YouTube founded?",
+  options: ["2003", "2005", "2007", "2001"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 701,
+  question: "The name for which controversial science stems from the Greek for 'good race'?",
+  options: ["Phrenology", "Anthropology", "Eugenics", "Social Darwinism"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 702,
+  question: "What was the Morse code signal for victory?",
+  options: ["3 dots and a dash", "3 dashes and a dot", "2 dots and 2 dashes", "4 dots"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 703,
+  question: "Which band had a group of die-hard fans nicknamed 'Apple Scruffs'?",
+  options: ["The Rolling Stones", "The Beatles", "Pink Floyd", "The Kinks"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "easy"
+},
+{
+  id: 704,
+  question: "What is the name of the fictional metal alloy bonded to the skeleton of superhero Wolverine?",
+  options: ["Vibranium", "Kryptonite", "Titanium X", "Adamantium"],
+  correctAnswer: 3,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 705,
+  question: "What is the largest island in Canada?",
+  options: ["Baffin Island", "Victoria Island", "Ellesmere Island", "Newfoundland"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 706,
+  question: "What is the largest island in Russia?",
+  options: ["Sakhalin Island", "Novaya Zemlya", "Wrangel Island", "Kuril Islands"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 707,
+  question: "What colour is vermilion?",
+  options: ["Red", "Purple", "Blue", "Green"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 708,
+  question: "'No 5, 1948' sold for a record 140 million dollars in 2006. What is 'No 5, 1948'?",
+  options: ["Sculpture", "Oil painting", "Manuscript", "Photograph"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 709,
+  question: "With an estimated 1-5 vipers per sq. metre, 'Snake Island' has the highest concentration of venomous snakes in the world. Off the coast of which country is it located?",
+  options: ["Brazil", "Indonesia", "Australia", "India"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 710,
+  question: "Which book sold a record 11 million copies in the first 24 hours after its release on July 21, 2007?",
+  options: ["Harry Potter and the Deathly Hallows", "The Da Vinci Code", "Fifty Shades of Grey", "Twilight"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 711,
+  question: "The NKVD was the predecessor of what?",
+  options: ["MI6", "CIA", "GRU", "KGB"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 712,
+  question: "What did the golden apples found in the Garden of Hesperides give to those who ate them?",
+  options: ["Immortality", "Wisdom", "Strength", "Wealth"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 713,
+  question: "What variety of baked potato takes its name from a restaurant in Stockholm?",
+  options: ["Hasselback", "Rösti", "Frittata", "Pommes Anna"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 714,
+  question: "Which number one hit from Boyzone was written by Andrew Lloyd Webber?",
+  options: ["No Matter What", "Words", "Love Me for a Reason", "Father and Son"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 715,
+  question: "In film, what is the preferred fuel or energy source used by the Transformer race?",
+  options: ["Energon", "Kryptonite", "Unobtainium", "Tiberium"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 716,
+  question: "Where would a North American be if he or she was spelunking?",
+  options: ["In a cave", "In a forest", "Underwater", "In a mine"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 717,
+  question: "In which novel and 1998 film is there an alien intelligence named Jerry?",
+  options: ["Sphere", "Contact", "The Abyss", "Arrival"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 718,
+  question: "Which 1971 hit song spent the first four weeks of January 1981 at the top of the UK singles charts?",
+  options: ["Bohemian Rhapsody", "Let It Be", "Imagine", "Woman"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 719,
+  question: "'The Third Rome' is a nickname for which capital city?",
+  options: ["Constantinople", "Athens", "Moscow", "Rome"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 720,
+  question: "Which fictional character, born on the battlefield, wields the Atlantean sword?",
+  options: ["Conan the Barbarian", "Thorin Oakenshield", "Red Sonja", "Elric of Melniboné"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 721,
+  question: "Plus or minus 5, how many steps did Usain Bolt need to complete the 100 metres in his record time of 9.63 seconds?",
+  options: ["38", "41", "46", "36"],
+  correctAnswer: 1,
+  category: "Sports",
+  difficulty: "hard"
+},
+{
+  id: 722,
+  question: "What is a Nick and Nora?",
+  options: ["A type of cocktail shaker", "A style of garnish", "A cocktail glass", "A type of bitters"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 723,
+  question: "How many times did Scarlett O'Hara marry?",
+  options: ["Three", "Twice", "Once", "Four"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 724,
+  question: "\"He saw the world in a way no one could have imagined\" was the movie poster tagline for which biopic that won 4 Academy Awards including Best Picture?",
+  options: ["A Beautiful Mind", "The Imitation Game", "Good Will Hunting", "The Theory of Everything"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 725,
+  question: "Translated, which Islamic religious term means 'struggle' or 'resistance'?",
+  options: ["Jihad", "Sharia", "Sunnah", "Ummah"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "medium"
+},
+{
+  id: 726,
+  question: "In Kipling's 'The Jungle Book', what kind of animal is Hathi?",
+  options: ["Panther", "Tiger", "Elephant", "Monkey"],
+  correctAnswer: 2,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 727,
+  question: "Which three countries in the world have the most active volcanoes?",
+  options: ["USA, Indonesia, Japan", "Indonesia, Italy, Chile", "Philippines, Japan, USA", "Japan, USA, Papua New Guinea"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 728,
+  question: "Which English actor was Uma Thurman's first husband?",
+  options: ["Daniel Day-Lewis", "Ralph Fiennes", "Gary Oldman", "Kenneth Branagh"],
+  correctAnswer: 2,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 729,
+  question: "Plus or minus 2, how many bones are there in an adult human skull?",
+  options: ["24", "18", "22", "26"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 730,
+  question: "What name was given to a liberated woman in the roaring 20's who, amongst other things, smoked, drank, wore short skirts and drove automobiles?",
+  options: ["Flapper", "Bopper", "Dame", "Floozy"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 731,
+  question: "Which Greek god responsible for causing earthquakes fathered both the Cyclops and the horse Pegasus?",
+  options: ["Poseidon", "Zeus", "Ares", "Apollo"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 732,
+  question: "In which country was Freddie Mercury born?",
+  options: ["Zanzibar", "Kenya", "Tanzania", "India"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "easy"
+},
+{
+  id: 733,
+  question: "In which country was Joe Strummer born?",
+  options: ["Turkey", "USA", "Ireland", "Morocco"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 734,
+  question: "In which country was Engelbert Humperdinck born?",
+  options: ["India", "UK", "Sri Lanka", "South Africa"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 735,
+  question: "In which country was Manfred Mann born?",
+  options: ["South Africa", "Germany", "USA", "Netherlands"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 736,
+  question: "In which country was Eddie Van Halen born?",
+  options: ["Netherlands", "Belgium", "USA", "Austria"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 737,
+  question: "Which girl is also known as Kara Zor-El?",
+  options: ["Wonder Woman", "Supergirl", "Batgirl", "Captain Marvel"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 738,
+  question: "Robert Haillet was the original name for which Adidas shoes?",
+  options: ["Superstar", "Stan Smith", "Gazelle", "Samba"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 739,
+  question: "It is said that 'Here thou art, then' were which alluring woman's last words?",
+  options: ["Cleopatra", "Helen of Troy", "Marie Antoinette", "Lucrezia Borgia"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 740,
+  question: "A large city and the name given to the flu pandemic that killed an estimated 1 million people in 1968-69.",
+  options: ["Seoul", "Hong Kong", "Bangkok", "Shanghai"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 741,
+  question: "Bobby Rydell High School is a focal point in which popular film?",
+  options: ["Grease", "Hairspray", "Footloose", "Dirty Dancing"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 742,
+  question: "What kind of 'Band' was a number one UK hit single (No. 3 in the US) in 1970?",
+  options: ["Band On The Run", "Band Of Brothers", "Band Of Gold", "Wedding Band"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 743,
+  question: "Until recently, which company built the Mirja, the largest airplane in the world?",
+  options: ["Antonov", "Airbus", "Lockheed Martin", "Boeing"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 744,
+  question: "In which best selling novel, first published in 2001, is there a floating carnivorous island?",
+  options: ["Life Of Pi", "The Road", "Shantaram", "The Life Before Us"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 745,
+  question: "Many merchant navies in the world use so called flags of convenience. Which two countries' flags are the most common?",
+  options: ["Panama and Liberia", "Malta and Bahamas", "Cyprus and Belize", "Marshall Islands and Honduras"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 746,
+  question: "What are the four countries in the world with the most Christians by total number?",
+  options: ["USA, Brazil, Mexico and Russia", "Italy, Brazil, Nigeria and Spain", "USA, Nigeria, Brazil and Kenya", "Russia, Germany, Brazil and France"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 747,
+  question: "The longest professional tennis match in history was an 11 hour and 5 min marathon between John Isner and Nicolas Mahut during the 2010 Wimbledon Championship. Plus or minus 10, how many games did Isner win in the 5th set to emerge victorious?",
+  options: ["70", "55", "68", "62"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "hard"
+},
+{
+  id: 748,
+  question: "Gourde is the standard monetary unit in which Caribbean country?",
+  options: ["Haiti", "Dominican Republic", "Jamaica", "Barbados"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 749,
+  question: "What colour is the semi-precious stone Lapis Lazuli?",
+  options: ["Deep blue", "Emerald green", "Golden yellow", "Violet"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 750,
+  question: "\"You don't get 500 million friends without making a few enemies\" was the movie poster tagline to which film?",
+  options: ["The Social Network", "Wall Street", "The Big Short", "Moneyball"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 751,
+  question: "Which part of the human body is also known as the cilium?",
+  options: ["Eyelash", "Nail", "Tear duct", "Eyebrow"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 752,
+  question: "Now that the UK has left, which EU country has the longest coastline?",
+  options: ["Greece", "Italy", "France", "Sweden"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+  {
+    id: 753,
+    question: "What is the official language in Andorra?",
+    options: ["Spanish", "Catalan", "French", "Occitan"],
+    correctAnswer: 1,
+    category: "Language",
+    difficulty: "easy"
+  },
+  {
+    id: 754,
+    question: 'The following lyrics are from which song with the word "Song" somewhere in the title? "We come from the land of the ice and snow, from the midnight sun where the hot springs flow"',
+    options: ["Immigrant Song", "The Viking Song", "Song of the North", "Warrior's Song"],
+    correctAnswer: 0,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 755,
+    question: 'The following lyrics are from which song with the word "Song" somewhere in the title? "Or a man who makes potions in a travelling show"',
+    options: ["Song for Guy", "Your Song", "Tiny Song", "My Funny Song"],
+    correctAnswer: 1,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 756,
+    question: "Meaning 'prop' or 'support', what is the NATO codename for the Russian MiG 29, 33, and 35 jet fighter?",
+    options: ["Spindle", "Fulcrum", "Supporter", "Pylon"],
+    correctAnswer: 1,
+    category: "History & Politics",
+    difficulty: "medium"
+  },
+  {
+    id: 757,
+    question: 'Name the four capital cities in the world that begin with the word "San".',
+    options: [
+      "San Francisco, San Pedro, San Rafael, San Benito",
+      "San Jose, San Juan, San Marino, San Salvador",
+      "San Antonio, San Miguel, San Mateo, San Lucas",
+      "San Luis, San Sebastian, San Andres, San Felipe"
+    ],
+    correctAnswer: 1,
+    category: "Geography & Nature",
+    difficulty: "hard"
+  },
+  {
+    id: 758,
+    question: "A tight fitting form of headgear and a Crimean Peninsula town. One word.",
+    options: ["Cossack", "Balaklava", "Karakul", "Beret"],
+    correctAnswer: 1,
+    category: "Arts & Culture",
+    difficulty: "medium"
+  },
+  {
+    id: 759,
+    question: "Who were the last three Russian men to win a Grand Slam singles title in tennis?",
+    options: [
+      "Daniil Medvedev, Marat Safin, Yevgeny Kafelnikov",
+      "Andrey Rublev, Daniil Medvedev, Nikolay Davydenko",
+      "Marat Safin, Karen Khachanov, Daniil Medvedev",
+      "Evgeny Kafelnikov, Daniil Medvedev, Nikolay Davydenko"
+    ],
+    correctAnswer: 0,
+    category: "Sports",
+    difficulty: "hard"
+  },
+  {
+    id: 760,
+    question: '"Same Planet. New Scum." was the movie poster tag line for which 2002 film?',
+    options: ["Starship Troopers", "Galaxy Quest", "Men In Black II", "The Fifth Element"],
+    correctAnswer: 2,
+    category: "TV & Cinema",
+    difficulty: "easy"
+  },
+  {
+    id: 761,
+    question: "Pink Floyd's 'Shine On You Crazy Diamond' was a tribute to which reclusive musician?",
+    options: ["Syd Barrett", "Brian Wilson", "Jim Morrison", "David Gilmour"],
+    correctAnswer: 0,
+    category: "Music",
+    difficulty: "medium"
+  },
+  {
+    id: 762,
+    question: "What was the longest running West End musical before it was overtaken in 1989 by Cats?",
+    options: ["Fiddler on the Roof", "Jesus Christ Superstar", "My Fair Lady", "The King and I"],
+    correctAnswer: 1,
+    category: "Arts & Culture",
+    difficulty: "easy"
+  },
+{
+  id: 763,
+  question: "Who was met by an estimated 150,000 ecstatic admirers at Le Bourget Field on Saturday, May 21, 1927?",
+  options: ["Amelia Earhart", "Charles Lindbergh", "Howard Hughes", "Wiley Post"],
+  correctAnswer: 1,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 764,
+  question: "Mondoshawan is an alien race and language sometimes spoken in which popular 1997 film?",
+  options: ["Starship Troopers", "The Fifth Element", "Contact", "Galaxy Quest"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 765,
+  question: "Rounded to the nearest 1,000 km, how long is the border between the US and Canada?",
+  options: ["3,000 km", "6,000 km", "9,000 km", "12,000 km"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 766,
+  question: "In which 1959 post-apocalyptic film does the nuclear submarine USS Sawfish play a role?",
+  options: ["On The Beach", "The Day the Earth Stood Still", "Fail-Safe", "Dr. Strangelove"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "hard"
+},
+{
+  id: 767,
+  question: "The word \"One\" excluded, which two film titles that begin with a number have won an Academy Award for Best Film?",
+  options: ["300 and 127 Hours", "Million Dollar Baby and 12 Years A Slave", "10 Things I Hate About You and 21 Grams", "13 Going on 30 and 28 Days Later"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "hard"
+},
+{
+  id: 768,
+  question: "The Adidas Gazelle was first introduced in 1966 and then redesigned for use in which sport?",
+  options: ["Handball", "Volleyball", "Wrestling", "Basketball"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 769,
+  question: "Although he never received the award, which man was nominated for the Nobel Peace Prize in 1937, 38, 39, 47 and 48?",
+  options: ["Mahatma Gandhi", "Albert Einstein", "Winston Churchill", "Franklin D. Roosevelt"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 770,
+  question: "In which year did the Concorde make its last commercial flight?",
+  options: ["2003", "2000", "1999", "1989"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 771,
+  question: "What is the American television idiom, based on a Happy Days episode, used to describe a tv program that \"was once good but has now peaked and taken a severe downturn in quality\"?",
+  options: ["Jumped the shark", "Lost the plot", "Gone off the rails", "Hit the wall"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 772,
+  question: "Which football player holds the English Premier League record with 5 hat tricks in a single season?",
+  options: ["Harry Kane", "Alan Shearer", "Wayne Rooney", "Sergio Agüero"],
+  correctAnswer: 1,
+  category: "Sports",
+  difficulty: "hard"
+},
+{
+  id: 773,
+  question: "The name for which butterfly stage stems from the Latin word for \"ghost\"?",
+  options: ["larva", "pupa", "nymph", "caterpillar"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "hard"
+},
+{
+  id: 774,
+  question: "\"Don't let go!\" was the movie poster tag line to which 2013 sci-fi film?",
+  options: ["Gravity", "Interstellar", "The Martian", "Passengers"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 775,
+  question: "Rhinotillexomania is the medical term for which obsessive disorder?",
+  options: ["Compulsive nose picking", "Hair pulling", "Obsessive hand washing", "Nail biting"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 776,
+  question: "Which circuit has hosted the most Formula One Grand Prix races?",
+  options: ["Silverstone", "Monaco", "Monza", "Spa-Francorchamps"],
+  correctAnswer: 2,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 777,
+  question: "Which powerful empire was abolished in 1922 after more than 600 years of rule?",
+  options: ["Ottoman", "Roman", "Austro-Hungarian", "Mongol"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 778,
+  question: "Which animated film begins with the words \"Long ago the great Frith made the world.\"?",
+  options: ["Watership Down", "The Last Unicorn", "The Secret of NIMH", "The Black Cauldron"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 779,
+  question: "The impact crater from the asteroid that was apparently responsible for the extinction of the dinosaurs 65 million years ago is found on which peninsula?",
+  options: ["Iberian", "Baja California", "Kamchatka", "Yucatan"],
+  correctAnswer: 3,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 780,
+  question: "With 68 km, which country has the shortest land border with Germany?",
+  options: ["Switzerland", "Denmark", "Belgium", "Luxembourg"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 781,
+  question: "The best selling album of 1976 was a double live album from which ex-Humble Pie member?",
+  options: ["Peter Frampton", "Steve Marriott", "Greg Ridley", "Jerry Shirley"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "hard"
+},
+{
+  id: 782,
+  question: "Cox's Bazar is, with 120 km of unbroken sandy shore, the longest beach in the world. In which country is it located?",
+  options: ["Sri Lanka", "India", "Bangladesh", "Indonesia"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 783,
+  question: "Which two songs with titles beginning with the word \"Dancing\" were top 10 hits in 1985?",
+  options: ["Dancing in the Dark and Dancing in the Moonlight", "Dancing with Myself and Dancing in the Dark", "Dancing Queen and Dancing All Night", "Dancing in the Street and Dancing in the Dark"],
+  correctAnswer: 3,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 784,
+  question: "Which 104-year-old woman with the initials L. R., a two-time winner of the Academy Award for Best Actress, was the oldest living Oscar winner?",
+  options: ["Luise Rainer", "Olivia de Havilland", "Katharine Hepburn", "Gloria Stuart"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "hard"
+},
+{
+  id: 785,
+  question: "Which composer with the initials M.H. is one of only two people to have won an Oscar, a Grammy, an Emmy, a Tony and a Pulitzer Prize?",
+  options: ["Marvin Hamlisch", "Leonard Bernstein", "Stephen Sondheim", "Andrew Lloyd Webber"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "hard"
+},
+{
+  id: 786,
+  question: "Which European capital located along the Rhine river has less than 6,000 residents?",
+  options: ["Vaduz", "San Marino", "Reykjavik", "Andorra la Vella"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 787,
+  question: "Which World Chess Champion, a grandmaster at the age of 13, is known as the 'Mozart of Chess'?",
+  options: ["Magnus Carlsen", "Garry Kasparov", "Bobby Fischer", "Anatoly Karpov"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 788,
+  question: "Which English rock musician and former member of Humble Pie had the best selling album of 1976 and played lead guitar on the hit song 'Grease'?",
+  options: ["Peter Frampton", "Mick Ronson", "Jeff Beck", "Steve Marriott"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 789,
+  question: "Which 1994 movie is the highest grossing hand drawn animated feature film of all time?",
+  options: ["The Lion King", "Beauty and the Beast", "Aladdin", "Snow White and the Seven Dwarfs"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 790,
+  question: "What symbol is depicted on the national flag of North Macedonia?",
+  options: ["Sun", "Star", "Eagle", "Lion"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 791,
+  question: "Based on worshipper capacity, in which two cities are the largest mosques in the world located?",
+  options: ["Mecca and Medina", "Istanbul and Cairo", "Tehran and Jakarta", "Riyadh and Lahore"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 792,
+  question: "A magic charm or spell and a sauce. One word, four letters.",
+  options: ["Mojo", "Jinx", "Hex", "Ouzo"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "medium"
+},
+{
+  id: 793,
+  question: "On 18 March 1965, Alexey Leonov became the first human to do what?",
+  options: ["Walk in space", "Dock a spacecraft", "Orbit the Moon", "Perform a moon landing"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 794,
+  question: "What is the most populated country in the world with French as the official language?",
+  options: ["Democratic Republic of Congo", "France", "Cameroon", "Ivory Coast"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 795,
+  question: "Which French footballer is a joint all-time record holder for the most red cards in English Premier League history?",
+  options: ["Patrick Vieira", "Eric Cantona", "Didier Deschamps", "Laurent Blanc"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 796,
+  question: "Who did Kenney Jones replace in November 1978?",
+  options: ["Keith Moon", "Roger Taylor", "John Bonham", "Charlie Watts"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 797,
+  question: "The uranium concentrate powder Urania is better known under which edible sounding name?",
+  options: ["Yellowcake", "Greenpea", "Redflour", "Whitebread"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 798,
+  question: "What is the oldest religious order in the Latin Church?",
+  options: ["Benedictines", "Jesuits", "Franciscans", "Dominicans"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 799,
+  question: "According to the historian Stuart Laycock, how many countries in the world has Britain never invaded?",
+  options: ["22", "7", "45", "100"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 800,
+  question: "What name did Scarlett O'Hara and Rhett Butler give to their only daughter?",
+  options: ["Bonnie Blue", "Melanie", "Katie Scarlett", "Ellie May"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 801,
+  question: "What is the oldest existing capital city in the world?",
+  options: ["Damascus", "Athens", "Jerusalem", "Beirut"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 802,
+  question: "On which 1969 album would one find the song with the unusual title 'Several species of small furry animals gathered together in a cave and grooving with a Pict'?",
+  options: ["Ummagumma (Pink Floyd)", "The White Album (The Beatles)", "Electric Ladyland (Jimi Hendrix)", "Atom Heart Mother (Pink Floyd)"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "hard"
+},
+{
+  id: 803,
+  question: "What does the Greek root 'porn' mean?",
+  options: ["Prostitute", "Lust", "Love", "Naked"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "medium"
+},
+{
+  id: 804,
+  question: "Although it only reached number 62 in the US music charts in 1967, which inebriant topped the charts on both sides of the Atlantic in the 1980s?",
+  options: ["Red Red Wine", "Tequila Sunrise", "Champagne Supernova", "White Lightning"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 805,
+  question: "With 1,600,000–2,200,000 SHUs, which superlative does the 'Carolina Reaper' hold?",
+  options: ["World's hottest chili pepper", "Most expensive spice", "Largest edible pepper", "First GMO pepper"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 806,
+  question: "Which 1994 black comedy with an original screenplay written by Quentin Tarantino used the movie poster tag line: 'A bold new film that takes a look at a country seduced by fame, obsessed by crime and consumed by the media'?",
+  options: ["Natural Born Killers", "Pulp Fiction", "Jackie Brown", "Reservoir Dogs"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "hard"
+},
+{
+  id: 807,
+  question: "Which UN Secretary General has a first name that means 'Friday'?",
+  options: ["Kofi Annan", "Ban Ki-moon", "Boutros Boutros-Ghali", "Antonio Guterres"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 808,
+  question: "Who was the first commoner to appear on a British postage stamp?",
+  options: ["William Shakespeare", "Winston Churchill", "Isaac Newton", "Charles Dickens"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 809,
+  question: "Which singer's fictional male alter ego is called Jo Calderone?",
+  options: ["Lady Gaga", "Miley Cyrus", "Beyoncé", "Madonna"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 810,
+  question: "What do Scarlett Johansson, Elvis Presley, Cameron Winklevoss, Vin Diesel, Robin Gibb and Ashton Kutcher all have in common?",
+  options: ["Twin brother", "Born on a Monday", "Won Grammys", "Vegetarian"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 811,
+  question: "Which Danish company is the world's largest producer of tyres?",
+  options: ["Lego", "Michelin", "Bridgestone", "Pirelli"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 812,
+  question: "Who turned down an offer of one billion US dollars to reunite in the year 2000?",
+  options: ["ABBA", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 813,
+  question: "Which popular sci-fi action film takes place in the year 2199?",
+  options: ["The Matrix", "Blade Runner", "Minority Report", "Interstellar"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 814,
+  question: "According to the UN, a world record 31% of the population of which country are vegetarian?",
+  options: ["India", "Nepal", "Ethiopia", "Italy"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 815,
+  question: "'Arabian wine' was a term used by 17th century Europeans for what?",
+  options: ["Coffee", "Tea", "Shiraz", "Fig wine"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 816,
+  question: "The ravens Huginn and Muninn are often depicted sitting on which man's shoulders?",
+  options: ["Odin", "Zeus", "Ra", "Merlin"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 817,
+  question: "The German theoretical physicist Arnold Sommerfeld holds the record for the most Nobel Prize nominations without a win. Plus or minus 25, how many times was he nominated?",
+  options: ["84", "56", "99", "108"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 818,
+  question: "What is the only thing that the Emperor of Japan is forbidden to consume?",
+  options: ["Fugu (puffer fish)", "Horse meat", "Sake", "Sea urchin"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 819,
+  question: "A European city and an unusually strong steel traditionally used to make swords. Six letters.",
+  options: ["Toledo", "Vienna", "Berlin", "Naples"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "medium"
+},
+{
+  id: 820,
+  question: "Kisspeptin is a protein which plays an important role in which stage of human development?",
+  options: ["Puberty", "Embryogenesis", "Menopause", "Fertilisation"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 821,
+  question: "Bands like Motörhead, Mötley Crüe and Blue Öyster Cult all have 'Metal Umlauts' or so-called 'Rock Dots' over one or more letters in their name. Over which letter did the fictional band Spinal Tap have 'rock dots'?",
+  options: ["n", "a", "e", "o"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 822,
+  question: "The 5 youngest Olympic gold medalists are all which age?",
+  options: ["13 years old", "14 years old", "15 years old", "12 years old"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 823,
+  question: "Which New York City landmark was razed to make way for the construction of the Empire State Building?",
+  options: ["The Waldorf Astoria Hotel(s)", "The Chrysler Building", "Penn Station", "Grand Central Depot"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 824,
+  question: "Both Harry Nilsson and Mariah Carey had a hit with the song 'Without You'. The song was written and first recorded by which Welsh rock band?",
+  options: ["Badfinger", "Manic Street Preachers", "The Alarm", "Stereophonics"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 825,
+  question: '"Beautiful view. Magnificent desolation" were which man\'s first words on the moon?',
+  options: ["Buzz Aldrin", "Neil Armstrong", "Michael Collins", "Yuri Gagarin"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 826,
+  question: 'Which popular 1994 film ends with the following words? "I hope I can make it across the border. I hope to see my friend and shake his hand. I hope the Pacific is as blue as it has been in my dreams. I hope."',
+  options: ["The Shawshank Redemption", "Forrest Gump", "Pulp Fiction", "The Lion King"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 827,
+  question: 'Surgical foot narrowing (in order that women can fit into designer heels) is named after which fairy tale character?',
+  options: ["Cinderella", "Sleeping Beauty", "Rapunzel", "Snow White"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "hard"
+},
+{
+  id: 828,
+  question: 'Who penned the fairy tale titled "The Princess and the Pea"?',
+  options: ["Hans Christian Andersen", "Brothers Grimm", "Charles Perrault", "J.M. Barrie"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 829,
+  question: 'Which five countries have produced the most Nobel Prize Laureates?',
+  options: [
+    "USA, UK, Germany, France, Sweden",
+    "USA, UK, Russia, Japan, Italy",
+    "Germany, UK, USA, Canada, Australia",
+    "France, Germany, USA, Italy, Switzerland"
+  ],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 830,
+  question: 'According to the Wall Street Journal, the average NFL Football game lasts 3 hours and 12 minutes. How many minutes is the ball actually in play?',
+  options: ["11 min", "37 min", "19 min", "25 min"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "hard"
+},
+{
+  id: 831,
+  question: 'In Billy Joel\'s "Piano Man", who is the real estate novelist?',
+  options: ["Paul", "John", "Tony", "Brian"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 832,
+  question: 'Which novel and film revolves around the murder of the unpopular American businessman Samuel Ratchett?',
+  options: [
+    "Murder on the Orient Express",
+    "Death on the Nile",
+    "The Girl with the Dragon Tattoo",
+    "Gone Girl"
+  ],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 833,
+  question: 'What was the only James Bond theme song to have reached number 1 in the US Billboard Hot 100?',
+  options: [
+    "A View To A Kill",
+    "Live and Let Die",
+    "Skyfall",
+    "Nobody Does It Better"
+  ],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 834,
+  question: 'A tournament played at the 1900 Paris Summer Olympics marked the first appearance of women in the modern games. In which leisurely sport, played on grass, did the women compete against men?',
+  options: ["Croquet", "Tennis", "Golf", "Archery"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "hard"
+},
+{
+  id: 835,
+  question: 'The "wiki" in Wikipedia stems from the Hawaiian language. What does "wiki wiki" mean in Hawaiian?',
+  options: ["Quick", "Knowledge", "Group", "Friend"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "easy"
+},
+{
+  id: 836,
+  question: 'What is the unlucky number in China?',
+  options: ["4", "13", "7", "17"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 837,
+  question: 'What is the unlucky number in Italy?',
+  options: ["17", "13", "7", "4"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 838,
+  question: 'The name of which Islamist organisation translates to "The Base" or "The Foundation"?',
+  options: ["al-Qaeda", "Hamas", "Hezbollah", "Taliban"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 839,
+  question: 'The following was a movie poster tag line for which 1977 film? "Out of the sky comes the screen\'s most incredible spectacle of men and war!"',
+  options: ["A Bridge Too Far", "The Longest Day", "Platoon", "Midway"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 840,
+  question: 'With 5,614 km, in which country is the world\'s longest fence located?',
+  options: ["Australia", "USA", "Russia", "India"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 841,
+  question: 'Name the film based on a Stephen King story in which Christopher Walken played a role.',
+  options: ["The Dead Zone", "Misery", "It", "Pet Sematary"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 842,
+  question: 'Name the film based on a Stephen King story in which James Caan played a role.',
+  options: ["Misery", "The Shining", "Carrie", "Thinner"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 843,
+  question: 'Name the film based on a Stephen King story in which Max von Sydow played a role.',
+  options: ["Needful Things", "The Green Mile", "The Mist", "Dreamcatcher"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 844,
+  question: 'Name the film based on a Stephen King story in which Damien Lewis played a role.',
+  options: ["Dreamcatcher", "Stand By Me", "1408", "It"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 845,
+  question: 'What are the three wealthiest NHL clubs?',
+  options: [
+    "Toronto Maple Leafs, New York Rangers and Montreal Canadiens",
+    "New York Rangers, LA Kings and Chicago Blackhawks",
+    "Boston Bruins, Toronto Maple Leafs and Detroit Red Wings",
+    "Montreal Canadiens, Pittsburgh Penguins and Vancouver Canucks"
+  ],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "hard"
+},
+{
+  id: 846,
+  question: 'Vesper Lynd is a Bond girl in Casino Royale. What does the Latin root "vesper" mean?',
+  options: ["Evening", "Danger", "Wind", "Flower"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "medium"
+},
+{
+  id: 847,
+  question: '“Don’t Be Evil” was the former motto of which company?',
+  options: ["Google", "Facebook", "Tesla", "Apple"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 848,
+  question: 'Which Lennon and McCartney composition was a number one hit song on both sides of the Atlantic for Peter and Gordon?',
+  options: ["A World Without Love", "Eight Days a Week", "She Loves You", "Michelle"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 849,
+  question: 'According to Forbes Magazine, which G.B. was the highest paid fashion model in the year 2015?',
+  options: ["Gisele Bundchen", "Gigi Hadid", "Bella Hadid", "Georgia May Jagger"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 850,
+  question: 'The House of Bernadotte is the name given to the royal dynasty of which European country?',
+  options: ["Sweden", "Norway", "Denmark", "Netherlands"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 851,
+  question: 'What is known as "Country’s most famous stage" and the "Home of American music"?',
+  options: ["Grand Ole Opry", "Carnegie Hall", "Ryman Auditorium", "Bluebird Cafe"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 852,
+  question: 'The target in which team sport is called "the tee"?',
+  options: ["Curling", "Lawn Bowls", "Shuffleboard", "Bocce"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "easy"
+},
+{
+  id: 853,
+  question: 'Which country’s alphabet is known as Hangul?',
+  options: ["South Korea", "Japan", "Vietnam", "Thailand"],
+  correctAnswer: 0,
+  category: "Language",
+  difficulty: "easy"
+},
+{
+  id: 854,
+  question: 'Name the book by author Carlo Collodi that has been translated into more than 200 different languages.',
+  options: ["Pinocchio", "Heidi", "The Little Prince", "Treasure Island"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 855,
+  question: 'Name the book by author Antoine de Saint Exupery that has been translated into more than 200 different languages.',
+  options: ["The Little Prince", "Night Flight", "Wind, Sand and Stars", "Southern Mail"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 856,
+  question: 'Name the book by author John Bunyan that has been translated into more than 200 different languages.',
+  options: ["Pilgrim's Progress", "The Holy War", "Grace Abounding", "The Life and Death of Mr. Badman"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 857,
+  question: 'In which country is the recently discovered 6,000 km long Hamza River?',
+  options: ["Brazil", "Peru", "Argentina", "Colombia"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 858,
+  question: 'King Charles VI ruled France from 1380–1422. During the last 30 years of his reign he suffered bouts of insanity and often believed he was made of what?',
+  options: ["Glass", "Stone", "Ice", "Smoke"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 859,
+  question: 'The following was a movie poster tag line for which Oscar winning film? "The funny, touching and totally irresistible story of a working relationship that became a 25 year friendship"',
+  options: ["Driving Miss Daisy", "Forrest Gump", "The King’s Speech", "The Help"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 860,
+  question: 'What was the last European country to relinquish its overseas territory in India?',
+  options: ["Portugal", "France", "Netherlands", "Britain"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 861,
+  question: 'In song, where did Betty meet "The Leader of the Pack"?',
+  options: ["At the candy store", "At the roller rink", "By the school gates", "At the drive-in"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 862,
+  question: 'Hallux is the medical term for which body part?',
+  options: ["Big toe", "Thumb", "Heel", "Elbow"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 863,
+  question: 'Starbuck is a doomed character in which famous novel?',
+  options: ["Moby Dick", "The Old Man and the Sea", "Treasure Island", "The Sea-Wolf"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 864,
+  question: 'Fennel pollen excluded, what are the two most expensive spices?',
+  options: ["Saffron and vanilla", "Cardamom and saffron", "Clove and nutmeg", "Cinnamon and vanilla"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 865,
+  question: 'Which European city has a record 2,500 bridges?',
+  options: ['Hamburg', 'Venice', 'Amsterdam', 'St. Petersburg'],
+  correctAnswer: 0,
+  category: 'Geography & Nature',
+  difficulty: 'medium'
+},
+{
+  id: 866,
+  question: 'The following line is from which 1994 film? "Forty years I been asking permission to piss. I can\'t squeeze a drop without say so."',
+  options: ['The Shawshank Redemption', 'Forrest Gump', 'Pulp Fiction', 'Natural Born Killers'],
+  correctAnswer: 0,
+  category: 'TV & Cinema',
+  difficulty: 'medium'
+},
+{
+  id: 867,
+  question: 'The all-star band consisting of John Lennon, Eric Clapton, Keith Richards and Mitch Mitchell called themselves "The Dirty" what?',
+  options: ['The Dirty Mac', 'The Dirty Jacks', 'The Dirty Tones', 'The Dirty Strings'],
+  correctAnswer: 0,
+  category: 'Music',
+  difficulty: 'hard'
+},
+{
+  id: 868,
+  question: 'In which country is French President Emmanuel Macron a prince?',
+  options: ['Andorra', 'Luxembourg', 'Monaco', 'Liechtenstein'],
+  correctAnswer: 0,
+  category: 'History & Politics',
+  difficulty: 'hard'
+},
+{
+  id: 869,
+  question: 'A tapestry reproduction of which famous anti-war painting hangs outside the Security Council Chamber at the UN headquarters in New York City?',
+  options: ['Picasso\'s "Guernica"', 'Goya\'s "The Third of May 1808"', 'Monet\'s "Impression, Sunrise"', 'Dalí\'s "The Face of War"'],
+  correctAnswer: 0,
+  category: 'Arts & Culture',
+  difficulty: 'medium'
+},
+{
+  id: 870,
+  question: 'What were Severus Snape\'s last words in film?',
+  options: ['"You have your mother\'s eyes"', '"It\'s over"', '"Always"', '"Look at me"'],
+  correctAnswer: 0,
+  category: 'TV & Cinema',
+  difficulty: 'easy'
+},
+{
+  id: 871,
+  question: 'Which famous 19th century dance style translated can mean "a duck" or "uproar"?',
+  options: ['Cancan', 'Polka', 'Mazurka', 'Quadrille'],
+  correctAnswer: 0,
+  category: 'Arts & Culture',
+  difficulty: 'medium'
+},
+{
+  id: 872,
+  question: 'The Canadian harpooner Ned Land is a central character in which novel?',
+  options: ['Twenty Thousand Leagues Under The Sea', 'Moby Dick', 'The Sea-Wolf', 'Treasure Island'],
+  correctAnswer: 0,
+  category: 'Literature',
+  difficulty: 'medium'
+},
+{
+  id: 873,
+  question: 'The name of which luxury train is advertised as "A window to the soul of South Africa"?',
+  options: ['The Blue Train', 'The Golden Chariot', 'Rovos Rail', 'The African Express'],
+  correctAnswer: 0,
+  category: 'Geography & Nature',
+  difficulty: 'medium'
+},
+{
+  id: 874,
+  question: 'What was the title of the James Bond film that was released in the same year as "Octopussy"?',
+  options: ['Never Say Never Again', 'For Your Eyes Only', 'A View to a Kill', 'The Living Daylights'],
+  correctAnswer: 0,
+  category: 'TV & Cinema',
+  difficulty: 'hard'
+},
+{
+  id: 875,
+  question: 'What is the northernmost city in the world with a population of 1 million or more inhabitants?',
+  options: ['Saint Petersburg', 'Oslo', 'Helsinki', 'Reykjavik'],
+  correctAnswer: 0,
+  category: 'Geography & Nature',
+  difficulty: 'medium'
+},
+{
+  id: 876,
+  question: 'The name for which herbivorous marine mammal stems from an old Caribbean word meaning "breast"?',
+  options: ['Manatee', 'Dugong', 'Sea lion', 'Walrus'],
+  correctAnswer: 0,
+  category: 'Science & Technology',
+  difficulty: 'hard'
+},
+{
+  id: 877,
+  question: 'What name was given to the first Franco-Mexican War of 1838–39?',
+  options: ['Pastry War', 'The Mole War', 'Sugar Conflict', 'Café War'],
+  correctAnswer: 0,
+  category: 'History & Politics',
+  difficulty: 'hard'
+},
+{
+  id: 878,
+  question: 'What is Michelangelo\'s "David" holding in his right hand?',
+  options: ['A stone', 'A staff', 'A sword', 'A slingshot'],
+  correctAnswer: 0,
+  category: 'Arts & Culture',
+  difficulty: 'medium'
+},
+{
+  id: 879,
+  question: 'In which year did Paul McCartney first meet John Lennon?',
+  options: ['1957', '1958', '1956', '1959'],
+  correctAnswer: 0,
+  category: 'Music',
+  difficulty: 'hard'
+},
+{
+  id: 880,
+  question: 'Which current Premier League club has won all 4 divisions in English football?',
+  options: ['Wolves', 'Leeds United', 'Aston Villa', 'Sheffield United'],
+  correctAnswer: 0,
+  category: 'Sports',
+  difficulty: 'medium'
+},
+{
+  id: 881,
+  question: 'Which film starring Anthony Hopkins ends with the following words? "The pain now is part of the happiness then. That\'s the deal."',
+  options: ['Shadowlands', 'Legends of the Fall', 'The Remains of the Day', 'The Elephant Man'],
+  correctAnswer: 0,
+  category: 'TV & Cinema',
+  difficulty: 'medium'
+},
+{
+  id: 882,
+  question: 'Which tennis player spent the most weeks ranked No. 1 in the ATP rankings during the 1970s?',
+  options: ['Jimmy Connors', 'Björn Borg', 'John McEnroe', 'Ilie Năstase'],
+  correctAnswer: 0,
+  category: 'Sports',
+  difficulty: 'hard'
+},
+{
+  id: 883,
+  question: 'Plus or minus 25, in which year did Dr Zefram Cochrane invent the warp drive engine?',
+  options: ['2063', '2090', '2040', '2125'],
+  correctAnswer: 0,
+  category: 'TV & Cinema',
+  difficulty: 'medium'
+},
+{
+  id: 884,
+  question: 'Which "Taste" won the Grammy for Record of the Year in 1966?',
+  options: ['A Taste Of Honey', 'Sweet Taste of Freedom', 'Taste the Feeling', 'A Taste for Jazz'],
+  correctAnswer: 0,
+  category: 'Music',
+  difficulty: 'hard'
+},
+{
+  id: 885,
+  question: 'Measured in both area and population, what is the second biggest Portuguese speaking country in the world?',
+  options: ['Angola', 'Mozambique', 'Portugal', 'Guinea-Bissau'],
+  correctAnswer: 0,
+  category: 'Geography & Nature',
+  difficulty: 'medium'
+},
+{
+  id: 886,
+  question: 'The British-Canadian scientist Geoffrey Hinton is known as "The Godfather" of what?',
+  options: ['Artificial Intelligence', 'Quantum Computing', 'Genetic Engineering', 'Cryptography'],
+  correctAnswer: 0,
+  category: 'Science & Technology',
+  difficulty: 'easy'
+},
+{
+  id: 887,
+  question: 'In which country do the most tetraphobics live?',
+  options: ['China', 'South Korea', 'Japan', 'Vietnam'],
+  correctAnswer: 0,
+  category: 'Culture & Language',
+  difficulty: 'medium'
+},
+{
+  id: 888,
+  question: 'In which two films does a character played by Ben Affleck witness a nuclear detonation?',
+  options: ['Armageddon and The Sum Of All Fears', 'Pearl Harbor and Armageddon', 'The Sum Of All Fears and Argo', 'Armageddon and Gone Girl'],
+  correctAnswer: 0,
+  category: 'TV & Cinema',
+  difficulty: 'hard'
+},
+{
+  id: 889,
+  question: 'Since 1983, which flag carrier has been the official airline of Santa Claus?',
+  options: ['Finnair', 'Scandinavian Airlines', 'Lufthansa', 'Air Canada'],
+  correctAnswer: 0,
+  category: 'Arts & Culture',
+  difficulty: 'easy'
+},
+{
+  id: 890,
+  question: 'From the 10th century BC until the last emperor was deposed in 1974, the Solomonic dynasty ruled in which modern day country?',
+  options: ['Ethiopia', 'Egypt', 'Israel', 'Sudan'],
+  correctAnswer: 0,
+  category: 'History & Politics',
+  difficulty: 'hard'
+},
+{
+  id: 891,
+  question: 'Which four songs on The Beatles studio albums are under 1 minute in length?',
+  options: ['Wild Honey Pie, Dig It, Maggie May, Her Majesty', 'Dig It, Her Majesty, Glass Onion, Honey Pie', 'Her Majesty, Blackbird, Wild Honey Pie, Let It Be', 'Maggie May, Honey Pie, Because, Revolution 9'],
+  correctAnswer: 0,
+  category: 'Music',
+  difficulty: 'hard'
+},
+{
+  id: 892,
+  question: 'The last FIFA World Cup in which the Golden Boot winner scored 10 or more goals was Mexico 1970. Which player was the top scorer with 10 goals?',
+  options: ['Gerd Müller', 'Pelé', 'Jairzinho', 'Just Fontaine'],
+  correctAnswer: 0,
+  category: 'Sports',
+  difficulty: 'hard'
+},
+{
+  id: 893,
+  question: 'Which is the fastest growing tree in the Northern Hemisphere?',
+  options: ['Poplar', 'Maple', 'Birch', 'Elm'],
+  correctAnswer: 0,
+  category: 'Science & Technology',
+  difficulty: 'medium'
+},
+{
+  id: 894,
+  question: '"If it\'s just us, it seems like an awful waste of space" was a movie poster tag line for which 1997 film?',
+  options: ['Contact', 'Deep Impact', 'Interstellar', 'Event Horizon'],
+  correctAnswer: 0,
+  category: 'TV & Cinema',
+  difficulty: 'medium'
+},
+{
+  id: 895,
+  question: 'The metropolitan area of Santa Cruz de la Sierra has 2,000,000 plus inhabitants and is one of the fastest growing cities in the world. In which country is it located?',
+  options: ['Bolivia', 'Paraguay', 'Colombia', 'Ecuador'],
+  correctAnswer: 0,
+  category: 'Geography & Nature',
+  difficulty: 'medium'
+},
+{
+  id: 896,
+  question: 'Luthiery (also spelled "Lutherie") is the craft or art of making what?',
+  options: ['String instruments', 'Furniture', 'Clocks', 'Shoes'],
+  correctAnswer: 0,
+  category: 'Arts & Culture',
+  difficulty: 'medium'
+},
+{
+  id: 897,
+  question: 'Which airline was the first to introduce passenger jet service in 1952?',
+  options: ['BOAC', 'Pan Am', 'Lufthansa', 'Air France'],
+  correctAnswer: 0,
+  category: 'History & Politics',
+  difficulty: 'hard'
+},
+{
+  id: 898,
+  question: 'The incurable neurological disorder Kuru, also known as the "laughing sickness", is endemic to the tribal regions of which country?',
+  options: ['Papua New Guinea', 'Indonesia', 'Peru', 'India'],
+  correctAnswer: 0,
+  category: 'Science & Technology',
+  difficulty: 'hard'
+},
+{
+  id: 899,
+  question: 'Valeri Polyakov holds the record for the longest single space flight. Plus or minus 30, how many complete days did he spend on board the Mir space station?',
+  options: ['437', '402', '455', '398'],
+  correctAnswer: 0,
+  category: 'Science & Technology',
+  difficulty: 'hard'
+},
+{
+  id: 900,
+  question: 'Which 1989 Hollywood fantasy-drama was based on the novel titled "Shoeless Joe"?',
+  options: ['Field of Dreams', 'The Natural', 'Angels in the Outfield', 'The Sandlot'],
+  correctAnswer: 0,
+  category: 'TV & Cinema',
+  difficulty: 'medium'
+},
+{
+  id: 901,
+  question: 'Which J.S. was for much of the 1960s the highest paid model in the world?',
+  options: ['Jean Shrimpton', 'Jerry Hall', 'Jane Seymour', 'Janice Dickinson'],
+  correctAnswer: 0,
+  category: 'Arts & Culture',
+  difficulty: 'medium'
+},
+{
+  id: 902,
+  question: 'Which airport in Canada was known as the "Cross-roads of the world" in the 1950s and early 1960s?',
+  options: ['Gander', 'Toronto Pearson', 'Vancouver', 'Montréal-Trudeau'],
+  correctAnswer: 0,
+  category: 'History & Politics',
+  difficulty: 'medium'
+},
+{
+  id: 903,
+  question: 'What is the name of the spider in Home Alone?',
+  options: ['Axl', 'Rocky', 'Buzz', 'Spike'],
+  correctAnswer: 0,
+  category: 'TV & Cinema',
+  difficulty: 'easy'
+},
+{
+  id: 904,
+  question: 'The national drink of Bermuda is a highball cocktail made with dark rum, ginger beer and a slice of lime. What is it called?',
+  options: ['Dark \'n\' Stormy', 'Mai Tai', 'Zombie', 'Planter\'s Punch'],
+  correctAnswer: 0,
+  category: 'Arts & Culture',
+  difficulty: 'medium'
+},
+{
+  id: 905,
+  question: "What were the names of the two Pink Floyd studio albums released between The Dark Side Of The Moon in 1973 and The Wall in 1979?",
+  options: ["Animals and Wish You Were Here", "Meddle and Ummagumma", "Wish You Were Here and Animals", "Atom Heart Mother and The Final Cut"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 906,
+  question: "Amati, Stradivari and Guarneri violins were all once made in which Italian town?",
+  options: ["Cremona", "Florence", "Naples", "Verona"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 907,
+  question: "Which soundtrack album was the best selling album of the year in the US charts in both 1962 and 1963?",
+  options: ["The Sound of Music", "My Fair Lady", "West Side Story", "South Pacific"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 908,
+  question: "Which currency is named after Christopher Columbus?",
+  options: ["Peso", "Escudo", "Colon", "Real"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 909,
+  question: "Which singer is sometimes called 'The First Lady of the British Invasion'?",
+  options: ["Cilla Black", "Dusty Springfield", "Sandie Shaw", "Petula Clark"],
+  correctAnswer: 3,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 910,
+  question: "What was the maximum speed of the legendary German airship Hindenburg?",
+  options: ["135 km/hr", "105 km/hr", "155 km/hr", "165 km/hr"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 911,
+  question: "Which two countries that do not exist today topped the medals table at the 1988 Summer Olympics in Seoul?",
+  options: ["Soviet Union and East Germany", "Czechoslovakia and Yugoslavia", "East Germany and USSR", "USSR and Czechoslovakia"],
+  correctAnswer: 0,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 912,
+  question: "An old name for the Inca sun god and the name given to a world famous ocean going vessel. Two words.",
+  options: ["Pacha Kamaq", "Inti Ra", "Kon-Tiki", "Viracocha"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 913,
+  question: "What was the name of the stadium in which The Beatles played their last official live concert on 29 August, 1966?",
+  options: ["Wembley Stadium", "Candlestick Park", "Shea Stadium", "Madison Square Garden"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 914,
+  question: "Cantharis is better known as the Spanish what?",
+  options: ["Spanish beetle", "Spanish fly", "Spanish wasp", "Spanish flea"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 915,
+  question: "Which oceanographer discovered the wrecks of the Titanic, the Bismarck, the USS Yorktown and JFK's PT-109?",
+  options: ["Robert Ballard", "Jacques Cousteau", "Sylvia Earle", "James Cameron"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 916,
+  question: "Which two EU countries have blue and white national flags?",
+  options: ["Sweden and Estonia", "France and Croatia", "Slovakia and Slovenia", "Finland and Greece"],
+  correctAnswer: 3,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 917,
+  question: "Which word beginning with the letter 'F' is the industry term for the small particles of tea leaves used almost exclusively in tea bags?",
+  options: ["Fannings", "Filaments", "Feathers", "Fragments"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 918,
+  question: "Which English model was apparently the inspiration for The Beatles songs 'Something' and 'I Need You', as well as Eric Clapton's 'Layla' and 'Wonderful Tonight'?",
+  options: ["Twiggy", "Jane Asher", "Pattie Boyd", "Marianne Faithfull"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 919,
+  question: "In which film did Jürgen Prochnow play a Captain or Commander on board a submarine?",
+  options: ["The Hunt for Red October", "K-19: The Widowmaker", "U-571", "Das Boot"],
+  correctAnswer: 3,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 920,
+  question: "In which film did Scott Glenn play a Captain or Commander on board a submarine?",
+  options: ["Crimson Tide", "The Hunt for Red October", "K-19: The Widowmaker", "U-571"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 921,
+  question: "In which film did Liam Neeson play a Captain or Commander on board a submarine?",
+  options: ["K-19: The Widowmaker", "The Hunt for Red October", "Crimson Tide", "Below"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 922,
+  question: "An additional non-religious emblem for use by the International Red Cross and Red Crescent is called what?",
+  options: ["Red Star", "Red Shield", "Red Crystal", "Red Heart"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 923,
+  question: "Which Olympic champion, later a Hollywood film star, was the first female figure skater to wear skirts above the knee?",
+  options: ["Dorothy Hamill", "Kristi Yamaguchi", "Sonja Henie", "Peggy Fleming"],
+  correctAnswer: 2,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 924,
+  question: "Most of the US Mars Missions are conducted by NASA in conjunction with the JPL. What does the acronym JPL stand for?",
+  options: ["Jet Propulsion Lab", "Joint Planetary Laboratory", "Jet Propulsion Laboratory", "Junction Physics Lab"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 925,
+  question: "The following was a movie poster tag line for which classic 1982 science fiction film? 'Man has made his match... now it's his problem'",
+  options: ["Blade Runner", "Tron", "The Thing", "E.T. the Extra-Terrestrial"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 926,
+  question: "What does the Enhanced Fujita Scale measure?",
+  options: ["The strength of hurricanes", "The intensity of earthquakes", "The strength of tornadoes", "The size of tsunamis"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 927,
+  question: "Who was the only astronaut to have flown to the moon twice without setting foot on it?",
+  options: ["Fred Haise", "Jim Lovell", "Michael Collins", "Ken Mattingly"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 928,
+  question: "What does SHU stand for in the context of spiciness?",
+  options: ["Scoville Hotness Unit", "Spice Heat Unit", "Spicy Heat Understanding", "Scoville Heat Units"],
+  correctAnswer: 3,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 929,
+  question: "A woman screaming 'My jewels, I've been robbed' are the first words to which 1955 romantic thriller?",
+  options: ["Dial M for Murder", "Notorious", "Vertigo", "To Catch A Thief"],
+  correctAnswer: 3,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 930,
+  question: "Which duo, formerly with 10cc, made a name for themselves in the early 1980s directing music videos?",
+  options: ["Godley and Creme", "Simon and Garfunkel", "Chas & Dave", "Tears for Fears"],
+  correctAnswer: 0,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 931,
+  question: "The name of which chemical element translated means 'hidden'?",
+  options: ["Xenon", "Krypton", "Neon", "Radon"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 932,
+  question: "Named after the famous ship, the Beagle Channel separates which two countries?",
+  options: ["Argentina and Brazil", "Peru and Chile", "Chile and Argentina", "Colombia and Ecuador"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 933,
+  question: "Which best selling novelist directed the 1973 film Westworld?",
+  options: ["Stephen King", "Dean Koontz", "Michael Crichton", "James Patterson"],
+  correctAnswer: 2,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 934,
+  question: "Pluto was the name given to an Allied D Day operation. Pluto was an acronym for what? (five words)",
+  options: [
+    "Pipe lines under the ocean",
+    "Prepare landings under tactical operations",
+    "Protect logistics using transport operations",
+    "Petroleum logistics under threat ordinance"
+  ],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 935,
+  question: "Malossol, which means 'little salt', is associated with which high quality food product?",
+  options: ["Caviar", "Prosciutto", "Foie Gras", "Parmesan"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 936,
+  question: "In Greek mythology, Jason's ship was named the Argo. What does the Greek word argo mean?",
+  options: ["Wooden", "Swift", "Silent", "Noble"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 937,
+  question: "A type of footwear and the first name of the gangster played by George Raft in the film 'Some Like It Hot'.",
+  options: ["Boots", "Spats", "Loafers", "Chuck"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 938,
+  question: "Which Melody was the best selling song in the UK in both 1990 and 1995?",
+  options: [
+    "Bohemian Rhapsody",
+    "Unchained Melody",
+    "Candle in the Wind",
+    "Angels"
+  ],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 939,
+  question: "Which actor has played both Adolf Hitler and John Lennon on screen?",
+  options: ["Michael Fassbender", "David Thewlis", "Robert Carlyle", "Gary Oldman"],
+  correctAnswer: 2,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 940,
+  question: "What was the nickname given to the first atom bomb detonated at the Trinity site in New Mexico?",
+  options: ["Little Boy", "Fat Man", "Gadget", "Fireball"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 941,
+  question: "Which 1937 film was the first full length animated movie?",
+  options: ["Fantasia", "Snow White and the Seven Dwarfs", "Pinocchio", "Steamboat Willie"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 942,
+  question: "What is the name of the comprehensive check a commercial jet undergoes approximately every 6–10 years?",
+  options: ["Z check", "C check", "D check", "X inspection"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 943,
+  question: "Which famous singer and Oscar winner for Best Supporting Actor once said 'Cock your hat, angles are attitudes'?",
+  options: ["Frank Sinatra", "Dean Martin", "Sammy Davis Jr.", "Bing Crosby"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 944,
+  question: "How much was Al Pacino paid for his role in The Godfather?",
+  options: ["10,000 dollars", "500,000 dollars", "35,000 dollars", "100,000 dollars"],
+  correctAnswer: 2,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 945,
+  question: "What was the name given to the class of cargo ship built in the US during World War II that, at one point, took an average of only 42 days to construct?",
+  options: ["Freedom ships", "Victory ships", "Liberty ships", "Patriot ships"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 946,
+  question: "In which country is the so-called 'Suicide Forest'?",
+  options: ["South Korea", "China", "Japan", "Thailand"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 947,
+  question: "The name of which horn instrument translated may mean 'making noise'?",
+  options: ["Bugle", "Alphorn", "Trombone", "Vuvuzela"],
+  correctAnswer: 3,
+  category: "Music",
+  difficulty: "hard"
+},
+{
+  id: 948,
+  question: "Which female solo artist had the most No.1 hits in the UK charts during the 1990s?",
+  options: ["Madonna", "Cher", "Whitney Houston", "Kylie Minogue"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 949,
+  question: "What is the smallest country in continental Africa?",
+  options: ["Djibouti", "Equatorial Guinea", "Burundi", "The Gambia"],
+  correctAnswer: 3,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 950,
+  question: "The name for which ancient form of brain surgery stems from the Greek word for 'borer' or 'auger'?",
+  options: ["Trepanation", "Craniectomy", "Lobotomy", "Neurotomy"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 951,
+  question: "Which isolated location was the best selling song of the year in the UK in 1977?",
+  options: ["Isle of Skye", "Wuthering Heights", "Mull of Kintyre", "Loch Lomond"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 952,
+  question: "The title of which 2015 Hollywood blockbuster translated means the 'returning one'?",
+  options: ["The Revenant", "The Martian", "Arrival", "Gravity"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 953,
+  question: 'In song, which titular character was "like a leper messiah"?',
+  options: ["Major Tom", "Ziggy Stardust", "Jean Genie", "Aladdin Sane"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 954,
+  question: "According to legend, droplets of blood from which Roman goddess turned roses red?",
+  options: ["Juno", "Minerva", "Diana", "Venus"],
+  correctAnswer: 3,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 955,
+  question: "In the October of which year did Bobby 'Boris' Pickett release his hit song The Monster Mash?",
+  options: ["1959", "1962", "1965", "1968"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 956,
+  question: "Which actor played both Adolf Hitler and John Lennon on screen?",
+  options: ["Daniel Day-Lewis", "Gary Oldman", "Robert Carlyle", "Christian Bale"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 957,
+  question: "Which Beatle does not wear a moustache in the film Yellow Submarine?",
+  options: ["Ringo", "George", "Paul", "John"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "easy"
+},
+{
+  id: 958,
+  question: "Clinomania is an excessive desire to stay where?",
+  options: ["In bed", "At home", "At work", "Outdoors"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 959,
+  question: "Which four digit number is the last year mentioned in the Zager and Evans song 'In The Year 2525'?",
+  options: ["9595", "9999", "9090", "2525"],
+  correctAnswer: 3,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 960,
+  question: "Founded in 1585 and sometimes known as 'The Lost Colony', what was the name of the first English settlement in the New World?",
+  options: ["Jamestown", "Roanoke", "Plymouth", "Charlestown"],
+  correctAnswer: 1,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 961,
+  question: "Jeepney's are the most popular means of public transport in which country?",
+  options: ["Philippines", "India", "Indonesia", "Thailand"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 962,
+  question: "Which actor had a 1989 top ten hit in the US music charts with a cover of the song 'Save the Last Dance For Me'?",
+  options: ["Patrick Swayze", "Bruce Willis", "Billy Crystal", "Kevin Costner"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 963,
+  question: "How many miles of rope were needed to rig the HMS Victory?",
+  options: ["16 miles", "20 miles", "22 miles", "26 miles"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 964,
+  question: "What do the national anthems of Bosnia and Herzegovina, Kosovo, Spain and San Marino all have in common?",
+  options: ["Same composer", "Written in Latin", "No lyrics", "Include guitar solos"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 965,
+  question: "In which famous painting is God depicted in a horizontal position for the first time in the history of art?",
+  options: ["The Last Supper", "The Creation of Adam", "The Birth of Venus", "The School of Athens"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 966,
+  question: "Which film director was married to, amongst others, Brigitte Bardot and Jane Fonda; and lived with Catherine Deneuve?",
+  options: ["Roger Vadim", "François Truffaut", "Jean-Luc Godard", "Roman Polanski"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 967,
+  question: "In the Indonesian and Malay cuisine what does 'goreng' mean?",
+  options: ["Spicy", "Fried", "Sweet", "Pickled"],
+  correctAnswer: 1,
+  category: "Language",
+  difficulty: "easy"
+},
+{
+  id: 968,
+  question: "What is the southern and eastern French-speaking part of Belgium called?",
+  options: ["Flanders", "Brabant", "Wallonia", "Namur"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 969,
+  question: "What is, according to the UN, the most discarded waste item worldwide?",
+  options: ["Plastic bottles", "Cigarette butts", "Food wrappers", "Paper"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 970,
+  question: "The name of which game translated means 'sparrow warfare'?",
+  options: ["Mahjong", "Go", "Shogi", "Carrom"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 971,
+  question: "THX 1138 was which director's feature film debut?",
+  options: ["Steven Spielberg", "George Lucas", "Francis Ford Coppola", "Ridley Scott"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 972,
+  question: "In which 2009 Hollywood movie is the language Na'vi spoken?",
+  options: ["Star Trek", "John Carter", "Avatar", "Prometheus"],
+  correctAnswer: 2,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 973,
+  question: "Which American was crowned the world's first billionaire in 1916?",
+  options: ["Andrew Carnegie", "J.P. Morgan", "Cornelius Vanderbilt", "J.D. Rockefeller"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 974,
+  question: "The 2004 marriage of which celebrity couple lasted 55 days?",
+  options: ["Britney Spears and Jason Alexander", "Carmen Electra and Dennis Rodman", "Nicolas Cage and Lisa Marie Presley", "Kim Kardashian and Kris Humphries"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 975,
+  question: "Which number was the best selling album on both sides of the Atlantic in the year 2000?",
+  options: ["21 (Adele)", "1 (Beatles)", "2001 (Dr. Dre)", "1989 (Taylor Swift)"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 976,
+  question: "The following was the movie poster tag line to which 1966 film? 'For three men the Civil War wasn't hell. It was practice.'",
+  options: ["The Good, the Bad and the Ugly", "A Fistful of Dollars", "The Magnificent Seven", "Once Upon a Time in the West"],
+  correctAnswer: 0,
+  category: "TV & Cinema",
+  difficulty: "medium"
+},
+{
+  id: 977,
+  question: "Winston and Julia lead a doomed romance in which cult novel?",
+  options: ["Brave New World", "1984", "Fahrenheit 451", "The Handmaid's Tale"],
+  correctAnswer: 1,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 978,
+  question: "In which popular television series is the martial art Anbo-Jytsu practiced?",
+  options: ["Battlestar Galactica", "Stargate SG-1", "Star Trek: The Next Generation", "The Expanse"],
+  correctAnswer: 2,
+  category: "TV & Cinema",
+  difficulty: "hard"
+},
+{
+  id: 979,
+  question: "Who was the only 14 year old to have been ranked in the top 10 in women's tennis?",
+  options: ["Martina Hingis", "Monica Seles", "Jennifer Capriati", "Steffi Graf"],
+  correctAnswer: 2,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 980,
+  question: "Which three countries in the world have the highest prison populations?",
+  options: ["Russia, China, India", "USA, China, Brazil", "Brazil, Mexico, Indonesia", "USA, Russia, Iran"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 981,
+  question: "Which popular 1964 children's book did Ian Fleming write?",
+  options: ["James and the Giant Peach", "Charlie and the Chocolate Factory", "Chitty-Chitty-Bang-Bang", "The Phantom Tollbooth"],
+  correctAnswer: 2,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 982,
+  question: "Plus or minus 4, in which year did Mattel announce that Barbie and Ken were splitting?",
+  options: ["1999", "2004", "2009", "2014"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 983,
+  question: "Which ancient ethnic group and or tribe was a 1969 number one hit single in the UK charts (no. 9 in the US charts)?",
+  options: ["The Moors", "The Israelites", "The Huns", "The Carthaginians"],
+  correctAnswer: 1,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 984,
+  question: "Which luxury car uses a modified lemniscate symbol as its logo?",
+  options: ["Acura", "Infiniti", "Lexus", "Genesis"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 985,
+  question: "In the first half of the 18th century, people in London famously went “crazy” for which popular alcohol?",
+  options: ["Vodka", "Gin", "Absinthe", "Whiskey"],
+  correctAnswer: 1,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 986,
+  question: "Plus or minus 5, in which year did the WHO claim that smallpox was eradicated?",
+  options: ["1975", "1985", "1980", "1990"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 987,
+  question: "What are the names of the two most populated cities in Russia that end with the letter 'g'?",
+  options: ["Moscow and Yekaterinburg", "Saint Petersburg and Yekaterinburg", "Saint Petersburg and Novosibirsk", "Kazan and Volgograd"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 988,
+  question: "According to the party in the novel 1984, 'Ignorance is' what?",
+  options: ["Freedom", "Strength", "Truth", "Control"],
+  correctAnswer: 1,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 989,
+  question: "Translated, orchid and avocado both stem from words that mean what?",
+  options: ["Seed", "Fruit", "Testicle", "Egg"],
+  correctAnswer: 2,
+  category: "Language",
+  difficulty: "medium"
+},
+{
+  id: 990,
+  question: "It is said that the last words of which famous 16th century Frenchman were 'Tomorrow, at sunrise, I shall no longer be here'?",
+  options: ["Montaigne", "Voltaire", "Descartes", "Nostradamus"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 991,
+  question: `"We must leave exactly on time – From now on, everything must function to perfection." Whose words were these, spoken to a station-master and quoted in 1939, part of the mythology that the trains always ran on time under Fascist dictatorships?`,
+  options: ["Franco", "Stalin", "Mussolini", "Hitler"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 992,
+  question: "Which village near Vienna is the site of the hunting lodge where the Habsburg crown prince Rudolf and his paramour Mary Vetsera committed suicide in mysterious circumstances in 1889?",
+  options: ["Mayerling", "Schönbrunn", "Salzkammergut", "Grinzing"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 993,
+  question: "What name is that of an Arian Christian Germanic people who maintained a North African kingdom in the 5th and 6th centuries and who, under their king Gaiseric, sacked Rome in 455?",
+  options: ["Vandal", "Visigoth", "Ostrogoth", "Frank"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 994,
+  question: "In cytogenetics, what term describes the entire chromosomal complement of a cell which may be observed during mitotic metaphase?",
+  options: ["Genome", "Karyotype", "Phenotype", "Genotype"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 995,
+  question: "'In the darkening twilight I saw a lone star hover gem-like above the bay.' This was the last diary entry of which explorer, written on January 5th 1922 at Grytviken in South Georgia?",
+  options: ["Robert Falcon Scott", "Ernest Shackleton", "Roald Amundsen", "Douglas Mawson"],
+  correctAnswer: 1,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 996,
+  question: "Sao Vincente, Boa Vista and Santiago are among the islands of which republic? It gained its independence from Portugal in 1975, has a population of around half a million, and is situated around 600 kilometres from the coast of West Africa.",
+  options: ["Cape Verde", "São Tomé and Príncipe", "Comoros", "Equatorial Guinea"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 997,
+  question: "'The Strangest Man' by Graham Farmelo is a 2009 biography of which scientist, who applied Einstein's Theory of Relativity to quantum mechanics in order to describe the spin of an electron? In 1933 he shared the Nobel Prize for physics with Erwin Schrödinger.",
+  options: ["Paul Dirac", "Niels Bohr", "Wolfgang Pauli", "Werner Heisenberg"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 998,
+  question: "Often featuring in photographic illusions caused by forced perspective, which structure was begun in 1173 as the third and final structure of its city's cathedral complex? Designed to be 56 metres high, improvements to the foundations since 1990 have diminished its distinctive aberration.",
+  options: ["Leaning Tower of Pisa", "Hagia Sophia", "Sagrada Família", "Cologne Cathedral"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 999,
+  question: "What kind of pillow was a quintessential psychedelic rock album from Jefferson Airplane?",
+  options: ["Surrealistic Pillow", "Electric Pillow", "Dreamy Pillow", "Psychedelic Pillow"],
+  correctAnswer: 2,
+  category: "Music",
+  difficulty: "medium"
+},
+{
+  id: 1000,
+  question: "How many people have walked on the moon?",
+  options: ["8", "10", "12", "14"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1001,
+  question: "In the world of sport, which trophy has been nicknamed the 'Auld Mug'?",
+  options: ["Ryder Cup", "Claret Jug", "The America's Cup", "Webb Ellis Cup"],
+  correctAnswer: 2,
+  category: "Sports",
+  difficulty: "medium"
+},
+{
+  id: 1002,
+  question: "In the world of Marvel Comics, what is the name of the metal from which Thor's hammer is made?",
+  options: ["Adamantium", "Uru", "Vibranium", "Titanium"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "hard"
+},
+{
+  id: 1003,
+  question: "In which film, an epic historical drama from the year 1984, do Laurence Olivier, Edward Fox, Liam Neeson, Daniel Day-Lewis and Bernard Hill all have minor roles?",
+  options: ["Chariots of Fire", "The Bounty", "Gandhi", "A Passage to India"],
+  correctAnswer: 1,
+  category: "TV & Cinema",
+  difficulty: "hard"
+},
+{
+  id: 1004,
+  question: "Which popular Bengali curry dish translated means 'hot-fry'?",
+  options: ["Korma", "Jalfrezi", "Vindaloo", "Rogan Josh"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
 ];
 
 export const categories = [
-  "Art & Culture",
+  "Arts & Culture",
   "Literature",
   "Music",
   "History & Politics",

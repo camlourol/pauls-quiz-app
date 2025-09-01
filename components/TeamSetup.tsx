@@ -21,9 +21,13 @@ const TeamSetup: React.FC<TeamSetupProps> = ({
   const teamOptions = ['It’s just me!', 'Two teams', 'Three teams', 'Four teams'];
 
   const handleTeamOptionClick = (count: number) => {
-    // Immediately update parent’s pending state
+    // Immediately update parent's pending state
     setNumberOfTeams(count);
-    setTeamNames(Array(count).fill('').map((_, i) => `Team ${i + 1}`));
+    if (count === 1) {
+      setTeamNames(['You']);
+    } else {
+      setTeamNames(Array(count).fill('').map((_, i) => `Team ${i + 1}`));
+    }
   };
 
   const handleNameChange = (index: number, value: string) => {
@@ -73,12 +77,13 @@ const TeamSetup: React.FC<TeamSetupProps> = ({
         )}
 
         <div className="flex flex-col items-center">
-        <button
-         onClick={onReady}
-        className="py-2 px-6 rounded bg-[#91a945] hover:bg-[#7a8f3a] text-[#546b09] text-lg font-bold"         >
-         Ready!
-       </button>
-      </div>
+          <button
+            onClick={onReady}
+            className="py-2 px-6 rounded bg-[#91a945] hover:bg-[#7a8f3a] text-[#546b09] text-lg font-bold"
+          >
+            Ready!
+          </button>
+        </div>
       </Card>
     </div>
   );

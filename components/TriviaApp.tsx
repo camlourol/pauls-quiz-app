@@ -68,7 +68,7 @@ export default function TriviaApp(props: any) {
   // New settings state
   const [selectedDifficulty, setSelectedDifficulty] = useState<'mix' | 'easy' | 'medium' | 'hard'>('mix');
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>([
-    'Art & Culture', 'Literature', 'Music', 'History & Politics', 'Science & Technology',
+    'Arts & Culture', 'Literature', 'Music', 'History & Politics', 'Science & Technology',
     'Geography & Nature', 'TV & Cinema', 'Language', 'Sports'
   ]);
   // Question count selection
@@ -157,6 +157,16 @@ const [selectedQuestionCount, setSelectedQuestionCount] = useState<10 | 20 | 50 
       // Reset per-team correct-answer counts
       setTeamCorrectCounts({});
       setCurrentQuestion(0);
+      // If single-player in flip-answer mode, init team scores
+      if (selectedMode === 'flip-answer' && numberOfTeams === 1) {
+        setTeamScores({ [teamNames[0]]: 0 });
+        setTeamCorrectCounts({ [teamNames[0]]: 0 });
+      }
+      // Initialize scores for flip-answer single player
+      if (selectedMode === 'flip-answer' && numberOfTeams === 1) {
+        setTeamScores({ [teamNames[0]]: 0 });
+        setTeamCorrectCounts({ [teamNames[0]]: 0 });
+      }
       setGamePhase('question-count');
       // If onReady callback is provided, call it
       if (typeof onReady === 'function') {
@@ -178,6 +188,11 @@ const [selectedQuestionCount, setSelectedQuestionCount] = useState<10 | 20 | 50 
     setCurrentQuestion(0);
     setShowAnswer(false);
     setGamePhase('quiz');
+    // Ensure team scores and correct counts are initialized in single-player flip-answer mode
+    if (selectedMode === 'flip-answer' && numberOfTeams === 1) {
+      setTeamScores({ [teamNames[0]]: 0 });
+      setTeamCorrectCounts({ [teamNames[0]]: 0 });
+    }
     setShowTeamSetup(false);
   };
 
@@ -198,10 +213,13 @@ const [selectedQuestionCount, setSelectedQuestionCount] = useState<10 | 20 | 50 
     setShowAnswer(false);
     setGameStats({ score: 0, totalQuestions: 0, correctAnswers: 0 });
     if (mode === 'flip-answer') {
+      setNumberOfTeams(1); // Default to single player
+      setTeamNames(['You']); // Set default single player name
       setGamePhase('team-setup');
     } else {
       setGamePhase('question-count');
-    }  };
+    }
+  };
 
 
   // --- TeamSetup screen state for panel logic ---
@@ -233,13 +251,13 @@ const [selectedQuestionCount, setSelectedQuestionCount] = useState<10 | 20 | 50 
             </p>
             <div className="flex justify-end space-x-4">
               <button
-                className="bg-gray-200 text-black rounded px-4 py-2"
+                className="bg-[#e17575] text-white rounded px-4 py-2 hover:bg-[#c85555]"
                 onClick={() => setShowConfirmReset(false)}
               >
                 Cancel
               </button>
               <button
-                className="bg-green-600 text-[#E7E6E0] rounded px-4 py-2"
+                className="bg-[#0C0C0C] text-[#E7E6E0] rounded px-4 py-2 hover:bg-[#1a1a1a]"
                 onClick={() => {
                   commitTeamChanges();
                   setShowConfirmReset(false);
@@ -407,17 +425,36 @@ const [selectedQuestionCount, setSelectedQuestionCount] = useState<10 | 20 | 50 
   // Restart the quiz in the current mode, preserving settings and teams
   const handleRestartQuiz = () => {
     setIsExhausted(false);
-    // Reshuffle questions
+    // Reshuffle questions and respect selectedQuestionCount
     const filtered = triviaQuestions.filter(q =>
       (selectedDifficulty === 'mix' || q.difficulty === selectedDifficulty) &&
       selectedSubjects.includes(q.category)
     );
     const shuffled = [...filtered].sort(() => Math.random() - 0.5);
-    setQuestions(shuffled);
+    const limitedQuestions =
+      selectedQuestionCount === 'all'
+        ? shuffled
+        : shuffled.slice(0, selectedQuestionCount);
+    setQuestions(limitedQuestions);
     // Reset scores and stats
     setTeamStats({});
     setGameStats({ score: 0, totalQuestions: 0, correctAnswers: 0 });
+    setTeamScores({});
     setTeamCorrectCounts({});
+    if (selectedMode === 'flip-answer' && numberOfTeams === 1) {
+      setTeamScores({ [teamNames[0]]: 0 });
+      setTeamCorrectCounts({ [teamNames[0]]: 0 });
+    } else if (selectedMode === 'flip-answer') {
+      // Initialize multi-team scores
+      const initialScores: { [key: string]: number } = {};
+      const initialCounts: { [key: string]: number } = {};
+      teamNames.forEach(name => {
+        initialScores[name] = 0;
+        initialCounts[name] = 0;
+      });
+      setTeamScores(initialScores);
+      setTeamCorrectCounts(initialCounts);
+    }
     setCurrentQuestion(0);
     setShowAnswer(false);
     // Go back into the quiz phase
@@ -456,6 +493,11 @@ const renderQuestionCountScreen = () => (
                 const shuffled = [...filtered].sort(() => Math.random() - 0.5);
                 const limitedQuestions = shuffled.slice(0, count);
                 setQuestions(limitedQuestions);
+                // Initialize single-player flip-answer scores
+                if (gameMode === 'flip-answer' && numberOfTeams === 1) {
+                  setTeamScores({ [teamNames[0]]: 0 });
+                  setTeamCorrectCounts({ [teamNames[0]]: 0 });
+                }
                 setGamePhase('quiz');
               }}
               className="w-full font-work-sans"
@@ -546,7 +588,7 @@ const renderMenuScreen = () => (
               {showCategoryError && <span className="font-bold text-[#FF4C4C]"> (please select at least one)</span>}
             </p>
             <div className="flex flex-wrap gap-2 justify-center mt-1">
-              {['Art & Culture', 'Literature', 'Music', 'History & Politics', 'Science & Technology', 'Geography & Nature', 'TV & Cinema', 'Language', 'Sports'].map(subject => (
+              {['Arts & Culture', 'Literature', 'Music', 'History & Politics', 'Science & Technology', 'Geography & Nature', 'TV & Cinema', 'Language', 'Sports'].map(subject => (
                 <Button
                   key={subject}
                   variant={selectedSubjects.includes(subject) ? 'quiz' : 'outline'}
@@ -701,7 +743,7 @@ const renderMenuScreen = () => (
               </div>
             </div>
           )}
-          <div className="h-screen overflow-hidden bg-[#0C0C0C] p-4 relative">
+          <div className="overflow-hidden bg-[#0C0C0C] p-4 relative" style={{ height: '100dvh' }}>
           {/* Navigation Buttons */}
           <div className="absolute top-2 left-4 z-20">
             <Button
@@ -821,7 +863,7 @@ const renderMenuScreen = () => (
             </Card>
             {/* Team Buttons - Only show when answer is revealed */}
             {showAnswer && (
-              (numberOfTeams === 1 || teamNames.length === 1 || (teamNames.length > 0 && (teamNames[0] === 'You' || teamNames[0] === 'Player' || teamNames[0] === 'Just me'))) ? (
+              (numberOfTeams <= 1 || teamNames.length <= 1) ? (
                 <div className="space-y-3">
                   <Button
                     variant="outline"
@@ -844,6 +886,12 @@ const renderMenuScreen = () => (
                         ...prev,
                         [teamNames[0]]: (prev[teamNames[0]] ?? 0) + 1
                       }));
+                      // Update game stats for proper results display
+                      setGameStats(prev => ({
+                        ...prev,
+                        totalQuestions: prev.totalQuestions + 1,
+                        correctAnswers: prev.correctAnswers + 1
+                      }));
                       setTimeout(() => nextQuestion(), 1000);
                     }}
                     className="w-full font-work-sans bg-[#242424] text-[#E7E6E0] border-[#333]"
@@ -860,6 +908,11 @@ const renderMenuScreen = () => (
                       button.style.color = '#E7E6E0';
                       button.style.borderColor = '#0C0C0C';
                       setIsTeamAnswered(true);
+                      // Update game stats for proper results display
+                      setGameStats(prev => ({
+                        ...prev,
+                        totalQuestions: prev.totalQuestions + 1
+                      }));
                       setTimeout(() => nextQuestion(), 1000);
                     }}
                     className="w-full font-work-sans bg-[#242424] text-[#E7E6E0] border-[#333]"
@@ -943,7 +996,7 @@ const renderMenuScreen = () => (
         return 'text-base';
       };
       return (
-        <div className="h-screen overflow-hidden bg-[#0C0C0C] p-4 relative">
+        <div className="overflow-hidden bg-[#0C0C0C] p-4 relative" style={{ height: '100dvh' }}>
           {/* Home Button */}
           <div className="absolute top-2 left-4 z-20">
             <Button
@@ -955,6 +1008,7 @@ const renderMenuScreen = () => (
               <Home className="w-6 h-6" />
             </Button>
           </div>
+          
           {/* Paul's Quiz Text */}
           <div className="absolute top-2 left-0 right-0 z-10 flex justify-center items-center h-10 pointer-events-none">
             <span className="font-libertinus text-[#E7E6E0] text-base">Paul's Quiz</span>
@@ -1071,7 +1125,7 @@ const renderMenuScreen = () => (
               </div>
             </div>
           </div>
-          </div>
+        </div>
       );
     }
   };
@@ -1102,7 +1156,6 @@ const renderMenuScreen = () => (
                 <Button
                   variant="destructive"
                   className="w-full font-work-sans"
-
                   onClick={() => {
                     setShowExitPrompt(false);
                     resetGame();
@@ -1113,7 +1166,6 @@ const renderMenuScreen = () => (
                 <Button
                   variant="outline"
                   className="w-full font-work-sans"
-
                   onClick={() => setShowExitPrompt(false)}
                 >
                   No, take me back to the quiz
@@ -1124,7 +1176,7 @@ const renderMenuScreen = () => (
         )}
         <Card className="w-full max-w-md bg-[#242424] shadow-xl border border-[#333] rounded-[20px] p-8 text-center">
           <p className="text-muted-foreground text-sm mb-2">
-            {isExhausted
+            {isExhausted && selectedQuestionCount === 'all'
               ? "You've reached the end of the available questions, nerd."
               : ""}
           </p>
@@ -1154,34 +1206,60 @@ const renderMenuScreen = () => (
                   </div>
                 </div>
               </>
+            ) : numberOfTeams === 1 ? (
+              // Single player mode: show a centered single player score card
+              <div className="flex flex-col items-center justify-center">
+                <div className="text-2xl font-semibold mb-2">Your Score</div>
+                <div className="bg-primary/10 rounded-lg p-6 mb-4 w-full flex flex-col items-center">
+                  <div className="text-4xl text-[#E7E6E0] font-bold mb-1">
+                    {teamScores[teamNames[0]] ?? 0}
+                  </div>
+                  <div className="text-sm text-muted-foreground">Total Points</div>
+                </div>
+                <div className="grid grid-cols-2 gap-4 w-full mb-2">
+                  <div className="bg-primary/10 rounded-lg p-3 flex flex-col items-center">
+                    <div className="text-xl font-bold text-[#E7E6E0]">
+                      {teamCorrectCounts[teamNames[0]] ?? 0}
+                    </div>
+                    <div className="text-xs text-muted-foreground"> of {gameStats.totalQuestions > 0 ? gameStats.totalQuestions : currentQuestion} Correct</div>
+                  </div>
+                  <div className="bg-accent/10 rounded-lg p-3 flex flex-col items-center">
+                    <div className="text-xl font-bold text-[#E7E6E0]">
+                      {(() => {
+                        const correct = teamCorrectCounts[teamNames[0]] ?? 0;
+                        const total = gameStats.totalQuestions > 0 ? gameStats.totalQuestions : currentQuestion;
+                        return total > 0 ? Math.round((correct / total) * 100) : 0;
+                      })()}%
+                    </div>
+                    <div className="text-xs text-muted-foreground">Accuracy</div>
+                  </div>
+                </div>
+              </div>
             ) : (
-            <div className="space-y-3">
-                              <h3 className="text-lg font-semibold text-foreground mb-4">
-                                {numberOfTeams === 1 ? 'Your score' : 'Team Scores'}
-                              </h3>
-                              <div className={`grid grid-cols-${Math.min(teamNames.length, 4)} gap-3`}>
-                                {teamNames.map((name) => (
-                                  <div key={name} className="bg-primary/10 rounded-lg p-3">
-                                    <div className="text-xl font-bold text-[#E7E6E0]">
-                                      {teamScores[name] ?? 0}
-                                    </div>
-                                    {numberOfTeams > 1 && (
-                                      <div className="text-sm text-muted-foreground">{name}</div>
-                                    )}
-                                    {(() => {
-                                      const correct = teamCorrectCounts[name] ?? 0;
-                                      const total = gameStats.totalQuestions > 0 ? gameStats.totalQuestions : currentQuestion;
-                                      const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
-                                      return (
-                                        <div className="text-sm text-muted-foreground">
-                                          Correct: {correct} of {total} ({percent}%)
-                                        </div>
-                                      );
-                                    })()}
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
+              // Team Scores (multi-team)
+              <div className="space-y-3">
+                <h3 className="text-lg font-semibold text-foreground mb-4">Team Scores</h3>
+                <div className={`grid ${teamNames.length === 4 ? 'grid-cols-2' : teamNames.length === 3 ? 'grid-cols-3' : 'grid-cols-2'} gap-3`}>
+                  {teamNames.map((name) => (
+                    <div key={name} className="bg-primary/10 rounded-lg p-3">
+                      <div className="text-xl font-bold text-[#E7E6E0]">
+                        {teamScores[name] ?? 0}
+                      </div>
+                      <div className="text-sm text-muted-foreground">{name}</div>
+                      {(() => {
+                        const correct = teamCorrectCounts[name] ?? 0;
+                        const total = gameStats.totalQuestions > 0 ? gameStats.totalQuestions : currentQuestion;
+                        const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
+                        return (
+                          <div className="text-sm text-muted-foreground">
+                            Correct: {correct} of {total} ({percent}%)
+                          </div>
+                        );
+                      })()}
+                    </div>
+                  ))}
+                </div>
+              </div>
             )}
           </div>
           <div className="flex flex-row gap-3 w-full">
@@ -1210,7 +1288,7 @@ const renderMenuScreen = () => (
 
   // --- Render block for new game phases ---
   return (
-    <div className="font-inter min-h-screen h-full overflow-hidden bg-[#0C0C0C] text-[#E7E6E0]" style={{ fontFamily: "'Work Sans', sans-serif", background: '#0C0C0C', color: '#E7E6E0' }}>
+    <div className="font-inter min-h-screen h-full overflow-hidden bg-[#0C0C0C] text-[#E7E6E0]" style={{ fontFamily: "'Work Sans', sans-serif", background: '#0C0C0C', color: '#E7E6E0', minHeight: '100dvh', height: '100dvh' }}>
       {/* Confirmation Modal for Team Setup "Ready" */}
       {showConfirmModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -1389,7 +1467,7 @@ const renderMenuScreen = () => (
         ? (
           <div className="h-screen overflow-hidden bg-[#0C0C0C] flex items-center justify-center p-4 relative z-10">
             <Card className="w-full max-w-md bg-[#242424] shadow-xl border border-[#333] rounded-[20px] p-8 text-center relative z-20">
-              <p className="text-muted-foreground text-sm mb-2">Game Over! Here are your scores:</p>
+              <p className="text-muted-foreground text-sm mb-2">Here are your scores:</p>
               <Trophy className="w-16 h-16 text-[#E7E6E0] mx-auto mb-4" />
               <h1 className="text-3xl font-bold text-foreground mb-2">Final Scores</h1>
               <div className="space-y-4 mb-8">
