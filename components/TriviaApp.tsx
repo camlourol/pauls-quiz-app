@@ -548,7 +548,7 @@ const renderMenuScreen = () => (
         }}
       >
         <div className="mb-4">
-          <h1 className="font-libertinus text-5xl text-[#5ba5c1] font-bold">Paul's Quiz</h1>
+          <h1 className="font-libertinus text-3xl text-[#5ba5c1]">Pauls' Quiz</h1>
         </div>
         <div className="font-inter space-y-4 mb-6">
           <div className="bg-[#353536] rounded-[12px] p-4">
@@ -560,7 +560,7 @@ const renderMenuScreen = () => (
                   variant={selectedDifficulty === level ? 'quiz' : 'outline'}
                   size="sm"
                   onClick={() => setSelectedDifficulty(level as any)}
-                  className={`h-9 px-4 text-sm font-medium rounded-[12px] transition-all duration-200 ${
+                  className={`h-9 px-4 text-xs font-medium rounded-[12px] transition-all duration-200 ${
                     selectedDifficulty === level
                       ? 'bg-[#E7E6E0] text-[#0C0C0C]'
                       : 'bg-[#242424] border-[#333] text-[#E7E6E0] hover:bg-[#333d5b] hover:text-[#0C0C0C]'
@@ -580,9 +580,7 @@ const renderMenuScreen = () => (
               Preferred Subject/s
             </h3>
             <p className={`text-xs mb-3 ${selectedSubjects.length === 0 && gameState === 'menu' ? 'text-[#FF4C4C]' : 'text-[#898675]'}`}>
-              {`All are selected by default. `} 
-              <br />
-              {`Tap to deselect unwanted subjects. `}
+              {`All are selected by default. Tap to deselect. `} 
               <br />
               <span className="font-semibold text-[#898675]">{selectedSubjects.length} of 9 selected</span>
               {showCategoryError && <span className="font-bold text-[#FF4C4C]"> (please select at least one)</span>}
@@ -600,7 +598,7 @@ const renderMenuScreen = () => (
                         : [...prev, subject]
                     )
                   }
-                  className={`h-9 px-4 text-sm font-medium rounded-[12px] transition-all duration-200 ${
+                  className={`h-9 px-4 text-xs font-medium rounded-[12px] transition-all duration-200 ${
                     selectedSubjects.includes(subject)
                       ? 'bg-[#E7E6E0] text-[#0C0C0C]'
                       : 'bg-[#242424] border-[#333] text-[#E7E6E0] hover:bg-[#333d5b] hover:text-[#0C0C0C]'
@@ -627,7 +625,7 @@ const renderMenuScreen = () => (
               transition: 'all 0.2s ease-in-out',
             }}
           >
-            <Play className="w-6 h-6" />
+            <Play className="w-4 h-4" />
           </button>
         </div>
       </Card>
