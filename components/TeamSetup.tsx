@@ -1,6 +1,9 @@
 import React from 'react';
 import { Card } from '@/components/ui/card';
 
+import { Home, ArrowLeft } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
 interface TeamSetupProps {
   numberOfTeams: number;
   setNumberOfTeams: (count: number) => void;
@@ -36,12 +39,34 @@ const TeamSetup: React.FC<TeamSetupProps> = ({
     setTeamNames(updated);
   };
 
-  return (
-    <div className="min-h-screen bg-[#0C0C0C] flex items-center justify-center p-4">
-      <Card className="w-full max-w-md bg-[#242424] shadow-xl border border-[#333] rounded-[20px] p-8">
-        <button onClick={onBack} className="mb-4 text-base">← Back</button>
-
-        <h2 className="text-2xl font-libertinus mb-4 text-center">Select Number of Teams</h2>
+return (
+  <div className="min-h-screen bg-[#0C0C0C] flex items-center justify-center p-4 relative">
+    {/* Navigation Buttons */}
+    <div className="absolute top-4 left-4 z-20 flex gap-2">
+      <Button
+        variant="ghost"
+        size="icon"
+        aria-label="Home"
+        onClick={() => {
+          if (window.confirm('Are you sure you want to Exit Game?')) {
+            window.location.reload();
+          }
+        }}
+      >
+        <Home className="w-6 h-6" />
+      </Button>
+      <Button
+        variant="ghost"
+        size="icon"
+        aria-label="Back"
+        onClick={onBack}
+      >
+        <ArrowLeft className="w-6 h-6" />
+      </Button>
+    </div>
+    
+    <Card className="w-full max-w-md bg-[#242424] shadow-xl border border-[#333] rounded-[20px] p-8">
+      <h2 className="text-2xl font-libertinus mb-4 text-center">Select Number of Teams</h2>
         <div className="flex flex-col items-center gap-2 mb-6 w-full max-w-xs mx-auto">
           {teamOptions.map((label, idx) => (
             <button

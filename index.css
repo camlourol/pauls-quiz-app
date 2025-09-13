@@ -118,6 +118,11 @@ All colors MUST be HSL.
   }
 }
 
+/* Remove tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .font-libertinus {
   font-family: 'Libertinus Serif', serif;
 }

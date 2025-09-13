@@ -105,6 +105,29 @@ const [selectedQuestionCount, setSelectedQuestionCount] = useState<10 | 20 | 50 
     setPendingTeamNames(names);
   };
 
+  // Add this useEffect to detect and handle touch devices
+React.useEffect(() => {
+  // Function to remove hover states
+  const handleTouch = () => {
+    // Remove focus from any active element
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
+  };
+
+  // Add touch event listeners
+  document.addEventListener('touchstart', handleTouch, { passive: true });
+  
+  // Add class to body for CSS targeting
+  const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+  if (isTouchDevice) {
+    document.body.classList.add('touch-device');
+  }
+
+  return () => {
+    document.removeEventListener('touchstart', handleTouch);
+  };
+}, []);
   // Commit team setup changes after confirmation
   const commitTeamChanges = () => {
     if (pendingTeamCount !== null) {
@@ -457,6 +480,7 @@ const [selectedQuestionCount, setSelectedQuestionCount] = useState<10 | 20 | 50 
     }
     setCurrentQuestion(0);
     setShowAnswer(false);
+    setIsTeamAnswered(false);
     // Go back into the quiz phase
     setGamePhase('quiz');
   };
@@ -470,6 +494,54 @@ const getButtonVariant = (optionIndex: number) => {
 };
 const renderQuestionCountScreen = () => (
   <div className="h-screen overflow-hidden bg-[#0C0C0C] flex items-center justify-center p-4 relative">
+        {/* Navigation Buttons */}
+        <div className="absolute top-4 left-4 z-20 flex gap-2">
+          <Button
+            variant="ghost"
+            size="icon"
+            aria-label="Home"
+            onClick={() => setShowExitPrompt(true)}
+          >
+            <Home className="w-6 h-6" />
+          </Button>
+          <Button
+            variant="ghost"
+            size="icon"
+            aria-label="Back"
+            onClick={() => setGamePhase('select-mode')}
+          >
+            <ArrowLeft className="w-6 h-6" />
+          </Button>
+        </div>
+    {/* Exit Prompt Modal */}
+    {showExitPrompt && (
+      <div className="fixed inset-0 z-30 bg-black/40 flex items-center justify-center">
+        <div className="bg-white dark:bg-background p-6 rounded-lg shadow-lg max-w-xs w-full text-center border border-border">
+          <div className="mb-4">
+            <h2 className="text-lg font-semibold mb-2 text-black dark:text-foreground">Are you sure you want to Exit Game?</h2>
+          </div>
+          <div className="flex flex-col gap-2">
+            <Button
+              variant="destructive"
+              className="w-full font-work-sans"
+              onClick={() => {
+                setShowExitPrompt(false);
+                resetGame();
+              }}
+            >
+              Yes, take me Home
+            </Button>
+            <Button
+              variant="outline"
+              className="w-full font-work-sans"
+              onClick={() => setShowExitPrompt(false)}
+            >
+              No, take me back to the quiz
+            </Button>
+          </div>
+        </div>
+      </div>
+    )}
     <Card className="w-full max-w-md bg-[#242424] shadow-xl border border-[#333] rounded-[20px] p-8 text-center">
       <div className="mb-8">
         <Brain className="w-16 h-16 text-[#E7E6E0] mx-auto mb-4" />
@@ -529,7 +601,7 @@ const renderQuestionCountScreen = () => (
   </div>
 );
 const renderMenuScreen = () => (
-  <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-[#0C0C0C] relative overflow-hidden">
+  <div className="fixed inset-0 flex flex-col items-center justify-center p-4 bg-[#0C0C0C] overflow-y-auto">
     {/* Dynamic animated radial gradient background (starfield-like) */}
     <div
       className="absolute inset-0 z-0 pointer-events-none"
@@ -540,8 +612,8 @@ const renderMenuScreen = () => (
     />
     {/* Animated decorative stars */}
 
-    <div className="flex-1 flex items-center justify-center w-full z-10">
-      <Card className="w-full max-w-md bg-[#242424] shadow-xl border border-[#333] rounded-[20px] p-6 sm:p-8 text-center backdrop-blur-md"
+    <div className="flex items-center justify-center w-full z-10 min-h-full py-4">
+      <Card className="w-full max-w-md bg-[#242424] shadow-xl border border-[#333] rounded-[20px] p-4 sm:p-6 text-center backdrop-blur-md my-auto"
         style={{
           boxShadow: 'none',
           borderRadius: 14,
@@ -563,7 +635,7 @@ const renderMenuScreen = () => (
                   className={`h-9 px-4 text-xs font-medium rounded-[12px] transition-all duration-200 ${
                     selectedDifficulty === level
                       ? 'bg-[#E7E6E0] text-[#0C0C0C]'
-                      : 'bg-[#242424] border-[#333] text-[#E7E6E0] hover:bg-[#333d5b] hover:text-[#0C0C0C]'
+                      : 'bg-[#242424] border-[#333] text-[#E7E6E0] md:hover:bg-[#333d5b] md:hover:text-[#0C0C0C]'
                   }`}
                   style={{
                     fontFamily: "'Work Sans', sans-serif",
@@ -601,7 +673,7 @@ const renderMenuScreen = () => (
                   className={`h-9 px-4 text-xs font-medium rounded-[12px] transition-all duration-200 ${
                     selectedSubjects.includes(subject)
                       ? 'bg-[#E7E6E0] text-[#0C0C0C]'
-                      : 'bg-[#242424] border-[#333] text-[#E7E6E0] hover:bg-[#333d5b] hover:text-[#0C0C0C]'
+                      : 'bg-[#242424] border-[#333] text-[#E7E6E0] md:hover:bg-[#333d5b] md:hover:text-[#0C0C0C]'
                   }`}
                   style={{
                     fontFamily: "'Work Sans', sans-serif",
@@ -617,7 +689,8 @@ const renderMenuScreen = () => (
         <div className="flex justify-center mt-1">
           <button
             onClick={startGame}
-            className="py-3 px-8 rounded-[12px] bg-[#91a945] hover:bg-[#7a8f3a] text-[#546b09] font-inter text-xl font-bold inline-flex items-center gap-3  transition-all duration-200"            style={{
+            className="py-3 px-8 rounded-[12px] bg-[#91a945] md:hover:bg-[#7a8f3a] text-[#546b09] font-inter text-xl font-bold inline-flex items-center gap-3  transition-all duration-200"
+            style={{
               fontFamily: "'Work Sans', sans-serif",
               letterSpacing: '0.01em',
               borderRadius: 12,
@@ -886,8 +959,8 @@ const renderMenuScreen = () => (
                       }));
                       // Update game stats for proper results display
                       setGameStats(prev => ({
-                        ...prev,
-                        totalQuestions: prev.totalQuestions + 1,
+                        score: prev.score,
+                        totalQuestions: currentQuestion + 1,  // Use currentQuestion + 1 for accurate count
                         correctAnswers: prev.correctAnswers + 1
                       }));
                       setTimeout(() => nextQuestion(), 1000);
@@ -906,11 +979,12 @@ const renderMenuScreen = () => (
                       button.style.color = '#E7E6E0';
                       button.style.borderColor = '#0C0C0C';
                       setIsTeamAnswered(true);
-                      // Update game stats for proper results display
-                      setGameStats(prev => ({
-                        ...prev,
-                        totalQuestions: prev.totalQuestions + 1
-                      }));
+                    // Update game stats for proper results display
+                    setGameStats(prev => ({
+                      score: prev.score,
+                      totalQuestions: currentQuestion + 1,  // Use currentQuestion + 1 for accurate count
+                      correctAnswers: prev.correctAnswers
+                    }));
                       setTimeout(() => nextQuestion(), 1000);
                     }}
                     className="w-full font-work-sans bg-[#242424] text-[#E7E6E0] border-[#333]"
@@ -942,6 +1016,11 @@ const renderMenuScreen = () => (
                             ...prev,
                             [name]: (prev[name] ?? 0) + 1
                           }));
+                          setGameStats(prev => ({
+                            score: prev.score,
+                            totalQuestions: currentQuestion + 1,
+                            correctAnswers: prev.correctAnswers
+                          }));
                           setTimeout(() => nextQuestion(), 1000);
                         }}
                         className="w-full font-work-sans"
@@ -956,6 +1035,11 @@ const renderMenuScreen = () => (
                     disabled={isTeamAnswered}
                     onClick={() => {
                       setIsTeamAnswered(true);
+                          setGameStats(prev => ({
+                          score: prev.score,
+                          totalQuestions: currentQuestion + 1,
+                          correctAnswers: prev.correctAnswers
+                        }));
                       setTimeout(() => nextQuestion(), 1000);
                     }}
                     className="w-full mt-3"
@@ -1087,9 +1171,22 @@ const renderMenuScreen = () => (
                       size={option.length > 60 ? "default" : "choice"}
                       onClick={(e) => {
                         selectAnswer(index);
+                        // Force immediate blur on mobile
+                        const button = e.currentTarget as HTMLElement;
+                        button.blur();
+                        // Remove any focus/active states
+                        if (document.activeElement === button) {
+                          (document.activeElement as HTMLElement).blur();
+                        }
+                      }}
+                      onTouchStart={(e) => {
+                        // Prevent the hover state from sticking
+                        e.currentTarget.style.transform = 'scale(0.98)';
+                      }}
+                      onTouchEnd={(e) => {
+                        e.currentTarget.style.transform = '';
                         (e.currentTarget as HTMLElement).blur();
                       }}
-                      onTouchEnd={e => (e.currentTarget as HTMLElement).blur()}
                       disabled={showAnswer}
                       className={`w-full text-left justify-start ${getOptionTextSize(option)} h-auto min-h-[3rem] py-3`}
                     >
@@ -1325,7 +1422,7 @@ const renderMenuScreen = () => (
               teamNames={pendingTeamNames || teamNames}
               setTeamNames={handleTeamNameChange}
               onBack={() => {
-                setGamePhase('menu');
+                setGamePhase('select-mode');
               }}
               onReady={handleReadyClick}
             />

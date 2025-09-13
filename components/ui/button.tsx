@@ -9,17 +9,17 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-[#353536] text-[#E7E6E0] hover:bg-[#333d5b]",
+        default: "bg-[#353536] text-[#E7E6E0] md:hover:bg-[#333d5b]",
         destructive:
-          "bg-[#e86161] text-[#E7E6E0] hover:bg-[#d54545]",
+          "bg-[#e86161] text-[#E7E6E0] md:hover:bg-[#d54545]",
         outline:
-          "bg-[#0C0C0C] hover:bg-[#242424] text-[#E7E6E0]",
+          "bg-[#0C0C0C] md:hover:bg-[#242424] text-[#E7E6E0]",
         secondary:
-          "bg-[#0C0C0C] text-[#E7E6E0] hover:bg-[#333d5b]",
-        ghost: "hover:bg-[#0C0C0C] hover:text-[#E7E6E0]",
-        link: "text-[#E7E6E0] underline-offset-4 hover:underline",
-        quiz: "bg-[#353536] text-[#E7E6E0] hover:bg-[#5da8c6] transition-colors duration-300",
-        choice: "bg-[#353536] text-[#E7E6E0] hover:bg-[#0C0C0C] transition-colors duration-200",
+          "bg-[#0C0C0C] text-[#E7E6E0] md:hover:bg-[#333d5b]",
+        ghost: "md:hover:bg-[#0C0C0C] md:hover:text-[#E7E6E0]",
+        link: "text-[#E7E6E0] underline-offset-4 md:hover:underline",
+        quiz: "bg-[#353536] text-[#E7E6E0] md:hover:bg-[#5da8c6] transition-colors duration-300",
+        choice: "bg-[#353536] text-[#E7E6E0] md:hover:bg-[#0C0C0C] transition-colors duration-200",
         correct: "bg-[#c0e547] text-[#0C0C0C]",
         "correct-unselected": "bg-[#c0e547]/50 text-[#E7E6E0]",
         incorrect: "bg-[#e86161] text-[#E7E6E0]",

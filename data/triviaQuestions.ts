@@ -676,7 +676,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["1987", "1988", "1989", "1990"],
     correctAnswer: 2,
     category: "History & Politics",
-    difficulty: "medium"
+    difficulty: "easy"
   },
   {
     id: 81,
@@ -1206,7 +1206,7 @@ export const triviaQuestions: TriviaQuestion[] = [
     options: ["35", "36", "37", "38"],
     correctAnswer: 2,
     category: "Music",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     id: 146,
@@ -8160,6 +8160,374 @@ export const triviaQuestions: TriviaQuestion[] = [
   category: "Geography & Nature",
   difficulty: "medium"
 },
+{
+  id: 1005,
+  question: "Due to its extreme gravity, which object possesses an event horizon, a boundary beyond which events cannot affect an observer?",
+  options: ["White dwarf", "Pulsar", "Black hole", "Neutron star"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 1006,
+  question: "What is the name of a luminous giant star of low or intermediate mass in the late phase of stellar evolution, possessing a large radius and a relatively cool surface temperature?",
+  options: ["Red giant", "White dwarf", "Protostar", "Supergiant"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 1007,
+  question: "What is the name of a dense stellar core remnant that contains mostly electron-degenerate matter?",
+  options: ["White dwarf", "Black hole", "Neutron star", "Red dwarf"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 1008,
+  question: "Which planet possesses an atmosphere approximately 90 times denser than that of the Earth, mostly made of carbon dioxide, and with an average temperature of 460°C, the hottest in the solar system?",
+  options: ["Venus", "Mercury", "Mars", "Jupiter"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 1009,
+  question: "Which two elements comprise approximately 99% of the Earth’s atmosphere?",
+  options: ["Nitrogen and Carbon Dioxide", "Oxygen and Argon", "Nitrogen and Oxygen", "Oxygen and Carbon Dioxide"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 1010,
+  question: "The Kármán line, where by one convention outer space begins, is at what altitude?",
+  options: ["100 km", "50 km", "200 km", "150 km"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 1011,
+  question: "Developed and named by James Lovelock, what is the name of the theory that all living organisms interact with their inorganic surroundings to form a self-regulating system for life on Earth?",
+  options: ["Gaia theory", "Anthropic principle", "Homeostasis hypothesis", "Earth systems model"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 1012,
+  question: "Andromeda, M63, and the Milky Way are all examples of what large astronomical structure, consisting of stars, stellar remnants, gas, dust, and dark matter all gravitationally interacting?",
+  options: ["Quasar", "Galaxy", "Nebula", "Supernova remnant"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 1013,
+  question: "Crepuscular refers to animals that are predominantly active at which times?",
+  options: ["Midday", "Midnight", "Dawn and dusk", "All day"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1014,
+  question: "Bioluminescence refers to the emission of what by a living organism?",
+  options: ["Heat", "Sound", "Light", "Electricity"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1015,
+  question: "Which term refers to carnivores that primarily consume fish?",
+  options: ["Insectivorous", "Piscivorous", "Omnivorous", "Herbivorous"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1016,
+  question: "Protium, deuterium, and tritium are all isotopes of which element?",
+  options: ["Hydrogen", "Oxygen", "Carbon", "Helium"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1017,
+  question: "What is the term for a mixture of chemical elements of which at least one is a metal?",
+  options: ["Compound", "Solution", "Alloy", "Colloid"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1018,
+  question: "What is the term for a substance consisting of very large molecules called macromolecules, composed of many repeating subunits?",
+  options: ["Colloid", "Crystal", "Polymer", "Gel"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1019,
+  question: "What is the term for a molecule that is seemingly repelled from a mass of water due to its nonpolarity?",
+  options: ["Hydrophile", "Solute", "Hydrophobe", "Micelle"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1020,
+  question: "Which is the most southerly capital city in the world?",
+  options: ["Buenos Aires", "Canberra", "Wellington", "Cape Town"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1021,
+  question: "Situated in South America, which capital is at the highest altitude?",
+  options: ["Bogotá", "La Paz", "Quito", "Caracas"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1022,
+  question: "Situated in central Asia, which is the coldest capital city in the world?",
+  options: ["Astana", "Ulaanbaatar", "Moscow", "Helsinki"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1023,
+  question: "Bill Murray, Jim Carrey, Patrick Stewart, and Michael Caine have all played which un-festive character, the protagonist of an 1843 novel by Charles Dickens, in various screen adaptations?",
+  options: ["Jacob Marley", "Bob Cratchit", "Tiny Tim", "Ebenezer Scrooge"],
+  correctAnswer: 3,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 1024,
+  question: "Originally known as Queens Street, which famous street in Bristol is home to The Scrandit, Rova, and Chance & Counters?",
+  options: ["Christmas Steps", "Angel Lane", "Tinsel Row", "Mistletoe Crescent"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1025,
+  question: "Christmas Cross is an area in which English county? Its residents are known as Salopians.",
+  options: ["Somerset", "Gloucestershire", "Shropshire", "Cornwall"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1026,
+  question: "Turkey Island is an area in the City of Winchester, in which English county? According to the musical My Fair Lady, hurricanes hardly happen there.",
+  options: ["Hertfordshire", "Hampshire", "Cambridgeshire", "Essex"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1027,
+  question: "Lexical root of the words Kaiser and Tsar, which Imperial title comes from the name of a Roman dictator born in 100BC and dying in 44BC to multiple stab wounds?",
+  options: ["Caesar", "Imperator", "Dictator", "Augustus"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1028,
+  question: "In the biblical narrative, which Roman emperor ordered the census that Joseph and Mary were returning to Bethlehem for?",
+  options: ["Tiberius", "Caesar Augustus", "Nero", "Caligula"],
+  correctAnswer: 1,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1029,
+  question: "Bethlehem was in the Roman province of Judea, conquered in 63BC by which general, member of the first triumvirate with Julius Caesar and Marcus Crassus?",
+  options: ["Pompey", "Brutus", "Cicero", "Mark Antony"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 1030,
+  question: "What was the name of the Roman festival held in mid-winter, featuring feasting, candles, and gift-giving? It takes its name from a planet in our solar system.",
+  options: ["Saturnalia", "Lupercalia", "Brumalia", "Equinoxia"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1031,
+  question: "The Kingdom of Lydia in modern Turkey was notable for being the first people to use what common form of currency, typically made from gold, silver, or copper?",
+  options: ["coins", "paper notes", "barter tokens", "credit chits"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1032,
+  question: "“Hope is the thing with feathers”, “Because I could not stop for death”, and “Wild Nights - Wild Nights” are all poems by which American female poet, born in 1830?",
+  options: ["Maya Angelou", "Sylvia Plath", "Emily Dickinson", "Elizabeth Barrett Browning"],
+  correctAnswer: 2,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 1033,
+  question: "“Cannon to the right of them, cannon to the left of them, cannon in front of them, volleyed and thundered”. So begins which poem written by Lord Tennyson, describing a disastrous battle in the Crimean War?",
+  options: ["The Charge of the Light Brigade", "Dulce et Decorum Est", "The Battle of Balaclava", "Ode to the West Wind"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 1034,
+  question: "\"Once upon a midnight dreary, while I pondered, weak and weary, Over many a quaint and curious volume of forgotten lore—” is the beginning of The Raven by which American poet?",
+  options: ["Walt Whitman", "Robert Frost", "Edgar Allan Poe", "Langston Hughes"],
+  correctAnswer: 2,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 1035,
+  question: "“Out of the night that covers me, Black as the pit from pole to pole, I thank whatever gods may be For my unconquerable soul.” is the beginning of Invictus, a poem regularly recited by which 20th-century African leader during his imprisonment?",
+  options: ["Desmond Tutu", "Kwame Nkrumah", "Nelson Mandela", "Patrice Lumumba"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1036,
+  question: "The best-selling book in the UK in 2021 was The Thursday Murder Club, written by which British author, best known as a host on the quiz show Pointless?",
+  options: ["Richard Osman", "Stephen Fry", "Lee Child", "Ian Rankin"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 1037,
+  question: "Down, Cork, Antrim, and Dublin are all counties in which European nation?",
+  options: ["Ireland", "United Kingdom", "France", "Belgium"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 1038,
+  question: "When did the Republic of Ireland gain independence from Great Britain?",
+  options: ["1916", "1921", "1937", "1949"],
+  correctAnswer: 1,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1039,
+  question: "Name the decade: George the IV ascends to the throne, the first dinosaur bones are identified, and London Zoo opens.",
+  options: ["1840s", "1830s", "1820s", "1810s"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1040,
+  question: "Name the decade: The Great Exhibition is held, the great famine of Ireland ends, and Lord Palmerston becomes Prime Minister.",
+  options: ["1860s", "1840s", "1850s", "1830s"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1041,
+  question: "Name the decade: The world’s first traffic lights are installed, Clapham Junction Railway station opens, and the last cholera epidemic in London occurs.",
+  options: ["1860s", "1880s", "1870s", "1850s"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1042,
+  question: "The Christmas tree in Trafalgar Square in London is a gift from which country every year in recognition of British support of that country in WW2?",
+  options: ["Denmark", "Sweden", "Finland", "Norway"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "easy"
+},
+{
+  id: 1043,
+  question: "The Limpopo, the Zambezi, and the Congo are all rivers in which continent?",
+  options: ["Asia", "Africa", "South America", "Australia"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 1044,
+  question: "Name the decade: Nigeria, Ghana, and Kenya declared independence from Britain, the first Olympic gold medal was won by an African, and the first heart transplant was performed.",
+  options: ["1970s", "1950s", "1980s", "1960s"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1045,
+  question: "Name the decade: The Wadai war between the French colonial empire and the Wadai empire, the end of Moroccan independence, and the German-British Battle for Lake Tanganyika.",
+  options: ["1920s", "1900s", "1910s", "1930s"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 1046,
+  question: "Name the decade: Nelson Mandela is elected president of South Africa, the Rwandan genocide starts, and the first African is elected to be secretary general of the United Nations.",
+  options: ["1980s", "1990s", "2000s", "1970s"],
+  correctAnswer: 1,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1047,
+  question: "Memphis, Thebes, and Akhenaten have all been capitals of which African country?",
+  options: ["Libya", "Egypt", "Ethiopia", "Morocco"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 1048,
+  question: "Name the Egyptian god: Depicted as a falcon-headed man wearing a white and red crown, the god of kingship and the sky.",
+  options: ["Anubis", "Ra", "Horus", "Osiris"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1049,
+  question: "Name the Egyptian god: The god of death, mummification, and the afterlife, depicted as a man with a jackal’s head.",
+  options: ["Anubis", "Set", "Thoth", "Sobek"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1050,
+  question: "Name the Egyptian god: A creator god, patron of craftsmen and architects. Regarded as the father of the sage Imhotep.",
+  options: ["Ptah", "Ra", "Khnum", "Amun"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+}
 ];
 
 export const categories = [
