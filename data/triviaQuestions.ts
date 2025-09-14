@@ -6904,8 +6904,8 @@ export const triviaQuestions: TriviaQuestion[] = [
 },
 {
   id: 849,
-  question: 'According to Forbes Magazine, which G.B. was the highest paid fashion model in the year 2015?',
-  options: ["Gisele Bundchen", "Gigi Hadid", "Bella Hadid", "Georgia May Jagger"],
+  question: 'Georges Braque was a French painter most famously associated with which two artistic movements?',
+  options: ["Fauvism and Cubism", "Cubism and Surrealism", "Impressionism and Fauvism", "Futurism and Dada"],
   correctAnswer: 0,
   category: "Arts & Culture",
   difficulty: "medium"
@@ -8527,7 +8527,856 @@ export const triviaQuestions: TriviaQuestion[] = [
   correctAnswer: 0,
   category: "Arts & Culture",
   difficulty: "medium"
+},
+{
+  id: 1051,
+  question: "What was the name of the Imperial dynasty that ruled China from 1368 to 1644, renowned for its flourishing of culture, especially ceramics?",
+  options: ["Qing", "Song", "Tang", "Ming"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1052,
+  question: "Cao Wei, Shu Han, and Eastern Wu were the initial dynastic states during which period of Chinese history, featuring individuals such as Zhang Heng and Cao Cao lasting from 220 to 280AD?",
+  options: ["Spring and Autumn", "Three Kingdoms", "Han Dynasty", "Warring States"],
+  correctAnswer: 1,
+  category: "History & Politics",
+  difficulty: "hard"
+},
+{
+  id: 1053,
+  question: "What was the name of the final dynasty in Chinese history, ending in 1912 with the Xinhai revolution?",
+  options: ["Ming", "Yuan", "Qing", "Tang"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1054,
+  question: "On the Origin of Species, Frankenstein, War and Peace, and Beethoven’s 9th symphony were all published in which century?",
+  options: ["18th century", "20th century", "17th century", "19th century"],
+  correctAnswer: 3,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1055,
+  question: "Strength, Dexterity, Constitution, Intelligence, Wisdom, and which other characteristic are the six ability scores in Dungeons and Dragons?",
+  options: ["Agility", "Fortitude", "Luck", "Charisma"],
+  correctAnswer: 3,
+  category: "TV & Cinema",
+  difficulty: "easy"
+},
+{
+  id: 1056,
+  question: "Maryam Mirzakhani, Cedric Villani, and Terence Tao are all winners of the Fields Medal, the highest award in which academic discipline?",
+  options: ["Physics", "Computer Science", "Mathematics", "Engineering"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1057,
+  question: "With a value of approximately 3, which constant is irrational and transcendental, and has been calculated to trillions of digits?",
+  options: ["e", "phi", "tau", "pi"],
+  correctAnswer: 3,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1058,
+  question: "With a value of approximately 2.71, which constant is the base of the natural logarithm, sometimes known as Euler’s number?",
+  options: ["phi", "e", "i", "pi"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1059,
+  question: "With a value of approximately 1.62, which constant is the ratio of a regular pentagon’s diagonal to its side, and is said to appear in patterns in art and nature?",
+  options: ["pi", "tau", "e", "golden ratio"],
+  correctAnswer: 3,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1060,
+  question: "Orbited by moons including Titan, Enceladus, and Mimas, which planet is famous for its impressive system of rings, comprised almost entirely of water ice?",
+  options: ["Uranus", "Saturn", "Neptune", "Jupiter"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1061,
+  question: "Name the planet: A rocky planet about half the size of Earth with a tenuous atmosphere mostly comprised of carbon dioxide",
+  options: ["Venus", "Mercury", "Mars", "Earth"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1062,
+  question: "Name the planet: A gas giant with 80 known satellites and a great red spot",
+  options: ["Uranus", "Saturn", "Neptune", "Jupiter"],
+  correctAnswer: 3,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1063,
+  question: "Name the planet: The seventh planet from the sun, notable for an axial tilt of nearly 98 degrees",
+  options: ["Uranus", "Saturn", "Neptune", "Venus"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+  {
+    id: 1064,
+    question: "If Earth has a value of 1, the Moon is 0.17, Mars is 0.38, and Jupiter is 2.4, what am I measuring?",
+    options: ["Orbital radius", "Surface gravity in g", "Mass relative to Earth", "Atmospheric pressure"],
+    correctAnswer: 1,
+    category: "Science & Technology",
+    difficulty: "hard"
+  },
+  {
+    id: 1065,
+    question: "A sleigh is travelling at 15 m/s. How long does it take to travel 90 metres?",
+    options: ["4 seconds", "6 seconds", "9 seconds", "12 seconds"],
+    correctAnswer: 1,
+    category: "Science & Technology",
+    difficulty: "hard"
+  },
+  {
+    id: 1066,
+    question: "A Christmas present of mass 2kg has a force of 4 Newtons applied to it. What is the resulting acceleration?",
+    options: ["0.5 m/s²", "1 m/s²", "2 m/s²", "4 m/s²"],
+    correctAnswer: 2,
+    category: "Science & Technology",
+    difficulty: "hard"
+  },
+  {
+    id: 1067,
+    question: "A reindeer is initially travelling at 5 m/s but is accelerated by 2 m/s² for 5 seconds. What is its final velocity?",
+    options: ["10 m/s", "12 m/s", "15 m/s", "20 m/s"],
+    correctAnswer: 2,
+    category: "Science & Technology",
+    difficulty: "hard"
+  },
+{
+  id: 1068,
+  question: "What element should follow in atomic weight sequence? Hydrogen, Helium, Lithium",
+  options: ["Boron", "Carbon", "Beryllium", "Oxygen"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1069,
+  question: "What element should follow in noble gas sequence? Helium, Neon, Argon",
+  options: ["Xenon", "Radon", "Krypton", "Oganesson"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1070,
+  question: "What element should follow in alkali metals sequence? Lithium, Sodium, Potassium",
+  options: ["Rubidium", "Calcium", "Cesium", "Strontium"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1071,
+  question: "Krakatoa, St Helens, Tambora, and Vesuvius are all examples of what type of terrain feature?",
+  options: ["Mountain", "Geyser", "Volcano", "Cave"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1072,
+  question: "Who is the Roman god of fire?",
+  options: ["Mars", "Jupiter", "Vulcan", "Saturn"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1073,
+  question: "Who is the Roman god of war?",
+  options: ["Apollo", "Mars", "Mercury", "Vulcan"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1074,
+  question: "Cupid is the Roman god of love. What is Cupid's Greek name?",
+  options: ["Eros", "Hermes", "Ares", "Apollo"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1075,
+  question: "Who is known as the king of the Greek gods?",
+  options: ["Hades", "Apollo", "Zeus", "Poseidon"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1076,
+  question: "Which Greek goddess was born from sea foam and is associated with love and beauty?",
+  options: ["Athena", "Aphrodite", "Hera", "Demeter"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1077,
+  question: "Who is the Greek god of the sea, often depicted with a trident?",
+  options: ["Hades", "Apollo", "Hermes", "Poseidon"],
+  correctAnswer: 3,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1078,
+  question: "Which goddess is celebrated for her wisdom, warfare strategy, and craftsmanship?",
+  options: ["Athena", "Artemis", "Demeter", "Hera"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1079,
+  question: "Who represents the brutal aspects of battle as the Greek god of war?",
+  options: ["Hermes", "Zeus", "Ares", "Hephaestus"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1080,
+  question: "Who serves as the messenger god in Greek mythology?",
+  options: ["Hermes", "Apollo", "Ares", "Hades"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1081,
+  question: "Which goddess is revered as the deity of harvest and agriculture?",
+  options: ["Artemis", "Demeter", "Athena", "Hestia"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1082,
+  question: "Who is the Greek goddess of the hunt, wilderness, and the moon?",
+  options: ["Hera", "Artemis", "Persephone", "Aphrodite"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1083,
+  question: "Which hero is famous for completing the Twelve Labors?",
+  options: ["Theseus", "Achilles", "Heracles", "Odysseus"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1084,
+  question: "Who is the greatest warrior of the Trojan War, known for his one vulnerable heel?",
+  options: ["Ajax", "Hector", "Achilles", "Paris"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1085,
+  question: "Who rules the Underworld as the Greek god of the dead?",
+  options: ["Hades", "Poseidon", "Ares", "Hephaestus"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1086,
+  question: "Who is the king of the Titans and father of Zeus, later overthrown by his son?",
+  options: ["Uranus", "Cronus", "Hyperion", "Atlas"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1087,
+  question: "Who is the mother of Zeus and the other Olympian gods?",
+  options: ["Hera", "Rhea", "Gaia", "Demeter"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1088,
+  question: "Who led the Argonauts on their quest for the Golden Fleece?",
+  options: ["Odysseus", "Jason", "Perseus", "Theseus"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1089,
+  question: "Which cunning hero is best known for his long, adventurous journey home in the “Odyssey”?",
+  options: ["Achilles", "Odysseus", "Hercules", "Aeneas"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1090,
+  question: "Who personifies retribution and is known as the goddess of vengeance in Greek mythology?",
+  options: ["Nike", "Nemesis", "Eris", "Themis"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1091,
+  question: "Who is the Titaness of memory and the mother of the Muses?",
+  options: ["Mnemosyne", "Rhea", "Metis", "Gaia"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1092,
+  question: "Which goddess is associated with witchcraft, magic, and crossroads?",
+  options: ["Artemis", "Selene", "Hecate", "Hera"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1093,
+  question: "Which tragic king solved the Sphinx’s riddle, setting the stage for his ill-fated destiny?",
+  options: ["Orestes", "Oedipus", "Agamemnon", "Cadmus"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1094,
+  question: "Who is the goddess of discord whose golden apple sparked the events leading to the Trojan War?",
+  options: ["Nike", "Athena", "Eris", "Hera"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1095,
+  question: "Which god of healing and medicine is often depicted with a staff entwined by a serpent?",
+  options: ["Pan", "Asclepius", "Hermes", "Apollo"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1096,
+  question: "Which fearsome creature in Greek mythology has the body of a lion, the head of a goat, and the tail of a serpent?",
+  options: ["Chimera", "Minotaur", "Hydra", "Cerberus"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1097,
+  question: "Which god is credited with inventing the lyre using a tortoise shell in his infancy?",
+  options: ["Hermes", "Apollo", "Dionysus", "Orpheus"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1098,
+  question: "Which deity is known as the god of dreams, influencing sleep and visions?",
+  options: ["Phobos", "Thanatos", "Morpheus", "Hypnos"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1099,
+  question: "Who is the goddess of the dawn, often depicted rising from the horizon?",
+  options: ["Hecate", "Eos", "Selene", "Iris"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1100,
+  question: "Which goddess symbolizes victory and is frequently portrayed with wings?",
+  options: ["Athena", "Demeter", "Nike", "Rhea"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1101,
+  question: "Who journeyed into the Underworld with his music to try to reclaim his lost love?",
+  options: ["Orpheus", "Achilles", "Theseus", "Perseus"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1102,
+  question: "Which god of the forge and blacksmithing is renowned for his craftsmanship among the Olympians?",
+  options: ["Hephaestus", "Ares", "Hermes", "Poseidon"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1103,
+  question: "Who is the primordial god representing the sky and heavens in Greek mythology?",
+  options: ["Uranus", "Chronos", "Chaos", "Aether"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "hard"
+},
+{
+  id: 1104,
+  question: "Which incorporeal figure personifies time in Greek mythology?",
+  options: ["Aion", "Kairos", "Chronos", "Hypnos"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "hard"
+},
+{
+  id: 1105,
+  question: "Which Moira is charged with cutting the thread, thus ending life?",
+  options: ["Clotho", "Lachesis", "Atropos", "Hecate"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1106,
+  question: "Which nymph was transformed into a laurel tree to escape Apollo’s relentless pursuit?",
+  options: ["Daphne", "Callisto", "Echo", "Eurydice"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1107,
+  question: "Which Trojan princess was cursed with prophetic visions that were never believed?",
+  options: ["Helen", "Cassandra", "Andromache", "Iphigenia"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1108,
+  question: "Who is the monstrous serpentine giant that challenged Zeus and threatened divine order?",
+  options: ["Typhon", "Cerberus", "Hydra", "Chimera"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "hard"
+},
+{
+  id: 1109,
+  question: "Which three‐headed creature guarded the entrance to the Underworld?",
+  options: ["Minotaur", "Cerberus", "Orthrus", "Charybdis"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1110,
+  question: "Who is the personification of the moon, often shown driving a chariot across the night sky?",
+  options: ["Selene", "Artemis", "Eos", "Hecate"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1111,
+  question: "Which figure is considered the first mortal woman, created by the gods as both a gift and a curse to humanity?",
+  options: ["Eve", "Pandora", "Psyche", "Helen"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1112,
+  question: "Which mythological event had Paris choose between Hera, Athena, and Aphrodite, sparking the Trojan War?",
+  options: ["The Wedding of Peleus", "The Judgement of Paris", "The Abduction of Helen", "The Apple of Discord"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1113,
+  question: "Which goddess, as Zeus’s wife, played a significant role in supporting the Greeks during the Trojan War?",
+  options: ["Aphrodite", "Athena", "Hera", "Artemis"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1114,
+  question: "Which mortal youth, beloved by Apollo, was transformed into a flower after his tragic death?",
+  options: ["Adonis", "Hyacinthus", "Narcissus", "Orpheus"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "hard"
+},
+{
+  id: 1115,
+  question: "Who is the Greek god of winds, overseeing the various breezes and storms?",
+  options: ["Boreas", "Aeolus", "Zephyrus", "Notus"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1116,
+  question: "Molten rock is referred to as lava when above ground, and by what name when below ground, such as inside a volcano?",
+  options: ["Basalt", "Obsidian", "Magma", "Granite"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1117,
+  question: "What is the name of the fast-moving current of hot gas and volcanic matter that can occur during volcanic eruptions, such as happened at Pompeii in 79AD?",
+  options: ["Pyroclastic flow", "Lahar", "Tsunami", "Ashfall"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 1118,
+  question: "The largest volcano in the solar system is Olympus Mons, located on which planet?",
+  options: ["Earth", "Venus", "Mars", "Jupiter"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1119,
+  question: "First awarded in 1901, which prestigious award is given in recognition of work in Physics, Chemistry, Physiology or Medicine, Literature, and Peace?",
+  options: ["Pulitzer Prize", "Fields Medal", "Nobel Prize", "Turing Award"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "easy"
+},
+{
+  id: 1120,
+  question: "Gerty Cori was the first female recipient of the Nobel Prize in Medicine for her work on how the body converts glycogen into which form of sugar?",
+  options: ["Fructose", "Lactose", "Glucose", "Sucrose"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1121,
+  question: "Linda B Buck received the Nobel Prize in Medicine in 2004 for her work on olfactory receptors. Where primarily in the body are these receptors found?",
+  options: ["Brain", "Skin", "Tongue", "Nose"],
+  correctAnswer: 3,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1122,
+  question: "May Britt Moser received the Nobel Prize in Medicine in 2014 for her work on grid cells in the entorhinal cortex. What function do these cells serve?",
+  options: ["Regulate sleep", "Control emotions", "Monitor breathing", "Brain’s positioning system"],
+  correctAnswer: 3,
+  category: "Science & Technology",
+  difficulty: "hard"
+},
+{
+  id: 1123,
+  question: "The Seine, the Loire, the Rhône, and the Dordogne are all rivers that flow through which European country?",
+  options: ["Germany", "France", "Italy", "Spain"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 1124,
+  question: "Which river flows through these capital cities: Cairo, Juba, and Khartoum?",
+  options: ["Zambezi", "Congo", "Nile", "Limpopo"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1125,
+  question: "Which river flows through these capital cities: Vienna, Budapest, and Belgrade?",
+  options: ["Danube", "Rhine", "Volga", "Seine"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1126,
+  question: "Which river flows through these capital cities: Vientiane and Phnom Penh?",
+  options: ["Irrawaddy", "Mekong", "Ganges", "Yangtze"],
+  correctAnswer: 1,
+  category: "Geography & Nature",
+  difficulty: "hard"
+},
+{
+  id: 1127,
+  question: "Which mythical creature is comprised of the body, tail, and back legs of a lion and the head and wings of an eagle?",
+  options: ["Chimera", "Griffin", "Basilisk", "Hippogriff"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1128,
+  question: "In which year did the islands of Hawaii became a state of the United States?",
+  options: ["1899", "1930", "1959", "1972"],
+  correctAnswer: 2,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1129,
+  question: "Which two creatures form the body of a hippogriff?",
+  options: ["lion and eagle", "horse and eagle", "horse and lion", "eagle and goat"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1130,
+  question: "What is the name of the creature that possesses the head of a human, the body of a lion, and a tail of venomous spines or a scorpion stinger?",
+  options: ["manticore", "chimera", "gryphon", "hydra"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1131,
+  question: "“In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.” is the opening line of which novel of 1925 by F. Scott Fitzgerald?",
+  options: ["The Great Gatsby", "This Side of Paradise", "Tender Is the Night", "The Beautiful and Damned"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 1132,
+  question: "Which novel of 1851 opens with “Call me Ishmael”?",
+  options: ["Moby Dick", "The Scarlet Letter", "David Copperfield", "Frankenstein"],
+  correctAnswer: 0,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 1133,
+  question: "“It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife” is the opening of which novel of 1813?",
+  options: ["Sense and Sensibility", "Emma", "Pride and Prejudice", "Mansfield Park"],
+  correctAnswer: 2,
+  category: "Literature",
+  difficulty: "easy"
+},
+{
+  id: 1134,
+  question: "Which novel of 1948 opens “It was a bright cold day in April, and the clocks were striking thirteen.”?",
+  options: ["Brave New World", "We", "1984", "Fahrenheit 451"],
+  correctAnswer: 2,
+  category: "Literature",
+  difficulty: "medium"
+},
+{
+  id: 1135,
+  question: "Who is famous for the quote: “God is dead. God remains dead. And we have killed him.”?",
+  options: ["Søren Kierkegaard", "Karl Marx", "Friedrich Nietzsche", "Jean-Paul Sartre"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1136,
+  question: "Which school of philosophy states that all and only pleasure is intrinsically valuable and all and only pain is intrinsically not valuable?",
+  options: ["hedonism", "nihilism", "stoicism", "existentialism"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1137,
+  question: "Which school of philosophy asserts that the practice of virtue is both necessary and sufficient to achieve happiness?",
+  options: ["hedonism", "stoicism", "existentialism", "utilitarianism"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1138,
+  question: "Which empire existed from approximately 300 to 1100AD, had the capital city of Koumbi Saleh, and gives its name to a modern country with capital Accra?",
+  options: ["Ghana Empire", "Mali Empire", "Benin Empire", "Songhai Empire"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1139,
+  question: "Mansa Musa has been described as the wealthiest man in history, and was the most famous leader of which empire that conquered the Ghanaian Empire?",
+  options: ["Benin Empire", "Ghana Empire", "Songhai Empire", "Mali Empire"],
+  correctAnswer: 3,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1140,
+  question: "Which empire dominated western Africa in the 15th and 16th centuries with capital city Gao? Their most famous leader was Askia Mohammad I",
+  options: ["Songhai Empire", "Ghana Empire", "Mali Empire", "Kanem-Bornu Empire"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1141,
+  question: "Which ruler united the islands of Hawaii for the first time? Their name was the inspiration for an attack in the Dragon Ball Z series.",
+  options: ["Kamehameha (I)", "Kalaniʻōpuʻu", "Kaʻahumanu", "Liliʻuokalani"],
+  correctAnswer: 0,
+  category: "History & Politics",
+  difficulty: "medium"
+},
+{
+  id: 1142,
+  question: "Which international sport was initially developed in Hawaii and surrounding islands, referred as “he’e nalu”?",
+  options: ["canoeing", "surfing", "volleyball", "windsurfing"],
+  correctAnswer: 1,
+  category: "Sports",
+  difficulty: "easy"
+},
+{
+  id: 1143,
+  question: "An Italian term meaning “counterpoise” what term describes a stance in which a human’s weight is balanced more on one leg than the other, most famously used in sculpture such as Michelangelo’s David?",
+  options: ["sfumato", "chiaroscuro", "contrapposto", "tenebrism"],
+  correctAnswer: 2,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1144,
+  question: "The Adoration of the Shepherds is a work by which Italian Baroque painter, famous for his dramatic use of light in paintings such as “The Calling of Saint Matthew”, “Doubting Thomas”, and “Judith Beheading Holofernes”?",
+  options: ["Titian", "Caravaggio", "Raphael", "Tintoretto"],
+  correctAnswer: 1,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1145,
+  question: "The Census At Bethlehem is a painting by which 16th century Flemish painter, also known for The Hunters in the Snow, the Peasant Wedding, and The Tower of Babel?",
+  options: ["Pieter Bruegel the Elder", "Jan van Eyck", "Hieronymus Bosch", "Peter Paul Rubens"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1146,
+  question: "The Virgin and Child with Saint Anne and Saint John the Baptist is a large drawing by which 15th century polymath, also known for The Vitruvian Man, Lady with an Ermine, and Virgin of the Rocks?",
+  options: ["Leonardo da Vinci", "Michelangelo", "Donatello", "Raphael"],
+  correctAnswer: 0,
+  category: "Arts & Culture",
+  difficulty: "easy"
+},
+{
+  id: 1147,
+  question: "The historic city of Petra, famous for buildings carved out of red sandstone, is in which modern day nation?",
+  options: ["Jordan", "Egypt", "Iran", "Saudi Arabia"],
+  correctAnswer: 0,
+  category: "Geography & Nature",
+  difficulty: "easy"
+},
+{
+  id: 1148,
+  question: "Beijing is home to which wonder, constructed in 1408 and hosting the emperors of the Ming and Qing dynasties?",
+  options: ["Great Wall", "Terracotta Army", "Forbidden City", "Summer Palace"],
+  correctAnswer: 2,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1149,
+  question: "The figures Theodore Adorno and Max Horkheimer are associated with which school?",
+  options: ["The Hamburg School", "The Bonn School", "The Berlin School", "The Frankfurt School"],
+  correctAnswer: 3,
+  category: "Arts & Culture",
+  difficulty: "medium"
+},
+{
+  id: 1150,
+  question: "What is the name of the category of cloud that is thin, white, and made of ice crystals, forming between 4 and 20 km in altitude?",
+  options: ["cumulus", "stratus", "cirrus", "nimbus"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1151,
+  question: "Ice crystals as snow and sea ice raise the Earth’s average albedo. What is albedo a measurement of?",
+  options: ["air pressure", "surface temperature", "reflectivity", "humidity"],
+  correctAnswer: 2,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1152,
+  question: "What is the name of the category of cloud that is thin, white, and made of ice crystals, forming between 4 and 20 km in altitude?",
+  options: ["cumulus", "nimbus", "stratus", "cirrus"],
+  correctAnswer: 3,
+  category: "Geography & Nature",
+  difficulty: "medium"
+},
+{
+  id: 1153,
+  question: "Ice crystals as snow and sea ice raise the Earth’s average albedo. What is albedo a measurement of?",
+  options: ["temperature", "reflectivity", "humidity", "opacity"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1154,
+  question: "Which element is a key component of: photosynthesis, respiration, and oxidation?",
+  options: ["carbon", "oxygen", "hydrogen", "nitrogen"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "easy"
+},
+{
+  id: 1155,
+  question: "Chemical reactions can be exothermic, meaning they give off heat, or which other term, meaning to absorb heat?",
+  options: ["endothermic", "thermodynamic", "cryogenic", "isotonic"],
+  correctAnswer: 0,
+  category: "Science & Technology",
+  difficulty: "medium"
+},
+{
+  id: 1156,
+  question: "Atmospheric ozone was destroyed by the chemical unbalancing of the Chapman cycle by which collection of gases? Three letter acronym.",
+  options: ["CO2", "CFCs", "NOx", "O3"],
+  correctAnswer: 1,
+  category: "Science & Technology",
+  difficulty: "hard"
 }
+
 ];
 
 export const categories = [
