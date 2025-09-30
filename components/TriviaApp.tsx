@@ -620,7 +620,7 @@ const renderMenuScreen = () => (
         }}
       >
         <div className="mb-4">
-          <h1 className="font-libertinus text-3xl text-[#5ba5c1]">Ultimate Quiz</h1>
+          <h1 className="font-work-sans text-3xl text-[#5ba5c1]">Absolute Trivia</h1>
         </div>
         <div className="font-inter space-y-4 mb-6">
           <div className="bg-[#353536] rounded-[12px] p-4">
@@ -837,9 +837,9 @@ const renderMenuScreen = () => (
               <ArrowLeft className="w-6 h-6" />
             </Button>
           </div>
-          {/* Ultimate Quiz Text */}
+          {/* Absolute Trivia Text */}
           <div className="absolute top-2 left-0 right-0 z-10 flex justify-center items-center h-10 pointer-events-none">
-            <span className="font-libertinus text-[#E7E6E0] text-base">Ultimate Quiz</span>
+            <span className="font-work-sans text-[#E7E6E0] text-base">Absolute Trivia</span>
           </div>
           {/* Divider Line */}
           <div className="absolute top-[50px] left-4 right-4 z-10">
@@ -1090,9 +1090,9 @@ const renderMenuScreen = () => (
             </Button>
           </div>
           
-          {/* Ultimate Quiz Text */}
+          {/* Absolute Trivia Text */}
           <div className="absolute top-2 left-0 right-0 z-10 flex justify-center items-center h-10 pointer-events-none">
-            <span className="font-libertinus text-[#E7E6E0] text-base">Ultimate Quiz</span>
+            <span className="font-work-sans text-[#E7E6E0] text-base">Absolute Trivia</span>
           </div>
           {/* Divider Line */}
           <div className="absolute top-[50px] left-4 right-4 z-10">
