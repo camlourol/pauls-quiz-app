@@ -7211,7 +7211,7 @@ export const triviaQuestions: TriviaQuestion[] = [
   question: 'In which country do the most tetraphobics live?',
   options: ['China', 'South Korea', 'Japan', 'Vietnam'],
   correctAnswer: 0,
-  category: 'Culture & Language',
+  category: 'Language',
   difficulty: 'medium'
 },
 {

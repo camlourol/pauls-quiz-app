@@ -493,7 +493,7 @@ const getButtonVariant = (optionIndex: number) => {
   return 'choice';
 };
 const renderQuestionCountScreen = () => (
-  <div className="h-screen overflow-hidden bg-[#0C0C0C] flex items-center justify-center p-4 relative">
+  <div className="h-screen overflow-hidden bg-[#0C0C0C] flex items-center justify-center p-4 pb-8 relative">
         {/* Navigation Buttons */}
         <div className="absolute top-4 left-4 z-20 flex gap-2">
           <Button
@@ -620,7 +620,7 @@ const renderMenuScreen = () => (
         }}
       >
         <div className="mb-4">
-          <h1 className="font-libertinus text-3xl text-[#5ba5c1]">Pauls' Quiz</h1>
+          <h1 className="font-libertinus text-3xl text-[#5ba5c1]">Ultimate Quiz</h1>
         </div>
         <div className="font-inter space-y-4 mb-6">
           <div className="bg-[#353536] rounded-[12px] p-4">
@@ -635,7 +635,7 @@ const renderMenuScreen = () => (
                   className={`h-9 px-4 text-xs font-medium rounded-[12px] transition-all duration-200 ${
                     selectedDifficulty === level
                       ? 'bg-[#E7E6E0] text-[#0C0C0C]'
-                      : 'bg-[#242424] border-[#333] text-[#E7E6E0] md:hover:bg-[#333d5b] md:hover:text-[#0C0C0C]'
+                      : 'bg-[#242424] border-[#333] text-[#E7E6E0] hover:bg-[#333d5b] hover:text-[#0C0C0C]'
                   }`}
                   style={{
                     fontFamily: "'Work Sans', sans-serif",
@@ -673,7 +673,7 @@ const renderMenuScreen = () => (
                   className={`h-9 px-4 text-xs font-medium rounded-[12px] transition-all duration-200 ${
                     selectedSubjects.includes(subject)
                       ? 'bg-[#E7E6E0] text-[#0C0C0C]'
-                      : 'bg-[#242424] border-[#333] text-[#E7E6E0] md:hover:bg-[#333d5b] md:hover:text-[#0C0C0C]'
+                      : 'bg-[#242424] border-[#333] text-[#E7E6E0] hover:bg-[#333d5b] hover:text-[#0C0C0C]'
                   }`}
                   style={{
                     fontFamily: "'Work Sans', sans-serif",
@@ -689,8 +689,7 @@ const renderMenuScreen = () => (
         <div className="flex justify-center mt-1">
           <button
             onClick={startGame}
-            className="py-3 px-8 rounded-[12px] bg-[#91a945] md:hover:bg-[#7a8f3a] text-[#546b09] font-inter text-xl font-bold inline-flex items-center gap-3  transition-all duration-200"
-            style={{
+            className="py-3 px-8 rounded-[12px] bg-[#91a945] hover:bg-[#7a8f3a] text-[#546b09] font-inter text-xl font-bold inline-flex items-center gap-3  transition-all duration-200"            style={{
               fontFamily: "'Work Sans', sans-serif",
               letterSpacing: '0.01em',
               borderRadius: 12,
@@ -705,7 +704,7 @@ const renderMenuScreen = () => (
     </div>
     {/* Copyright Footer */}
     <div className="absolute bottom-0 left-0 right-0 text-center pb-2 z-20">
-      <p className="font-inter text-[#E7E6E0] text-[11px] opacity-80 tracking-wide">All trivia content: © paulsquiz.com</p>
+      <p className="font-inter text-[#E7E6E0] text-[11px] opacity-80 tracking-wide">Trivia content: © paulsquiz.com & app creator's own</p>
     </div>
     {/* Starfield animation (optional, simple JS for effect) */}
 
@@ -713,7 +712,7 @@ const renderMenuScreen = () => (
 );
 
   const renderModeSelectScreen = () => (
-    <div className="h-screen overflow-hidden bg-[#0C0C0C] flex items-center justify-center p-4 pb-16 relative">
+    <div className="h-screen overflow-hidden bg-[#0C0C0C] flex items-center justify-center p-4 relative">
       {/* Home Button */}
       <div className="absolute top-4 left-4 z-20">
         <Button
@@ -838,9 +837,9 @@ const renderMenuScreen = () => (
               <ArrowLeft className="w-6 h-6" />
             </Button>
           </div>
-          {/* Paul's Quiz Text */}
+          {/* Ultimate Quiz Text */}
           <div className="absolute top-2 left-0 right-0 z-10 flex justify-center items-center h-10 pointer-events-none">
-            <span className="font-libertinus text-[#E7E6E0] text-base">Paul's Quiz</span>
+            <span className="font-libertinus text-[#E7E6E0] text-base">Ultimate Quiz</span>
           </div>
           {/* Divider Line */}
           <div className="absolute top-[50px] left-4 right-4 z-10">
@@ -1091,9 +1090,9 @@ const renderMenuScreen = () => (
             </Button>
           </div>
           
-          {/* Paul's Quiz Text */}
+          {/* Ultimate Quiz Text */}
           <div className="absolute top-2 left-0 right-0 z-10 flex justify-center items-center h-10 pointer-events-none">
-            <span className="font-libertinus text-[#E7E6E0] text-base">Paul's Quiz</span>
+            <span className="font-libertinus text-[#E7E6E0] text-base">Ultimate Quiz</span>
           </div>
           {/* Divider Line */}
           <div className="absolute top-[50px] left-4 right-4 z-10">
@@ -1228,7 +1227,7 @@ const renderMenuScreen = () => (
   const renderResultsScreen = () => {
     const percentage = Math.round((gameStats.totalQuestions > 0 ? (gameStats.correctAnswers / gameStats.totalQuestions) : 0) * 100);
     return (
-      <div className="h-screen overflow-hidden bg-[#0C0C0C] flex items-center justify-center p-4 pb-16 relative">
+      <div className="h-screen overflow-hidden bg-[#0C0C0C] flex items-center justify-center p-4 pb-8 relative">
         {/* Home Button */}
         <div className="absolute top-4 left-4 z-20">
           <Button
